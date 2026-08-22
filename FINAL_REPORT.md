@@ -38,37 +38,49 @@ ground-truth market engine:
 |---|---|
 | **30 days** | Alive. Cash ₹87,857. MRR ₹1,999 (1 customer). Cold start is hard. |
 | **90 days** | Alive. Cash ₹83,815. MRR ₹10,494 (6 customers). PMF search phase. |
-| **1 year** | Alive. Cash ₹45.3L. **MRR ₹44.4L**, ARR ₹5.3Cr, 2,605 customers, 19.3% share, churn 4.3%/mo, GM 97.6%, CAC ₹1,798, LTV/CAC 33.9 (early-stage), team 8, valuation proxy ₹85.7Cr. |
-| **5 years** | Alive. Cash ₹39.2Cr cumulative. **MRR ₹1.24Cr** (peaked ₹1.20L+ trajectory: 47L → 113L → 120L → 116L → 124L), share peaked 38% then competitive erosion to 28%, churn matured 4.6%→7.5%, team 42, LTV/CAC normalized 3.66, valuation ₹69Cr. |
+| **1 year** | Alive. Cash ₹30.6L. **MRR ₹41L**, ARR ₹4.9Cr, 2,311 customers, 17.4% share, churn 4.3%/mo, GM 98%, team scaling begins, valuation proxy ₹78.9Cr. |
+| **5 years** | Alive. **MRR ₹2.27Cr**, ARR ₹27Cr, 7,060 customers, 55.8% share, churn 3.6%/mo, GM 98%, org scales to 138 people (44 eng / 58 support / 33 AE), quality 0.61 with all 14 features shipped, cumulative cash ₹51.5Cr, valuation proxy ₹193Cr. |
 
-The 5-year arc shows genuine maturation dynamics: hypergrowth years 1–2, share
-peak and multiple compression as growth slows, competitor pressure eroding the
-base mid-run, then stabilization at scale. Decision scorecard over 5 years:
-104 major decisions, 43 success / 7 partial / 54 fail - the fail rate is real;
-aggressive spend adjustments that didn't pay back are recorded as such.
+The 5-year arc after the intelligence upgrade: disciplined capacity hiring
+(engineering no longer deadlocked), support scaled ahead of churn (1:120
+ratio rule), TAM-saturation-aware marketing tilting spend to referral/content
+as the dormant pool thins. Decision scorecard over 5 years: 225 major
+decisions, 107 success / 62 partial / 56 fail - a genuinely mixed record,
+recorded as it happened.
 
 ## 3. Strategy tournaments (cloned companies, identical market paths)
 
 ### Year-1 tournament (365 days × 8 seeds × 5 presets = 40 runs)
 
-| Rank | Strategy | Survival | Median MRR | Median Valuation |
-|---|---|---|---|---|
-| 1 | blitz_growth | 100% | ₹46.4L | ₹89.6Cr |
-| 2 | product_led | 100% | ₹45.9L | ₹88.6Cr |
-| 3 | balanced | 100% | ₹43.8L | ₹84.6Cr |
-| 4 | lean_profitable | 100% | ₹28.6L | ₹55.2Cr |
-| 5 | premium_first | 100% | ₹5.4L | ₹10.5Cr |
+| Rank | Strategy | Survival | Median MRR |
+|---|---|---|---|
+| 1 | blitz_growth | 100% | ₹43.4L |
+| 2 | product_led | 100% | ₹26.5L |
+| 3 | lean_profitable | 100% | ₹23.6L |
+| 4 | balanced | 100% | ₹18.2L |
+| 5 | premium_first | 100% | ₹4.5L |
+
+### Year-2 tournament (730 days × 5 seeds × 4 presets = 20 runs)
+
+| Rank | Strategy | Survival | Median MRR |
+|---|---|---|---|
+| 1 | blitz_growth | 100% | ₹143.2L |
+| 2 | product_led | **80%** | ₹133.4L |
+| 3 | balanced | 100% | ₹131.6L |
+| 4 | lean_profitable | 100% | ₹91.6L |
 
 Key findings:
-- **Aggression pays early**: blitz wins year 1 *when it survives* (per-seed
-  spread was huge: ₹17.6L–₹47.6L - its risk is real even if this seed set
-  didn't kill it).
+- **Aggression pays while markets are deep**: blitz leads both horizons on
+  median MRR among survivors, with large per-seed variance - its risk is real
+  even when this seed set doesn't kill it.
+- **The first deaths appear at year 2**: product_led's heavy engineering spend
+  killed one of five clones - over-investment ahead of collections remains a
+  lethal failure mode even for smart agents.
 - **Premium pricing without quality parity is near-fatal for growth**:
-  premium_first's +35% price stance crushed win rates (₹3.2L MRR on some seeds)
-  - an emergent result of the discrete-choice model, not a scripted penalty.
-- **By year 2 the ordering flips**: in the 730-day tournament (24 runs),
-  balanced took #1 (median MRR ₹100.1L) ahead of blitz (₹94.4L) - maturing
-  markets punish over-spend.
+  premium_first's +35% price stance crushed win rates - an emergent result of
+  the discrete-choice model, not a scripted penalty.
+- **lean_profitable never dies but never wins**: capital efficiency preserves
+  optionality at the cost of scale.
 
 ## 4. Cross-run learning verification
 

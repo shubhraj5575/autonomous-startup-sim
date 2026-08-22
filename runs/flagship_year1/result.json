@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "name": "flagship_year1",
- "created_utc": "2026-08-22T20:05:39.517911",
+ "created_utc": "2026-08-22T20:37:02.370687",
  "config": {
   "seed": 42,
   "days": 365,
@@ -16,22 +16,22 @@
  "days_run": 365,
  "strategy": "balanced",
  "final": {
-  "cash": 4534809.233403538,
-  "mrr": 4441591.8500001915,
-  "arr": 53299102.2000023,
-  "active_customers": 2605,
-  "valuation_proxy": 857320444.4334403,
-  "market_share_pct": 19.338640485863458,
-  "logo_churn_pct_monthly": 4.319526627218935,
-  "cac_blended": 1798.0706860706862,
-  "ltv": 61029.970750837616,
-  "ltv_cac": 33.94191964955842,
-  "gross_margin_pct": 97.5718477302525,
+  "cash": 3062206.272133698,
+  "mrr": 4095769.3600001875,
+  "arr": 49149232.32000225,
+  "active_customers": 2311,
+  "valuation_proxy": 789449923.3921697,
+  "market_share_pct": 17.360644169409127,
+  "logo_churn_pct_monthly": 5.079825834542816,
+  "cac_blended": 1420.7306501547987,
+  "ltv": 58837.681994151004,
+  "ltv_cac": 41.41367822798799,
+  "gross_margin_pct": 97.60198537539186,
   "runway_months": 99.0,
-  "headcount": 8,
+  "headcount": 15,
   "founder_equity": 1.0,
-  "quality": 0.43502096769664883,
-  "tech_debt": 137.9316254390702,
+  "quality": 0.4961643410420258,
+  "tech_debt": 162.2519553185723,
   "features": [
    "analytics_dash",
    "api_access",
@@ -40,6 +40,7 @@
    "crm_lite",
    "inventory_advanced",
    "inventory_basic",
+   "mobile_app",
    "orders_sync",
    "payments_upi",
    "security_sso",
@@ -3435,15 +3436,15 @@
   {
    "day": 161,
    "date_label": "2026-06-12",
-   "cash": 111607.4176333324,
+   "cash": 95607.4176333324,
    "mrr": 62068.19999999997,
    "arr": 744818.3999999997,
    "active_customers": 34,
    "new_customers_today": 2,
    "churned_today": 0,
    "revenue_recognized_mtd": 2015.6333333333337,
-   "opex_mtd": 1432.4366333333332,
-   "net_income_mtd": 583.1967000000004,
+   "opex_mtd": 1965.7699666666667,
+   "net_income_mtd": 49.86336666666684,
    "gross_margin_pct": 97.72344341728821,
    "cac_blended": 718.880380952381,
    "ltv": 0.0,
@@ -3452,7 +3453,7 @@
    "logo_churn_pct_monthly": 7.142857142857142,
    "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 12028701.817633327,
+   "valuation_proxy": 12012701.817633327,
    "market_share_pct": 0.3263800707611202,
    "headcount": 1,
    "brand_awareness": 0.10201704974526725,
@@ -3462,15 +3463,15 @@
   {
    "day": 168,
    "date_label": "2026-06-19",
-   "cash": 121511.42946666574,
+   "cash": 105421.42946666574,
    "mrr": 69264.59999999998,
    "arr": 831175.1999999997,
    "active_customers": 38,
    "new_customers_today": 0,
    "churned_today": 0,
    "revenue_recognized_mtd": 2375.4533333333334,
-   "opex_mtd": 1371.6764577777778,
-   "net_income_mtd": 1003.7768755555558,
+   "opex_mtd": 1907.009791111111,
+   "net_income_mtd": 468.44354222222245,
    "gross_margin_pct": 97.7022747470892,
    "cac_blended": 542.2021666666666,
    "ltv": 0.0,
@@ -3479,9 +3480,9 @@
    "logo_churn_pct_monthly": 6.666666666666667,
    "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 13420314.629466662,
+   "valuation_proxy": 13404224.629466662,
    "market_share_pct": 0.35771041066570863,
-   "headcount": 1,
+   "headcount": 2,
    "brand_awareness": 0.10849160635214243,
    "pipeline_value": 0,
    "leads_trailing30": 104
@@ -3489,15 +3490,15 @@
   {
    "day": 175,
    "date_label": "2026-06-26",
-   "cash": 137866.5464666657,
+   "cash": 121566.54646666569,
    "mrr": 78260.1,
    "arr": 939121.2000000001,
    "active_customers": 43,
    "new_customers_today": 1,
    "churned_today": 0,
    "revenue_recognized_mtd": 2615.3333333333335,
-   "opex_mtd": 1302.8183555555556,
-   "net_income_mtd": 1312.5149777777776,
+   "opex_mtd": 1845.1516888888889,
+   "net_income_mtd": 770.1816444444444,
    "gross_margin_pct": 97.66071034072563,
    "cac_blended": 447.8809999999999,
    "ltv": 0.0,
@@ -3506,9 +3507,9 @@
    "logo_churn_pct_monthly": 5.263157894736842,
    "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 15163805.746466666,
+   "valuation_proxy": 15147505.746466666,
    "market_share_pct": 0.4039791370152817,
-   "headcount": 1,
+   "headcount": 2,
    "brand_awareness": 0.1153206582977012,
    "pipeline_value": 1799.1000000000001,
    "leads_trailing30": 118
@@ -3516,758 +3517,758 @@
   {
    "day": 182,
    "date_label": "2026-07-03",
-   "cash": 124005.40779999901,
-   "mrr": 96054.80000000005,
-   "arr": 1152657.6000000006,
+   "cash": 87921.90579999892,
+   "mrr": 89054.70000000004,
+   "arr": 1068656.4000000004,
    "active_customers": 49,
    "new_customers_today": 1,
    "churned_today": 0,
    "revenue_recognized_mtd": 2975.1533333333336,
-   "opex_mtd": 1761.7716022222223,
-   "net_income_mtd": 1213.3817311111113,
-   "gross_margin_pct": 97.64605514262944,
-   "cac_blended": 932.7747692307693,
+   "opex_mtd": 2988.0550022222224,
+   "net_income_mtd": -12.901668888888768,
+   "gross_margin_pct": 97.64235785419837,
+   "cac_blended": 482.97484615384616,
    "ltv": 0.0,
    "ltv_cac": null,
-   "payback_months": 0.4873030117849234,
+   "payback_months": 0.2721607479055157,
    "logo_churn_pct_monthly": 4.166666666666666,
-   "net_revenue_retention_pct": 102.4,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 18566527.00780001,
-   "market_share_pct": 0.4953804538604787,
-   "headcount": 1,
-   "brand_awareness": 0.1296607569345849,
-   "pipeline_value": 3598.2000000000003,
-   "leads_trailing30": 193
+   "valuation_proxy": 17186424.305800006,
+   "market_share_pct": 0.45944492034057804,
+   "headcount": 2,
+   "brand_awareness": 0.12260990811636382,
+   "pipeline_value": 5397.3,
+   "leads_trailing30": 110
   },
   {
    "day": 189,
    "date_label": "2026-07-10",
-   "cash": 133582.04029999912,
-   "mrr": 110249.50000000009,
-   "arr": 1322994.000000001,
+   "cash": 107862.71053333236,
+   "mrr": 98499.30000000008,
+   "arr": 1181991.600000001,
    "active_customers": 55,
-   "new_customers_today": 2,
-   "churned_today": 1,
-   "revenue_recognized_mtd": 3268.3400000000006,
-   "opex_mtd": 2411.6546377777777,
-   "net_income_mtd": 856.6853622222227,
-   "gross_margin_pct": 97.62282946218706,
-   "cac_blended": 1580.7527466666666,
+   "new_customers_today": 0,
+   "churned_today": 0,
+   "revenue_recognized_mtd": 3283.31,
+   "opex_mtd": 2647.0078233333334,
+   "net_income_mtd": 636.3021766666667,
+   "gross_margin_pct": 97.62016579474846,
+   "cac_blended": 578.1714444444444,
    "ltv": 0.0,
    "ltv_cac": null,
-   "payback_months": 0.807790265212572,
-   "logo_churn_pct_monthly": 3.3333333333333335,
-   "net_revenue_retention_pct": 103.6,
+   "payback_months": 0.3307094787349789,
+   "logo_churn_pct_monthly": 0.0,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 21301486.040300015,
-   "market_share_pct": 0.5681704076449278,
-   "headcount": 1,
-   "brand_awareness": 0.15076167149990105,
-   "pipeline_value": 219234.06,
-   "leads_trailing30": 253
+   "valuation_proxy": 19019728.31053335,
+   "market_share_pct": 0.5079233646081469,
+   "headcount": 2,
+   "brand_awareness": 0.1300247415569969,
+   "pipeline_value": 1619.19,
+   "leads_trailing30": 120
   },
   {
    "day": 196,
    "date_label": "2026-07-17",
-   "cash": 138292.44826666595,
-   "mrr": 117445.90000000011,
-   "arr": 1409350.8000000012,
-   "active_customers": 59,
-   "new_customers_today": 1,
+   "cash": 128064.74959999904,
+   "mrr": 109293.90000000011,
+   "arr": 1311526.8000000012,
+   "active_customers": 61,
+   "new_customers_today": 0,
    "churned_today": 0,
-   "revenue_recognized_mtd": 3628.1600000000003,
-   "opex_mtd": 2938.955484444444,
-   "net_income_mtd": 689.2045155555558,
-   "gross_margin_pct": 97.6162531114639,
-   "cac_blended": 2294.7533333333336,
-   "ltv": 59266.300913519066,
-   "ltv_cac": 25.82687213158091,
-   "payback_months": 1.1809405275486236,
-   "logo_churn_pct_monthly": 5.405405405405405,
-   "net_revenue_retention_pct": 103.6,
+   "revenue_recognized_mtd": 3643.13,
+   "opex_mtd": 2707.3937588888884,
+   "net_income_mtd": 935.7362411111118,
+   "gross_margin_pct": 97.61153114065225,
+   "cac_blended": 633.8067500000001,
+   "ltv": 0.0,
+   "ltv_cac": null,
+   "payback_months": 0.36240121619464777,
+   "logo_churn_pct_monthly": 0.0,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 22687905.248266686,
-   "market_share_pct": 0.5928992536544193,
-   "headcount": 1,
-   "brand_awareness": 0.17550912670304789,
-   "pipeline_value": 22668.66,
-   "leads_trailing30": 295
+   "valuation_proxy": 21112493.54960002,
+   "market_share_pct": 0.550914718171028,
+   "headcount": 2,
+   "brand_awareness": 0.1380591966781302,
+   "pipeline_value": 4857.57,
+   "leads_trailing30": 130
   },
   {
    "day": 203,
    "date_label": "2026-07-24",
-   "cash": 156258.79683333272,
-   "mrr": 135436.90000000014,
-   "arr": 1625242.8000000017,
+   "cash": 155972.8274166658,
+   "mrr": 124386.35000000015,
+   "arr": 1492636.2000000018,
    "active_customers": 70,
    "new_customers_today": 2,
-   "churned_today": 1,
-   "revenue_recognized_mtd": 4299.8240000000005,
-   "opex_mtd": 3495.4543448888885,
-   "net_income_mtd": 804.3696551111119,
-   "gross_margin_pct": 97.64264277897058,
-   "cac_blended": 2228.836375,
-   "ltv": 34950.24452101954,
-   "ltv_cac": 15.680937781275908,
-   "payback_months": 1.1797763793240885,
-   "logo_churn_pct_monthly": 10.0,
-   "net_revenue_retention_pct": 103.6,
+   "churned_today": 0,
+   "revenue_recognized_mtd": 4104.899,
+   "opex_mtd": 2768.894992111111,
+   "net_income_mtd": 1336.0040078888894,
+   "gross_margin_pct": 97.61348105979926,
+   "cac_blended": 576.8249655172415,
+   "ltv": 0.0,
+   "ltv_cac": null,
+   "payback_months": 0.3325519999777177,
+   "logo_churn_pct_monthly": 2.5,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 26160143.59683336,
-   "market_share_pct": 0.6831023596395565,
-   "headcount": 1,
-   "brand_awareness": 0.20248494964358005,
-   "pipeline_value": 16191.900000000001,
-   "leads_trailing30": 316
+   "valuation_proxy": 24038152.027416695,
+   "market_share_pct": 0.6265141830904233,
+   "headcount": 2,
+   "brand_awareness": 0.14699010228403867,
+   "pipeline_value": 11334.33,
+   "leads_trailing30": 137
   },
   {
    "day": 210,
    "date_label": "2026-08-01",
-   "cash": 165203.52624999927,
-   "mrr": 178976.7400000002,
-   "arr": 2147720.880000002,
-   "active_customers": 95,
+   "cash": 160451.4341599989,
+   "mrr": 171342.86000000022,
+   "arr": 2056114.3200000026,
+   "active_customers": 99,
    "new_customers_today": 2,
    "churned_today": 0,
-   "revenue_recognized_mtd": 5762.4856666666665,
-   "opex_mtd": 3847.6216721111114,
-   "net_income_mtd": 1914.8639945555556,
-   "gross_margin_pct": 97.70316122068542,
-   "cac_blended": 1527.5094339622642,
-   "ltv": 45557.177237218384,
-   "ltv_cac": 29.824481750692634,
-   "payback_months": 0.8298551574806564,
-   "logo_churn_pct_monthly": 8.695652173913043,
-   "net_revenue_retention_pct": 103.6,
+   "revenue_recognized_mtd": 5670.116,
+   "opex_mtd": 2861.5995040000003,
+   "net_income_mtd": 2808.5164959999997,
+   "gross_margin_pct": 97.6887209362207,
+   "cac_blended": 356.0849807692309,
+   "ltv": 0.0,
+   "ltv_cac": null,
+   "payback_months": 0.21060972235627096,
+   "logo_churn_pct_monthly": 2.083333333333333,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 34528737.60625003,
-   "market_share_pct": 0.900726005820774,
-   "headcount": 1,
-   "brand_awareness": 0.231219921365621,
-   "pipeline_value": 19430.28,
-   "leads_trailing30": 353
+   "valuation_proxy": 33058280.55416004,
+   "market_share_pct": 0.8609902768655354,
+   "headcount": 2,
+   "brand_awareness": 0.1571056375637348,
+   "pipeline_value": 8095.950000000001,
+   "leads_trailing30": 151
   },
   {
    "day": 217,
    "date_label": "2026-08-08",
-   "cash": 163899.86069333224,
-   "mrr": 228993.34000000026,
-   "arr": 2747920.080000003,
-   "active_customers": 124,
-   "new_customers_today": 3,
+   "cash": 157912.48994666548,
+   "mrr": 200488.28000000026,
+   "arr": 2405859.360000003,
+   "active_customers": 117,
+   "new_customers_today": 2,
    "churned_today": 0,
-   "revenue_recognized_mtd": 7393.729666666667,
-   "opex_mtd": 5246.2241970000005,
-   "net_income_mtd": 2147.505469666667,
-   "gross_margin_pct": 97.7216163164202,
-   "cac_blended": 1240.9864864864865,
-   "ltv": 57748.643381924085,
-   "ltv_cac": 46.53446593558288,
-   "payback_months": 0.6876623456750794,
-   "logo_churn_pct_monthly": 7.4074074074074066,
-   "net_revenue_retention_pct": 103.6,
+   "revenue_recognized_mtd": 6641.630000000001,
+   "opex_mtd": 5025.422853333334,
+   "net_income_mtd": 1616.2071466666666,
+   "gross_margin_pct": 97.67692781909126,
+   "cac_blended": 424.3490449735451,
+   "ltv": 0.0,
+   "ltv_cac": null,
+   "payback_months": 0.2535292719679129,
+   "logo_churn_pct_monthly": 1.8181818181818181,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 44130621.14069338,
-   "market_share_pct": 1.149548095938367,
-   "headcount": 1,
-   "brand_awareness": 0.2629009522767562,
-   "pipeline_value": 29145.420000000002,
-   "leads_trailing30": 390
+   "valuation_proxy": 38651662.24994671,
+   "market_share_pct": 1.0059714306561618,
+   "headcount": 2,
+   "brand_awareness": 0.1722137066746953,
+   "pipeline_value": 215451.09000000003,
+   "leads_trailing30": 173
   },
   {
    "day": 224,
    "date_label": "2026-08-15",
-   "cash": 220519.7004933318,
-   "mrr": 295021.93000000034,
-   "arr": 3540263.160000004,
-   "active_customers": 163,
-   "new_customers_today": 6,
+   "cash": 192220.8665366652,
+   "mrr": 231477.1700000003,
+   "arr": 2777726.0400000038,
+   "active_customers": 137,
+   "new_customers_today": 3,
    "churned_today": 0,
-   "revenue_recognized_mtd": 9444.097333333335,
-   "opex_mtd": 6984.327849333334,
-   "net_income_mtd": 2459.7694840000013,
-   "gross_margin_pct": 97.72844516779652,
-   "cac_blended": 932.0550458715596,
-   "ltv": 97875.61817063848,
-   "ltv_cac": 105.01055555052065,
-   "payback_months": 0.5269311550943317,
-   "logo_churn_pct_monthly": 5.172413793103448,
-   "net_revenue_retention_pct": 103.6,
+   "revenue_recognized_mtd": 7680.59,
+   "opex_mtd": 5644.114582222222,
+   "net_income_mtd": 2036.4754177777775,
+   "gross_margin_pct": 97.65666021606269,
+   "cac_blended": 563.5945295358651,
+   "ltv": 114676.45766593967,
+   "ltv_cac": 203.47333349807127,
+   "payback_months": 0.3415681003754666,
+   "logo_churn_pct_monthly": 3.389830508474576,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 56864730.26049339,
-   "market_share_pct": 1.4761192552765117,
-   "headcount": 1,
-   "brand_awareness": 0.2966292410279309,
-   "pipeline_value": 144166.23,
-   "leads_trailing30": 423
+   "valuation_proxy": 44635837.50653672,
+   "market_share_pct": 1.1596583535601137,
+   "headcount": 2,
+   "brand_awareness": 0.19346436997685898,
+   "pipeline_value": 417947.04000000004,
+   "leads_trailing30": 265
   },
   {
    "day": 231,
    "date_label": "2026-08-22",
-   "cash": 260081.07378666478,
-   "mrr": 338560.15000000043,
-   "arr": 4062721.8000000054,
-   "active_customers": 190,
-   "new_customers_today": 5,
+   "cash": 228767.97799333153,
+   "mrr": 278433.68000000034,
+   "arr": 3341204.160000004,
+   "active_customers": 166,
+   "new_customers_today": 6,
    "churned_today": 0,
-   "revenue_recognized_mtd": 10949.344333333334,
-   "opex_mtd": 7380.515320111111,
-   "net_income_mtd": 3568.8290132222232,
-   "gross_margin_pct": 97.68921944174456,
-   "cac_blended": 891.468253968254,
-   "ltv": 84424.91179987526,
-   "ltv_cac": 94.70321733170962,
-   "payback_months": 0.512126212461429,
-   "logo_churn_pct_monthly": 6.25,
-   "net_revenue_retention_pct": 103.6,
+   "revenue_recognized_mtd": 9017.254666666668,
+   "opex_mtd": 6388.038522,
+   "net_income_mtd": 2629.2161446666673,
+   "gross_margin_pct": 97.64078164120215,
+   "cac_blended": 652.0698399339934,
+   "ltv": 0.0,
+   "ltv_cac": null,
+   "payback_months": 0.39815226122334263,
+   "logo_churn_pct_monthly": 1.5384615384615385,
+   "net_revenue_retention_pct": 100.0,
    "runway_months": 99.0,
-   "valuation_proxy": 65263629.873786755,
-   "market_share_pct": 1.662578825462279,
-   "headcount": 2,
-   "brand_awareness": 0.3318140783692325,
-   "pipeline_value": 6476.76,
-   "leads_trailing30": 454
+   "valuation_proxy": 53688034.537993394,
+   "market_share_pct": 1.3673259238649644,
+   "headcount": 4,
+   "brand_awareness": 0.22149330169458167,
+   "pipeline_value": 14572.710000000001,
+   "leads_trailing30": 335
   },
   {
    "day": 238,
    "date_label": "2026-08-29",
-   "cash": 339908.203349997,
-   "mrr": 390014.41000000056,
-   "arr": 4680172.920000006,
-   "active_customers": 222,
-   "new_customers_today": 6,
-   "churned_today": 0,
-   "revenue_recognized_mtd": 12718.459333333334,
-   "opex_mtd": 7913.710727333334,
-   "net_income_mtd": 4804.748606,
-   "gross_margin_pct": 97.65948542824029,
-   "cac_blended": 892.7535211267606,
-   "ltv": 65196.713983223155,
-   "ltv_cac": 73.02879511574167,
-   "payback_months": 0.5203426941355758,
-   "logo_churn_pct_monthly": 7.142857142857142,
-   "net_revenue_retention_pct": 103.6,
+   "cash": 320825.7482266637,
+   "mrr": 331328.8400000005,
+   "arr": 3975946.0800000057,
+   "active_customers": 197,
+   "new_customers_today": 5,
+   "churned_today": 1,
+   "revenue_recognized_mtd": 11014.255666666668,
+   "opex_mtd": 7306.826741,
+   "net_income_mtd": 3707.428925666668,
+   "gross_margin_pct": 97.64370245889718,
+   "cac_blended": 817.8477068452382,
+   "ltv": 55562.53348400469,
+   "ltv_cac": 67.93750599158777,
+   "payback_months": 0.4980067024762828,
+   "logo_churn_pct_monthly": 6.741573033707865,
+   "net_revenue_retention_pct": 101.2,
    "runway_months": 99.0,
-   "valuation_proxy": 75222674.9233501,
-   "market_share_pct": 1.910429768128837,
-   "headcount": 3,
-   "brand_awareness": 0.3690846911924439,
+   "valuation_proxy": 63935963.028226756,
+   "market_share_pct": 1.6228667993209305,
+   "headcount": 4,
+   "brand_awareness": 0.25453412326169766,
    "pipeline_value": 24287.850000000002,
-   "leads_trailing30": 494
+   "leads_trailing30": 407
   },
   {
    "day": 245,
    "date_label": "2026-09-06",
-   "cash": 290309.3241766624,
-   "mrr": 465622.42000000074,
-   "arr": 5587469.040000008,
-   "active_customers": 268,
-   "new_customers_today": 5,
-   "churned_today": 0,
-   "revenue_recognized_mtd": 15634.588333333335,
-   "opex_mtd": 12536.017178333334,
-   "net_income_mtd": 3098.5711550000005,
-   "gross_margin_pct": 97.66425672864429,
-   "cac_blended": 924.496855345912,
-   "ltv": 47171.483519429006,
-   "ltv_cac": 51.023952376538055,
-   "payback_months": 0.5448421516790035,
-   "logo_churn_pct_monthly": 8.620689655172415,
+   "cash": 220913.31646666277,
+   "mrr": 392481.4900000006,
+   "arr": 4709777.880000006,
+   "active_customers": 231,
+   "new_customers_today": 2,
+   "churned_today": 1,
+   "revenue_recognized_mtd": 13065.229666666668,
+   "opex_mtd": 10458.664263666667,
+   "net_income_mtd": 2606.5654029999996,
+   "gross_margin_pct": 97.64161625614831,
+   "cac_blended": 986.3180978835978,
+   "ltv": 56405.45104604011,
+   "ltv_cac": 57.187890161472936,
+   "payback_months": 0.5945314629373326,
+   "logo_churn_pct_monthly": 6.481481481481481,
    "net_revenue_retention_pct": 103.6,
    "runway_months": 99.0,
-   "valuation_proxy": 89689813.9641768,
-   "market_share_pct": 2.2723689516272185,
-   "headcount": 3,
-   "brand_awareness": 0.4099031508875609,
-   "pipeline_value": 24692.04,
-   "leads_trailing30": 547
+   "valuation_proxy": 75577359.39646676,
+   "market_share_pct": 1.9166548895067703,
+   "headcount": 4,
+   "brand_awareness": 0.2932193635634483,
+   "pipeline_value": 183046.23,
+   "leads_trailing30": 487
   },
   {
    "day": 252,
    "date_label": "2026-09-13",
-   "cash": 407383.8248333276,
-   "mrr": 541724.3500000002,
-   "arr": 6500692.200000003,
-   "active_customers": 315,
-   "new_customers_today": 9,
-   "churned_today": 0,
-   "revenue_recognized_mtd": 17949.430333333334,
-   "opex_mtd": 11609.973620777777,
-   "net_income_mtd": 6339.456712555558,
-   "gross_margin_pct": 97.6457546956628,
-   "cac_blended": 908.4597701149426,
-   "ltv": 54576.35546872827,
-   "ltv_cac": 60.0756987420841,
-   "payback_months": 0.540984136356506,
-   "logo_churn_pct_monthly": 6.993006993006993,
-   "net_revenue_retention_pct": 103.6,
+   "cash": 268118.1041666619,
+   "mrr": 453272.7000000007,
+   "arr": 5439272.400000009,
+   "active_customers": 267,
+   "new_customers_today": 2,
+   "churned_today": 1,
+   "revenue_recognized_mtd": 15170.176666666668,
+   "opex_mtd": 11477.792245555556,
+   "net_income_mtd": 3692.384421111112,
+   "gross_margin_pct": 97.63488419786219,
+   "cac_blended": 950.7638888888889,
+   "ltv": 45912.72673464799,
+   "ltv_cac": 48.29035607179396,
+   "payback_months": 0.5736134966331169,
+   "logo_churn_pct_monthly": 7.751937984496124,
+   "net_revenue_retention_pct": 104.8,
    "runway_months": 99.0,
-   "valuation_proxy": 104418459.02483338,
-   "market_share_pct": 2.633985276613796,
-   "headcount": 3,
-   "brand_awareness": 0.4517958815312472,
-   "pipeline_value": 231641.37000000002,
-   "leads_trailing30": 586
+   "valuation_proxy": 87296476.5041668,
+   "market_share_pct": 2.2069725267914735,
+   "headcount": 4,
+   "brand_awareness": 0.33238316948409474,
+   "pipeline_value": 575084.61,
+   "leads_trailing30": 498
   },
   {
    "day": 259,
    "date_label": "2026-09-20",
-   "cash": 492334.5698233264,
-   "mrr": 651830.8899999965,
-   "arr": 7821970.679999959,
-   "active_customers": 381,
-   "new_customers_today": 12,
+   "cash": 314257.536573327,
+   "mrr": 525957.9600000008,
+   "arr": 6311495.520000009,
+   "active_customers": 310,
+   "new_customers_today": 6,
    "churned_today": 0,
-   "revenue_recognized_mtd": 21445.73533333333,
-   "opex_mtd": 12522.668971333333,
-   "net_income_mtd": 8923.066362,
-   "gross_margin_pct": 97.65033794908656,
-   "cac_blended": 873.6507177033493,
-   "ltv": 65322.149914472524,
-   "ltv_cac": 74.7691824556514,
-   "payback_months": 0.5229427247407951,
-   "logo_churn_pct_monthly": 5.617977528089887,
-   "net_revenue_retention_pct": 103.6,
+   "revenue_recognized_mtd": 17269.126666666667,
+   "opex_mtd": 12923.973406666666,
+   "net_income_mtd": 4345.153260000002,
+   "gross_margin_pct": 97.62057023536029,
+   "cac_blended": 911.5089820359282,
+   "ltv": 53000.58423228583,
+   "ltv_cac": 58.145981308823515,
+   "payback_months": 0.5503389792330167,
+   "logo_churn_pct_monthly": 6.535947712418301,
+   "net_revenue_retention_pct": 106.0,
    "runway_months": 99.0,
-   "valuation_proxy": 125643865.44982266,
-   "market_share_pct": 3.1631575702379044,
-   "headcount": 3,
-   "brand_awareness": 0.4963246590199557,
-   "pipeline_value": 1086738.45,
-   "leads_trailing30": 670
+   "valuation_proxy": 101298185.85657346,
+   "market_share_pct": 2.534837979304611,
+   "headcount": 5,
+   "brand_awareness": 0.372773509982782,
+   "pipeline_value": 1416208.6800000002,
+   "leads_trailing30": 540
   },
   {
    "day": 266,
    "date_label": "2026-09-27",
-   "cash": 631528.8386066583,
-   "mrr": 763959.1899999926,
-   "arr": 9167510.279999912,
-   "active_customers": 451,
-   "new_customers_today": 8,
+   "cash": 439243.6416666587,
+   "mrr": 586950.5699999989,
+   "arr": 7043406.839999987,
+   "active_customers": 344,
+   "new_customers_today": 2,
    "churned_today": 0,
-   "revenue_recognized_mtd": 25339.26733333333,
-   "opex_mtd": 15007.442745999999,
-   "net_income_mtd": 10331.82458733333,
-   "gross_margin_pct": 97.6457774482877,
-   "cac_blended": 898.3142857142857,
-   "ltv": 108221.74274061309,
-   "ltv_cac": 120.47202684143183,
-   "payback_months": 0.5431017734489525,
-   "logo_churn_pct_monthly": 3.30188679245283,
-   "net_revenue_retention_pct": 103.6,
+   "revenue_recognized_mtd": 19530.049666666666,
+   "opex_mtd": 14733.988721444444,
+   "net_income_mtd": 4796.0609452222225,
+   "gross_margin_pct": 97.60835876294949,
+   "cac_blended": 1021.0,
+   "ltv": 53748.427704811176,
+   "ltv_cac": 52.64292625348793,
+   "payback_months": 0.6130496454039539,
+   "logo_churn_pct_monthly": 6.0109289617486334,
+   "net_revenue_retention_pct": 107.2,
    "runway_months": 99.0,
-   "valuation_proxy": 147311693.31860524,
-   "market_share_pct": 3.687222423361135,
-   "headcount": 3,
-   "brand_awareness": 0.545534900899072,
-   "pipeline_value": 1972441.83,
-   "leads_trailing30": 697
+   "valuation_proxy": 113133753.08166645,
+   "market_share_pct": 2.8204990475176523,
+   "headcount": 5,
+   "brand_awareness": 0.41596188176436016,
+   "pipeline_value": 1983493.59,
+   "leads_trailing30": 559
   },
   {
    "day": 273,
    "date_label": "2026-10-04",
-   "cash": 632388.0173299899,
-   "mrr": 864110.64999999,
-   "arr": 10369327.79999988,
-   "active_customers": 512,
-   "new_customers_today": 11,
+   "cash": 336894.63328999095,
+   "mrr": 653282.0699999975,
+   "arr": 7839384.83999997,
+   "active_customers": 380,
+   "new_customers_today": 9,
    "churned_today": 0,
-   "revenue_recognized_mtd": 28351.80833333333,
-   "opex_mtd": 16549.161024999998,
-   "net_income_mtd": 11802.647308333331,
-   "gross_margin_pct": 97.6198072315787,
-   "cac_blended": 1022.984496124031,
-   "ltv": 142238.07034932342,
-   "ltv_cac": 139.04225419666366,
-   "payback_months": 0.6209143675937678,
-   "logo_churn_pct_monthly": 2.4193548387096775,
-   "net_revenue_retention_pct": 102.4,
+   "revenue_recognized_mtd": 20955.336666666666,
+   "opex_mtd": 17013.72361888889,
+   "net_income_mtd": 3941.613047777776,
+   "gross_margin_pct": 97.57886518220789,
+   "cac_blended": 1155.371951219512,
+   "ltv": 65424.063114338285,
+   "ltv_cac": 56.62597490382402,
+   "payback_months": 0.6887298640992807,
+   "logo_churn_pct_monthly": 4.545454545454546,
+   "net_revenue_retention_pct": 110.8,
    "runway_months": 99.0,
-   "valuation_proxy": 166541632.81732807,
-   "market_share_pct": 4.150537192662015,
-   "headcount": 3,
-   "brand_awareness": 0.5995127460487094,
-   "pipeline_value": 2582753.43,
-   "leads_trailing30": 749
+   "valuation_proxy": 125767052.07328951,
+   "market_share_pct": 3.129270270818787,
+   "headcount": 6,
+   "brand_awareness": 0.4626442556032923,
+   "pipeline_value": 3165943.95,
+   "leads_trailing30": 573
   },
   {
    "day": 280,
    "date_label": "2026-10-11",
-   "cash": 843658.4367166545,
-   "mrr": 1033798.2999999871,
-   "arr": 12405579.599999845,
-   "active_customers": 618,
-   "new_customers_today": 13,
-   "churned_today": 2,
-   "revenue_recognized_mtd": 33760.083333333336,
-   "opex_mtd": 18206.343805555556,
-   "net_income_mtd": 15553.739527777776,
-   "gross_margin_pct": 97.62566599443953,
-   "cac_blended": 943.9598765432099,
-   "ltv": 145812.01967958006,
-   "ltv_cac": 154.4684507285893,
-   "payback_months": 0.5780190962269367,
-   "logo_churn_pct_monthly": 2.405498281786942,
-   "net_revenue_retention_pct": 104.8,
+   "cash": 490198.30731332285,
+   "mrr": 740807.699999996,
+   "arr": 8889692.399999952,
+   "active_customers": 437,
+   "new_customers_today": 7,
+   "churned_today": 0,
+   "revenue_recognized_mtd": 24234.118333333332,
+   "opex_mtd": 17034.35269277778,
+   "net_income_mtd": 7199.765640555553,
+   "gross_margin_pct": 97.589406727838,
+   "cac_blended": 1037.9427083333333,
+   "ltv": 67377.06013355812,
+   "ltv_cac": 64.91404544066617,
+   "payback_months": 0.6274030905145012,
+   "logo_churn_pct_monthly": 4.382470119521913,
+   "net_revenue_retention_pct": 108.4,
    "runway_months": 99.0,
-   "valuation_proxy": 199332932.03671417,
-   "market_share_pct": 4.925444030381116,
-   "headcount": 4,
-   "brand_awareness": 0.6558303412539848,
-   "pipeline_value": 2803231.86,
-   "leads_trailing30": 793
+   "valuation_proxy": 142725276.70731255,
+   "market_share_pct": 3.533709393819598,
+   "headcount": 8,
+   "brand_awareness": 0.509120093684168,
+   "pipeline_value": 5003584.95,
+   "leads_trailing30": 555
   },
   {
    "day": 287,
    "date_label": "2026-10-18",
-   "cash": 1043060.843433319,
-   "mrr": 1195542.0699999847,
-   "arr": 14346504.839999817,
-   "active_customers": 716,
-   "new_customers_today": 15,
-   "churned_today": 2,
-   "revenue_recognized_mtd": 39011.51033333333,
-   "opex_mtd": 21038.02314077778,
-   "net_income_mtd": 17973.487192555556,
-   "gross_margin_pct": 97.61551620834595,
-   "cac_blended": 1010.1471389645776,
-   "ltv": 118333.39285251117,
-   "ltv_cac": 117.14470920920039,
-   "payback_months": 0.6197462991721533,
-   "logo_churn_pct_monthly": 2.898550724637681,
+   "cash": 619301.3448833218,
+   "mrr": 863957.0699999939,
+   "arr": 10367484.839999927,
+   "active_customers": 515,
+   "new_customers_today": 13,
+   "churned_today": 1,
+   "revenue_recognized_mtd": 28155.597999999994,
+   "opex_mtd": 17233.42747311111,
+   "net_income_mtd": 10922.170526888884,
+   "gross_margin_pct": 97.60191866719443,
+   "cac_blended": 981.5387931034483,
+   "ltv": 78295.41817947708,
+   "ltv_cac": 79.76803232801541,
+   "payback_months": 0.5994654803762478,
+   "logo_churn_pct_monthly": 3.793103448275862,
    "net_revenue_retention_pct": 107.2,
    "runway_months": 99.0,
-   "valuation_proxy": 230587138.2834304,
-   "market_share_pct": 5.752474918775035,
-   "headcount": 4,
-   "brand_awareness": 0.7160601580190622,
-   "pipeline_value": 5243031.3,
-   "leads_trailing30": 898
+   "valuation_proxy": 166499058.78488216,
+   "market_share_pct": 4.082358094072509,
+   "headcount": 8,
+   "brand_awareness": 0.557834411963591,
+   "pipeline_value": 5871397.11,
+   "leads_trailing30": 617
   },
   {
    "day": 294,
    "date_label": "2026-10-25",
-   "cash": 1267716.077296652,
-   "mrr": 1366221.3699999822,
-   "arr": 16394656.439999785,
-   "active_customers": 820,
-   "new_customers_today": 19,
-   "churned_today": 2,
-   "revenue_recognized_mtd": 44726.65133333334,
-   "opex_mtd": 22572.828597555555,
-   "net_income_mtd": 22153.822735777787,
-   "gross_margin_pct": 97.60784998281736,
-   "cac_blended": 1094.0367647058824,
-   "ltv": 68303.23270858114,
-   "ltv_cac": 62.432301099994184,
-   "payback_months": 0.6727286878747437,
-   "logo_churn_pct_monthly": 4.705882352941177,
+   "cash": 796942.3053399874,
+   "mrr": 991874.9699999919,
+   "arr": 11902499.639999904,
+   "active_customers": 595,
+   "new_customers_today": 12,
+   "churned_today": 1,
+   "revenue_recognized_mtd": 32654.340999999997,
+   "opex_mtd": 19590.18359011111,
+   "net_income_mtd": 13064.157409888883,
+   "gross_margin_pct": 97.6083314922475,
+   "cac_blended": 984.1159420289855,
+   "ltv": 66170.65448860457,
+   "ltv_cac": 67.23867754055307,
+   "payback_months": 0.6048106261777642,
+   "logo_churn_pct_monthly": 4.573170731707317,
    "net_revenue_retention_pct": 110.8,
    "runway_months": 99.0,
-   "valuation_proxy": 263582219.1172932,
-   "market_share_pct": 6.520169788921672,
-   "headcount": 4,
-   "brand_awareness": 0.7811606608729235,
-   "pipeline_value": 7333381.38,
-   "leads_trailing30": 1023
+   "valuation_proxy": 191236936.54533845,
+   "market_share_pct": 4.65863553427432,
+   "headcount": 8,
+   "brand_awareness": 0.6116864428767919,
+   "pipeline_value": 6893472.3,
+   "leads_trailing30": 698
   },
   {
    "day": 301,
    "date_label": "2026-11-02",
-   "cash": 1228773.4972933198,
-   "mrr": 1533657.4899999795,
-   "arr": 18403889.879999753,
-   "active_customers": 928,
-   "new_customers_today": 20,
-   "churned_today": 2,
-   "revenue_recognized_mtd": 50801.664333333356,
-   "opex_mtd": 25755.617177888886,
-   "net_income_mtd": 25046.047155444467,
-   "gross_margin_pct": 97.59820760356148,
-   "cac_blended": 1157.228448275862,
-   "ltv": 55070.891444464636,
-   "ltv_cac": 47.588608391466664,
-   "payback_months": 0.717458616608328,
-   "logo_churn_pct_monthly": 5.785123966942149,
+   "cash": 623390.4964266535,
+   "mrr": 1152627.0899999894,
+   "arr": 13831525.079999872,
+   "active_customers": 695,
+   "new_customers_today": 17,
+   "churned_today": 0,
+   "revenue_recognized_mtd": 37633.902,
+   "opex_mtd": 20896.718582444442,
+   "net_income_mtd": 16737.18341755556,
+   "gross_margin_pct": 97.60742698845193,
+   "cac_blended": 940.2594752186588,
+   "ltv": 71934.37930064119,
+   "ltv_cac": 76.50481723027862,
+   "payback_months": 0.5808457768906713,
+   "logo_churn_pct_monthly": 4.444444444444445,
    "net_revenue_retention_pct": 112.0,
    "runway_months": 99.0,
-   "valuation_proxy": 295691011.57728934,
-   "market_share_pct": 7.261221228263895,
-   "headcount": 5,
-   "brand_awareness": 0.85,
-   "pipeline_value": 11007107.280000001,
-   "leads_trailing30": 1180
+   "valuation_proxy": 221927791.7764246,
+   "market_share_pct": 5.373087741269483,
+   "headcount": 9,
+   "brand_awareness": 0.6705544543700577,
+   "pipeline_value": 7025301.66,
+   "leads_trailing30": 801
   },
   {
    "day": 308,
    "date_label": "2026-11-09",
-   "cash": 1531415.9973899873,
-   "mrr": 1769016.9699999758,
-   "arr": 21228203.63999971,
-   "active_customers": 1070,
-   "new_customers_today": 23,
-   "churned_today": 4,
-   "revenue_recognized_mtd": 58639.79533333336,
-   "opex_mtd": 33185.49388911111,
-   "net_income_mtd": 25454.301444222252,
-   "gross_margin_pct": 97.59760321848023,
-   "cac_blended": 1272.2862669245649,
-   "ltv": 47048.2568833979,
-   "ltv_cac": 36.979301047652854,
-   "payback_months": 0.7884923162627707,
-   "logo_churn_pct_monthly": 6.701940035273369,
-   "net_revenue_retention_pct": 116.8,
+   "cash": 831276.6683933188,
+   "mrr": 1314599.7999999868,
+   "arr": 15775197.599999841,
+   "active_customers": 795,
+   "new_customers_today": 20,
+   "churned_today": 2,
+   "revenue_recognized_mtd": 43406.151,
+   "opex_mtd": 30053.922424555556,
+   "net_income_mtd": 13352.228575444447,
+   "gross_margin_pct": 97.60512646109638,
+   "cac_blended": 1036.1608040201006,
+   "ltv": 52938.65528265619,
+   "ltv_cac": 51.09115793346418,
+   "payback_months": 0.6419897556973618,
+   "logo_churn_pct_monthly": 6.038647342995169,
+   "net_revenue_retention_pct": 113.2,
    "runway_months": 99.0,
-   "valuation_proxy": 341182674.23738533,
-   "market_share_pct": 8.283246554414529,
-   "headcount": 5,
-   "brand_awareness": 0.85,
-   "pipeline_value": 7898082.66,
-   "leads_trailing30": 1352
+   "valuation_proxy": 253234438.26839077,
+   "market_share_pct": 6.082216004908847,
+   "headcount": 10,
+   "brand_awareness": 0.7346104442112759,
+   "pipeline_value": 6974589.180000001,
+   "leads_trailing30": 982
   },
   {
    "day": 315,
    "date_label": "2026-11-16",
-   "cash": 1882352.385526653,
-   "mrr": 2010459.3099999717,
-   "arr": 24125511.71999966,
-   "active_customers": 1221,
-   "new_customers_today": 18,
+   "cash": 1120078.7848399847,
+   "mrr": 1515115.1499999831,
+   "arr": 18181381.799999796,
+   "active_customers": 917,
+   "new_customers_today": 22,
    "churned_today": 2,
-   "revenue_recognized_mtd": 67158.61833333338,
-   "opex_mtd": 38022.80597055555,
-   "net_income_mtd": 29135.812362777822,
-   "gross_margin_pct": 97.59746997392483,
-   "cac_blended": 1330.6788830715532,
-   "ltv": 47238.57647503592,
-   "ltv_cac": 35.49960631072539,
-   "payback_months": 0.8280471783240078,
-   "logo_churn_pct_monthly": 6.332842415316642,
-   "net_revenue_retention_pct": 116.8,
+   "revenue_recognized_mtd": 50119.773000000016,
+   "opex_mtd": 33766.87457588889,
+   "net_income_mtd": 16352.898424111125,
+   "gross_margin_pct": 97.6035248419377,
+   "cac_blended": 1013.9675324675325,
+   "ltv": 43864.25031335453,
+   "ltv_cac": 43.26001465412708,
+   "payback_months": 0.6287561439234296,
+   "logo_churn_pct_monthly": 7.337526205450734,
+   "net_revenue_retention_pct": 118.0,
    "runway_months": 99.0,
-   "valuation_proxy": 387890539.9055212,
-   "market_share_pct": 9.506289028283152,
-   "headcount": 5,
-   "brand_awareness": 0.85,
-   "pipeline_value": 8607861.6,
-   "leads_trailing30": 1636
+   "valuation_proxy": 292022187.5848367,
+   "market_share_pct": 7.078413678012649,
+   "headcount": 10,
+   "brand_awareness": 0.800063319552925,
+   "pipeline_value": 10653002.1,
+   "leads_trailing30": 1125
   },
   {
    "day": 322,
    "date_label": "2026-11-23",
-   "cash": 2213327.1178733367,
-   "mrr": 2287777.7999999947,
-   "arr": 27453333.599999934,
-   "active_customers": 1390,
-   "new_customers_today": 33,
-   "churned_today": 3,
-   "revenue_recognized_mtd": 75509.68133333338,
-   "opex_mtd": 42428.26616755556,
-   "net_income_mtd": 33081.41516577782,
-   "gross_margin_pct": 97.58958127123573,
-   "cac_blended": 1368.6209553158706,
-   "ltv": 57422.03001571736,
-   "ltv_cac": 41.95612363867734,
-   "payback_months": 0.8520806237457978,
-   "logo_churn_pct_monthly": 5.215123859191656,
-   "net_revenue_retention_pct": 116.8,
+   "cash": 1424538.1393033173,
+   "mrr": 1750648.299999979,
+   "arr": 21007779.59999975,
+   "active_customers": 1067,
+   "new_customers_today": 22,
+   "churned_today": 2,
+   "revenue_recognized_mtd": 58164.885000000024,
+   "opex_mtd": 34345.65503722222,
+   "net_income_mtd": 23819.229962777805,
+   "gross_margin_pct": 97.605562696653,
+   "cac_blended": 1012.3735849056603,
+   "ltv": 53381.13477208277,
+   "ltv_cac": 52.72869182679947,
+   "payback_months": 0.6321668939336667,
+   "logo_churn_pct_monthly": 5.871886120996441,
+   "net_revenue_retention_pct": 118.0,
    "runway_months": 99.0,
-   "valuation_proxy": 441466664.71787226,
-   "market_share_pct": 10.677554014310948,
-   "headcount": 5,
+   "valuation_proxy": 337549011.7392993,
+   "market_share_pct": 8.08977460445574,
+   "headcount": 11,
    "brand_awareness": 0.85,
-   "pipeline_value": 13024110.06,
-   "leads_trailing30": 1851
+   "pipeline_value": 14133250.56,
+   "leads_trailing30": 1323
   },
   {
    "day": 329,
    "date_label": "2026-11-30",
-   "cash": 2562787.2658767477,
-   "mrr": 2550188.0900000306,
-   "arr": 30602257.080000367,
-   "active_customers": 1557,
-   "new_customers_today": 24,
-   "churned_today": 2,
-   "revenue_recognized_mtd": 84787.03833333339,
-   "opex_mtd": 47245.918172777776,
-   "net_income_mtd": 37541.12016055561,
-   "gross_margin_pct": 97.58266725700847,
-   "cac_blended": 1444.605633802817,
-   "ltv": 58156.0552756822,
-   "ltv_cac": 40.25739199326719,
-   "payback_months": 0.9038430418554944,
-   "logo_churn_pct_monthly": 5.0,
-   "net_revenue_retention_pct": 118.0,
+   "cash": 1839438.4666366503,
+   "mrr": 2045015.139999974,
+   "arr": 24540181.679999687,
+   "active_customers": 1251,
+   "new_customers_today": 35,
+   "churned_today": 3,
+   "revenue_recognized_mtd": 67361.31500000003,
+   "opex_mtd": 39194.68942944445,
+   "net_income_mtd": 28166.62557055559,
+   "gross_margin_pct": 97.60571366105638,
+   "cac_blended": 1017.3772070626003,
+   "ltv": 52776.37566289486,
+   "ltv_cac": 51.87493419011448,
+   "payback_months": 0.637628241718837,
+   "logo_churn_pct_monthly": 5.98159509202454,
+   "net_revenue_retention_pct": 119.2,
    "runway_months": 99.0,
-   "valuation_proxy": 492198900.54588264,
-   "market_share_pct": 11.758273036861958,
-   "headcount": 7,
+   "valuation_proxy": 394482345.34663165,
+   "market_share_pct": 9.323227180037625,
+   "headcount": 12,
    "brand_awareness": 0.85,
-   "pipeline_value": 13629369.780000001,
-   "leads_trailing30": 2077
+   "pipeline_value": 15044287.440000001,
+   "leads_trailing30": 1578
   },
   {
    "day": 336,
    "date_label": "2026-12-07",
-   "cash": 2640823.6605501804,
-   "mrr": 2838108.740000068,
-   "arr": 34057304.880000815,
-   "active_customers": 1736,
-   "new_customers_today": 28,
-   "churned_today": 3,
-   "revenue_recognized_mtd": 94742.31633333341,
-   "opex_mtd": 56050.95178811111,
-   "net_income_mtd": 38691.36454522229,
-   "gross_margin_pct": 97.57491139085009,
-   "cac_blended": 1578.0520694259012,
-   "ltv": 56980.85034079073,
-   "ltv_cac": 36.108346134307524,
-   "payback_months": 0.9892449758606212,
-   "logo_churn_pct_monthly": 4.955401387512389,
-   "net_revenue_retention_pct": 114.4,
+   "cash": 1601234.8947099862,
+   "mrr": 2446639.7800000026,
+   "arr": 29359677.36000003,
+   "active_customers": 1425,
+   "new_customers_today": 21,
+   "churned_today": 2,
+   "revenue_recognized_mtd": 80119.30600000006,
+   "opex_mtd": 53177.84330288889,
+   "net_income_mtd": 26941.462697111165,
+   "gross_margin_pct": 97.61862760490934,
+   "cac_blended": 1063.9872701555869,
+   "ltv": 55957.33017642485,
+   "ltv_cac": 52.59210494900208,
+   "payback_months": 0.6348170256493438,
+   "logo_churn_pct_monthly": 5.929919137466308,
+   "net_revenue_retention_pct": 121.6,
    "runway_months": 99.0,
-   "valuation_proxy": 547557701.7405633,
-   "market_share_pct": 12.914360487711951,
-   "headcount": 7,
+   "valuation_proxy": 471356072.6547105,
+   "market_share_pct": 10.953671994049612,
+   "headcount": 12,
    "brand_awareness": 0.85,
-   "pipeline_value": 18168874.62,
-   "leads_trailing30": 2355
+   "pipeline_value": 17906800.86,
+   "leads_trailing30": 1827
   },
   {
    "day": 343,
    "date_label": "2026-12-14",
-   "cash": 3112207.7863536254,
-   "mrr": 3195988.7300001066,
-   "arr": 38351864.76000128,
-   "active_customers": 1916,
-   "new_customers_today": 27,
-   "churned_today": 2,
-   "revenue_recognized_mtd": 106843.61533333341,
-   "opex_mtd": 63370.542958,
-   "net_income_mtd": 43473.07237533341,
-   "gross_margin_pct": 97.57654647877477,
-   "cac_blended": 1687.0620253164557,
-   "ltv": 62775.381595916864,
-   "ltv_cac": 37.209883604689395,
-   "payback_months": 1.0365156704257943,
-   "logo_churn_pct_monthly": 4.423243712055507,
-   "net_revenue_retention_pct": 113.2,
+   "cash": 2082377.8534033187,
+   "mrr": 2853902.920000047,
+   "arr": 34246835.040000565,
+   "active_customers": 1639,
+   "new_customers_today": 30,
+   "churned_today": 1,
+   "revenue_recognized_mtd": 94631.7223333334,
+   "opex_mtd": 59776.16227988889,
+   "net_income_mtd": 34855.5600534445,
+   "gross_margin_pct": 97.62801356894299,
+   "cac_blended": 1061.4,
+   "ltv": 68038.24740840698,
+   "ltv_cac": 64.10236235953172,
+   "payback_months": 0.6243733935939441,
+   "logo_churn_pct_monthly": 4.861111111111112,
+   "net_revenue_retention_pct": 118.0,
    "runway_months": 99.0,
-   "valuation_proxy": 616742043.946374,
-   "market_share_pct": 14.309804524030174,
-   "headcount": 7,
+   "valuation_proxy": 550031738.4934124,
+   "market_share_pct": 12.548205069683553,
+   "headcount": 14,
    "brand_awareness": 0.85,
-   "pipeline_value": 19157886.54,
-   "leads_trailing30": 2533
+   "pipeline_value": 23149584.12,
+   "leads_trailing30": 1936
   },
   {
    "day": 350,
    "date_label": "2026-12-21",
-   "cash": 3674173.354733754,
-   "mrr": 3640206.80000016,
-   "arr": 43682481.60000192,
-   "active_customers": 2175,
-   "new_customers_today": 49,
-   "churned_today": 2,
-   "revenue_recognized_mtd": 121378.40600000009,
-   "opex_mtd": 70566.48500288889,
-   "net_income_mtd": 50811.92099711119,
-   "gross_margin_pct": 97.58484338401273,
-   "cac_blended": 1667.2267699115043,
-   "ltv": 57137.76971462847,
-   "ltv_cac": 34.27114460119982,
-   "payback_months": 1.020811397083458,
-   "logo_churn_pct_monthly": 4.892966360856269,
-   "net_revenue_retention_pct": 114.4,
+   "cash": 2657144.2856834293,
+   "mrr": 3273448.930000096,
+   "arr": 39281387.16000115,
+   "active_customers": 1875,
+   "new_customers_today": 34,
+   "churned_today": 3,
+   "revenue_recognized_mtd": 108348.56933333339,
+   "opex_mtd": 66478.09895066667,
+   "net_income_mtd": 41870.470382666725,
+   "gross_margin_pct": 97.62456225018053,
+   "cac_blended": 1109.1575418994414,
+   "ltv": 68281.2470253905,
+   "ltv_cac": 61.56136026308608,
+   "payback_months": 0.6507734694098791,
+   "logo_churn_pct_monthly": 4.804804804804805,
+   "net_revenue_retention_pct": 122.8,
    "runway_months": 99.0,
-   "valuation_proxy": 702593878.9547644,
-   "market_share_pct": 16.42243416572128,
-   "headcount": 7,
+   "valuation_proxy": 631159338.8457018,
+   "market_share_pct": 14.37618246874402,
+   "headcount": 14,
    "brand_awareness": 0.85,
-   "pipeline_value": 25051435.5,
-   "leads_trailing30": 2795
+   "pipeline_value": 24362686.92,
+   "leads_trailing30": 2159
   },
   {
    "day": 357,
    "date_label": "2026-12-28",
-   "cash": 4182923.5261038723,
-   "mrr": 3980160.200000202,
-   "arr": 47761922.40000242,
-   "active_customers": 2376,
-   "new_customers_today": 33,
+   "cash": 3077116.20014688,
+   "mrr": 3609902.470000136,
+   "arr": 43318829.64000163,
+   "active_customers": 2063,
+   "new_customers_today": 36,
    "churned_today": 2,
-   "revenue_recognized_mtd": 133011.7230000001,
-   "opex_mtd": 75753.9702481111,
-   "net_income_mtd": 57257.752751888984,
-   "gross_margin_pct": 97.57470210743922,
-   "cac_blended": 1755.2025723472668,
-   "ltv": 61382.66969903031,
-   "ltv_cac": 34.97184351601198,
-   "payback_months": 1.0738308987529352,
-   "logo_churn_pct_monthly": 4.406779661016949,
+   "revenue_recognized_mtd": 119041.32433333341,
+   "opex_mtd": 71765.06018455556,
+   "net_income_mtd": 47276.264148777846,
+   "gross_margin_pct": 97.60546958474092,
+   "cac_blended": 1257.9450431034484,
+   "ltv": 57635.90363256878,
+   "ltv_cac": 45.81750526269138,
+   "payback_months": 0.7365314098301794,
+   "logo_churn_pct_monthly": 5.412371134020619,
    "net_revenue_retention_pct": 121.6,
    "runway_months": 99.0,
-   "valuation_proxy": 768373681.9261426,
-   "market_share_pct": 17.684873483978368,
-   "headcount": 7,
+   "valuation_proxy": 696178390.440173,
+   "market_share_pct": 15.622955551836254,
+   "headcount": 14,
    "brand_awareness": 0.85,
-   "pipeline_value": 34156914.480000004,
-   "leads_trailing30": 2912
+   "pipeline_value": 33478437.720000003,
+   "leads_trailing30": 2459
   },
   {
    "day": 364,
    "date_label": "2027-01-05",
-   "cash": 4464214.009276924,
-   "mrr": 4407285.890000196,
-   "arr": 52887430.680002354,
-   "active_customers": 2587,
-   "new_customers_today": 29,
-   "churned_today": 4,
-   "revenue_recognized_mtd": 145940.29766666677,
-   "opex_mtd": 81518.14974455556,
-   "net_income_mtd": 64422.147922111224,
-   "gross_margin_pct": 97.56938880628827,
-   "cac_blended": 1778.7290589451914,
-   "ltv": 58997.71160051595,
-   "ltv_cac": 33.168464474011756,
-   "payback_months": 1.070092749127508,
-   "logo_churn_pct_monthly": 4.491017964071856,
-   "net_revenue_retention_pct": 127.6,
+   "cash": 3003611.696607014,
+   "mrr": 4013408.7100001825,
+   "arr": 48160904.52000219,
+   "active_customers": 2286,
+   "new_customers_today": 31,
+   "churned_today": 2,
+   "revenue_recognized_mtd": 133929.38533333343,
+   "opex_mtd": 85187.287788,
+   "net_income_mtd": 48742.09754533341,
+   "gross_margin_pct": 97.60350701726509,
+   "cac_blended": 1399.8924508790071,
+   "ltv": 61978.61369950067,
+   "ltv_cac": 44.27383950858771,
+   "payback_months": 0.8169436211245038,
+   "logo_churn_pct_monthly": 4.811250925240563,
+   "net_revenue_retention_pct": 121.6,
    "runway_months": 99.0,
-   "valuation_proxy": 850663104.8893145,
-   "market_share_pct": 19.217978189130214,
-   "headcount": 8,
+   "valuation_proxy": 773578084.016642,
+   "market_share_pct": 17.07113934381659,
+   "headcount": 15,
    "brand_awareness": 0.85,
-   "pipeline_value": 43859373.480000004,
-   "leads_trailing30": 2930
+   "pipeline_value": 41212189.2,
+   "leads_trailing30": 2716
   },
   {
    "day": 365,
    "date_label": "2027-01-06",
-   "cash": 4534809.233403538,
-   "mrr": 4441591.8500001915,
-   "arr": 53299102.2000023,
-   "active_customers": 2605,
-   "new_customers_today": 19,
-   "churned_today": 1,
-   "revenue_recognized_mtd": 148695.54366666678,
-   "opex_mtd": 83466.19821855557,
-   "net_income_mtd": 65229.34544811121,
-   "gross_margin_pct": 97.5718477302525,
-   "cac_blended": 1798.0706860706862,
-   "ltv": 61029.970750837616,
-   "ltv_cac": 33.94191964955842,
-   "payback_months": 1.0808148709799499,
-   "logo_churn_pct_monthly": 4.319526627218935,
-   "net_revenue_retention_pct": 130.0,
+   "cash": 3062206.272133698,
+   "mrr": 4095769.3600001875,
+   "arr": 49149232.32000225,
+   "active_customers": 2311,
+   "new_customers_today": 30,
+   "churned_today": 6,
+   "revenue_recognized_mtd": 135748.57933333341,
+   "opex_mtd": 86002.35025177778,
+   "net_income_mtd": 49746.229081555626,
+   "gross_margin_pct": 97.60198537539186,
+   "cac_blended": 1420.7306501547987,
+   "ltv": 58837.681994151004,
+   "ltv_cac": 41.41367822798799,
+   "payback_months": 0.8213297434493115,
+   "logo_churn_pct_monthly": 5.079825834542816,
+   "net_revenue_retention_pct": 121.6,
    "runway_months": 99.0,
-   "valuation_proxy": 857320444.4334403,
-   "market_share_pct": 19.338640485863458,
-   "headcount": 8,
+   "valuation_proxy": 789449923.3921697,
+   "market_share_pct": 17.360644169409127,
+   "headcount": 15,
    "brand_awareness": 0.85,
-   "pipeline_value": 45801416.7,
-   "leads_trailing30": 2923
+   "pipeline_value": 42006144.18,
+   "leads_trailing30": 2738
   }
  ],
  "decisions": [
@@ -4807,8 +4808,8 @@
    "actual": {
     "metric": "roi_mrr_per_rupee",
     "baseline": 1.5923,
-    "value_at_eval": 2.0608,
-    "delta": 0.4685,
+    "value_at_eval": 3.4226,
+    "delta": 1.8302,
     "expected_magnitude": -0.0923
    },
    "verdict": "success",
@@ -4819,13 +4820,43 @@
   },
   {
    "id": 20,
+   "day": 156,
+   "agent": "COO",
+   "kind": "hire",
+   "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
+   "reasoning": "Backlog 0 tickets (0.0d capacity), staffing 0/1, CSAT 0.85, churn 10.0% needs retention push",
+   "data_considered": {
+    "tickets_open": 0,
+    "csat": 0.8491,
+    "customers": 28,
+    "churn_pct": 10.0
+   },
+   "expected": {
+    "csat_delta": 0.04,
+    "churn_delta": -0.004
+   },
+   "actual": {
+    "metric": "csat",
+    "baseline": 0.8491,
+    "value_at_eval": 0.8463,
+    "delta": -0.0028,
+    "expected_magnitude": 0.03
+   },
+   "verdict": "fail",
+   "lesson": "Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.",
+   "eval_due_day": 201,
+   "_eval_direction": "up",
+   "_eval_magnitude": 0.03
+  },
+  {
+   "id": 21,
    "day": 161,
    "agent": "CEO",
    "kind": "fundraise",
    "decision": "Decline term sheet: \u20b91,677,000 @ post \u20b99,760,000 (dilute 17.2%) from Nucleus Capital",
    "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +122.4%).",
    "data_considered": {
-    "cash": 109953.7168,
+    "cash": 93953.7168,
     "mrr": 58470.0,
     "arr": 701640.0,
     "growth_mom": 1.2244,
@@ -4843,7 +4874,7 @@
    "eval_due_day": 281
   },
   {
-   "id": 21,
+   "id": 22,
    "day": 168,
    "agent": "CMO",
    "kind": "marketing_plan",
@@ -4870,7 +4901,7 @@
    "eval_due_day": 198
   },
   {
-   "id": 22,
+   "id": 23,
    "day": 168,
    "agent": "Strategy",
    "kind": "risk_appetite_update",
@@ -4887,8 +4918,8 @@
    "actual": {
     "metric": "roi_mrr_per_rupee",
     "baseline": 3.1645,
-    "value_at_eval": 0.8748,
-    "delta": -2.2897,
+    "value_at_eval": 2.7498,
+    "delta": -0.4147,
     "expected_magnitude": -1.6645
    },
    "verdict": "fail",
@@ -4898,43 +4929,43 @@
    "_eval_magnitude": -1.6645
   },
   {
-   "id": 23,
+   "id": 24,
    "day": 182,
    "agent": "Strategy",
    "kind": "risk_appetite_update",
    "decision": "Growth bias 0.94 -> 0.97",
-   "reasoning": "Incremental MRR \u20b949,979 on marketing spend \u20b924,252 => ROI 2.06 MRR/\u20b9. Scale up aggressiveness.",
+   "reasoning": "Incremental MRR \u20b942,979 on marketing spend \u20b912,557 => ROI 3.42 MRR/\u20b9. Scale up aggressiveness.",
    "data_considered": {
-    "roi_mrr_per_rupee": 2.061,
-    "mkt_spend30": 24252,
-    "delta_mrr30": 49979
+    "roi_mrr_per_rupee": 3.423,
+    "mkt_spend30": 12557,
+    "delta_mrr30": 42979
    },
    "expected": {
     "roi_next_30d": 1.5
    },
    "actual": {
     "metric": "roi_mrr_per_rupee",
-    "baseline": 2.0608,
-    "value_at_eval": 1.0954,
-    "delta": -0.9654,
-    "expected_magnitude": -0.5608
+    "baseline": 3.4226,
+    "value_at_eval": 4.3663,
+    "delta": 0.9438,
+    "expected_magnitude": -1.9226
    },
-   "verdict": "fail",
-   "lesson": "Spend adjustment did not improve ROI; unit economics may be capped.",
+   "verdict": "success",
+   "lesson": null,
    "eval_due_day": 212,
    "_eval_direction": "up",
-   "_eval_magnitude": -0.5608
+   "_eval_magnitude": -1.9226
   },
   {
-   "id": 24,
+   "id": 25,
    "day": 189,
    "agent": "CPO",
    "kind": "pricing_test_start",
    "decision": "Start price experiment: multiplier -> 0.81 (down from 0.81)",
    "reasoning": "Elasticity estimate -2.94 suggests cutting price should raise revenue-per-evaluation; enough evaluation volume to read signal in ~3 weeks.",
    "data_considered": {
-    "evaluations_30d": 521,
-    "win_rate_30d": 0.2188,
+    "evaluations_30d": 439,
+    "win_rate_30d": 0.2346,
     "elasticity_est": -2.9403
    },
    "expected": {
@@ -4943,9 +4974,9 @@
    },
    "actual": {
     "metric": "eval_win_rate",
-    "baseline": 0.2128,
-    "value_at_eval": 0.4803,
-    "delta": 0.2675,
+    "baseline": 0.2338,
+    "value_at_eval": 0.4677,
+    "delta": 0.2339,
     "expected_magnitude": 0.0
    },
    "verdict": "success",
@@ -4955,21 +4986,21 @@
    "_eval_magnitude": 0.0
   },
   {
-   "id": 25,
+   "id": 26,
    "day": 191,
    "agent": "CEO",
    "kind": "fundraise",
-   "decision": "Decline term sheet: \u20b94,124,000 @ post \u20b919,650,000 (dilute 21.0%) from Nucleus Capital",
-   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +97.8%).",
+   "decision": "Decline term sheet: \u20b92,974,000 @ post \u20b916,410,000 (dilute 18.1%) from Pebble Capital",
+   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +77.7%).",
    "data_considered": {
-    "cash": 139545.6925,
-    "mrr": 115646.8,
-    "arr": 1387761.6,
-    "growth_mom": 0.9779,
+    "cash": 116091.0317,
+    "mrr": 103896.6,
+    "arr": 1246759.2,
+    "growth_mom": 0.7769,
     "runway": 999.0,
-    "churn_pct": 3.2258,
+    "churn_pct": 0.0,
     "ltv": 0.0,
-    "cac": 1554.6755
+    "cac": 610.8282
    },
    "expected": {
     "cash_delta": 0
@@ -4980,26 +5011,26 @@
    "eval_due_day": 311
   },
   {
-   "id": 26,
+   "id": 27,
    "day": 196,
    "agent": "CMO",
    "kind": "marketing_plan",
-   "decision": "Weekly plan: \u20b92,791/day across channels",
-   "reasoning": "Phase=grow; run-rate rev \u20b9115,647/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b919,464. Allocation follows sampling over observed per-channel CAC.",
+   "decision": "Weekly plan: \u20b92,619/day across channels",
+   "reasoning": "Phase=grow; run-rate rev \u20b9109,294/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b90. Allocation follows sampling over observed per-channel CAC.",
    "data_considered": {
     "channel_cacs": {
-     "content_seo": 225,
-     "google_ads": 405,
-     "meta_ads": 334,
-     "whatsapp_outreach": 242,
-     "referral_program": 106,
-     "events_partnerships": 194
+     "content_seo": 131,
+     "google_ads": 59,
+     "meta_ads": 130,
+     "whatsapp_outreach": 98,
+     "referral_program": 50,
+     "events_partnerships": 37
     },
-    "brand": 0.172
+    "brand": 0.137
    },
    "expected": {
-    "leads_per_week": 88.8045,
-    "cac_within_target": 19463.6188
+    "leads_per_week": 83.3318,
+    "cac_within_target": 0.0
    },
    "actual": null,
    "verdict": null,
@@ -5007,16 +5038,47 @@
    "eval_due_day": 226
   },
   {
-   "id": 27,
+   "id": 28,
+   "day": 210,
+   "agent": "CTO",
+   "kind": "hire",
+   "decision": "Hire 1x junior_engineer (\u20b952,000/mo)",
+   "reasoning": "Phase grow: capacity 1/3 vs 97 customers; quality 0.38, debt 122; MRR \u20b9168,104 covers ramp.",
+   "data_considered": {
+    "quality": 0.3799,
+    "tech_debt": 122,
+    "features": 8,
+    "cash": 220196.6329,
+    "mrr": 168104.48,
+    "eng_capacity_target": 3
+   },
+   "expected": {
+    "points_shipped_30d": 200
+   },
+   "actual": {
+    "metric": "points_shipped_30d",
+    "baseline": 322.3003,
+    "value_at_eval": 449.073,
+    "delta": 126.7728,
+    "expected_magnitude": 200.0
+   },
+   "verdict": "success",
+   "lesson": null,
+   "eval_due_day": 255,
+   "_eval_direction": "up",
+   "_eval_magnitude": 200
+  },
+  {
+   "id": 29,
    "day": 210,
    "agent": "Sales Lead",
    "kind": "hire",
    "decision": "Hire 1x Account Executive (\u20b968,000/mo + 10% commission)",
-   "reasoning": "195 unassigned deals; AE utilization 19500%; sales-led deals leaking.",
+   "reasoning": "148 unassigned deals; AE utilization 14800%; sales-led deals leaking.",
    "data_considered": {
-    "open_deals": 195,
+    "open_deals": 148,
     "pipeline": 0.0,
-    "cash": 198483.2584,
+    "cash": 220196.6329,
     "runway": 999.0
    },
    "expected": {
@@ -5037,25 +5099,25 @@
    "_eval_magnitude": 1.0
   },
   {
-   "id": 28,
+   "id": 30,
    "day": 210,
    "agent": "CPO",
    "kind": "pricing_test_result",
    "decision": "Keep price multiplier 0.81 (tested 0.81)",
-   "reasoning": "Win rate 52.6% vs baseline 21.9%; revenue-per-evaluation \u20b9851 vs \u20b9394; elasticity est now -3.50.",
+   "reasoning": "Win rate 49.4% vs baseline 23.5%; revenue-per-evaluation \u20b9800 vs \u20b9422; elasticity est now -3.50.",
    "data_considered": {
-    "baseline_win_rate": 0.2188,
-    "during_win_rate": 0.5257,
+    "baseline_win_rate": 0.2346,
+    "during_win_rate": 0.4943,
     "elasticity_prior": -3.5
    },
    "expected": {
-    "revenue_per_eval_delta": 1.1623
+    "revenue_per_eval_delta": 0.8962
    },
    "actual": {
     "metric": "eval_win_rate",
-    "baseline": 0.5257,
-    "value_at_eval": 0.5253,
-    "delta": -0.0004,
+    "baseline": 0.4943,
+    "value_at_eval": 0.4848,
+    "delta": -0.0095,
     "expected_magnitude": 0.0
    },
    "verdict": "fail",
@@ -5065,51 +5127,21 @@
    "_eval_magnitude": 0.0
   },
   {
-   "id": 29,
-   "day": 217,
-   "agent": "CTO",
-   "kind": "hire",
-   "decision": "Hire 1x engineer (\u20b982,000/mo)",
-   "reasoning": "Phase grow: feature coverage gap on focus segments; capacity 1 eng; quality 0.38; MRR \u20b9224,136 covers ramp; runway 999.0mo supports it.",
-   "data_considered": {
-    "quality": 0.3782,
-    "tech_debt": 121,
-    "features": 8,
-    "cash": 199082.2008,
-    "mrr": 224135.77
-   },
-   "expected": {
-    "points_shipped_30d": 200
-   },
-   "actual": {
-    "metric": "points_shipped_30d",
-    "baseline": 322.7391,
-    "value_at_eval": 517.1609,
-    "delta": 194.4218,
-    "expected_magnitude": 200.0
-   },
-   "verdict": "success",
-   "lesson": null,
-   "eval_due_day": 262,
-   "_eval_direction": "up",
-   "_eval_magnitude": 200
-  },
-  {
-   "id": 30,
+   "id": 31,
    "day": 221,
    "agent": "CEO",
    "kind": "fundraise",
-   "decision": "Decline term sheet: \u20b98,289,000 @ post \u20b944,360,000 (dilute 18.7%) from Pebble Capital",
-   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +114.7%).",
+   "decision": "Decline term sheet: \u20b97,676,000 @ post \u20b937,970,000 (dilute 20.2%) from Mumbai Angels X",
+   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +105.8%).",
    "data_considered": {
-    "cash": 184160.4105,
-    "mrr": 248243.71,
-    "arr": 2978924.52,
-    "growth_mom": 1.1466,
+    "cash": 171357.5061,
+    "mrr": 213845.99,
+    "arr": 2566151.88,
+    "growth_mom": 1.0583,
     "runway": 999.0,
-    "churn_pct": 7.2727,
-    "ltv": 62436.0183,
-    "cac": 1172.6585
+    "churn_pct": 1.8182,
+    "ltv": 0.0,
+    "cac": 483.2071
    },
    "expected": {
     "cash_delta": 0
@@ -5120,26 +5152,26 @@
    "eval_due_day": 341
   },
   {
-   "id": 31,
+   "id": 32,
    "day": 224,
    "agent": "CMO",
    "kind": "marketing_plan",
-   "decision": "Weekly plan: \u20b94,276/day across channels",
-   "reasoning": "Phase=grow; run-rate rev \u20b9282,247/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b923,572. Allocation follows sampling over observed per-channel CAC.",
+   "decision": "Weekly plan: \u20b93,724/day across channels",
+   "reasoning": "Phase=grow; run-rate rev \u20b9226,620/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b937,438. Allocation follows sampling over observed per-channel CAC.",
    "data_considered": {
     "channel_cacs": {
-     "content_seo": 220,
-     "google_ads": 628,
-     "meta_ads": 385,
-     "whatsapp_outreach": 293,
-     "referral_program": 116,
-     "events_partnerships": 470
+     "content_seo": 212,
+     "google_ads": 362,
+     "meta_ads": 322,
+     "whatsapp_outreach": 232,
+     "referral_program": 97,
+     "events_partnerships": 317
     },
-    "brand": 0.292
+    "brand": 0.19
    },
    "expected": {
-    "leads_per_week": 136.0545,
-    "cac_within_target": 23571.9314
+    "leads_per_week": 118.4909,
+    "cac_within_target": 37437.5934
    },
    "actual": null,
    "verdict": null,
@@ -5147,21 +5179,51 @@
    "eval_due_day": 254
   },
   {
-   "id": 32,
+   "id": 33,
+   "day": 246,
+   "agent": "COO",
+   "kind": "hire",
+   "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
+   "reasoning": "Backlog 0 tickets (0.0d capacity), staffing 1/1, CSAT 0.85, churn 6.5% needs retention push",
+   "data_considered": {
+    "tickets_open": 0,
+    "csat": 0.8461,
+    "customers": 231,
+    "churn_pct": 6.4815
+   },
+   "expected": {
+    "csat_delta": 0.04,
+    "churn_delta": -0.004
+   },
+   "actual": {
+    "metric": "csat",
+    "baseline": 0.8461,
+    "value_at_eval": 0.8508,
+    "delta": 0.0047,
+    "expected_magnitude": 0.03
+   },
+   "verdict": "partial",
+   "lesson": null,
+   "eval_due_day": 291,
+   "_eval_direction": "up",
+   "_eval_magnitude": 0.03
+  },
+  {
+   "id": 34,
    "day": 251,
    "agent": "CEO",
    "kind": "fundraise",
-   "decision": "Decline term sheet: \u20b923,829,000 @ post \u20b9101,340,000 (dilute 23.5%) from Indus Ventures",
-   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +109.1%).",
+   "decision": "Decline term sheet: \u20b919,356,000 @ post \u20b983,850,000 (dilute 23.1%) from Mumbai Angels X",
+   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +103.9%).",
    "data_considered": {
-    "cash": 368100.7516,
-    "mrr": 519055.69,
-    "arr": 6228668.28,
-    "growth_mom": 1.0909,
+    "cash": 265843.5927,
+    "mrr": 436021.33,
+    "arr": 5232255.96,
+    "growth_mom": 1.039,
     "runway": 999.0,
-    "churn_pct": 7.2993,
-    "ltv": 52369.3071,
-    "cac": 885.2229
+    "churn_pct": 6.4,
+    "ltv": 54873.5813,
+    "cac": 976.4928
    },
    "expected": {
     "cash_delta": 0
@@ -5172,26 +5234,26 @@
    "eval_due_day": 371
   },
   {
-   "id": 33,
+   "id": 35,
    "day": 252,
    "agent": "CMO",
    "kind": "marketing_plan",
-   "decision": "Weekly plan: \u20b97,695/day across channels",
-   "reasoning": "Phase=scale; run-rate rev \u20b9527,152/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b917,720. Allocation follows sampling over observed per-channel CAC.",
+   "decision": "Weekly plan: \u20b95,740/day across channels",
+   "reasoning": "Phase=grow; run-rate rev \u20b9452,033/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b916,898. Allocation follows sampling over observed per-channel CAC.",
    "data_considered": {
     "channel_cacs": {
-     "content_seo": 187,
-     "google_ads": 399,
-     "meta_ads": 412,
-     "whatsapp_outreach": 385,
-     "referral_program": 131,
-     "events_partnerships": 1013
+     "content_seo": 205,
+     "google_ads": 492,
+     "meta_ads": 392,
+     "whatsapp_outreach": 348,
+     "referral_program": 129,
+     "events_partnerships": 548
     },
-    "brand": 0.446
+    "brand": 0.327
    },
    "expected": {
-    "leads_per_week": 244.8409,
-    "cac_within_target": 17719.5468
+    "leads_per_week": 182.6364,
+    "cac_within_target": 16897.7775
    },
    "actual": null,
    "verdict": null,
@@ -5199,16 +5261,47 @@
    "eval_due_day": 282
   },
   {
-   "id": 34,
+   "id": 36,
+   "day": 252,
+   "agent": "CTO",
+   "kind": "hire",
+   "decision": "Hire 1x junior_engineer (\u20b952,000/mo)",
+   "reasoning": "Phase grow: capacity 2/6 vs 266 customers; quality 0.40, debt 116; MRR \u20b9452,033 covers ramp.",
+   "data_considered": {
+    "quality": 0.3963,
+    "tech_debt": 116,
+    "features": 9,
+    "cash": 287006.1824,
+    "mrr": 452033.32,
+    "eng_capacity_target": 6
+   },
+   "expected": {
+    "points_shipped_30d": 200
+   },
+   "actual": {
+    "metric": "points_shipped_30d",
+    "baseline": 429.0429,
+    "value_at_eval": 595.6723,
+    "delta": 166.6294,
+    "expected_magnitude": 200.0
+   },
+   "verdict": "success",
+   "lesson": null,
+   "eval_due_day": 297,
+   "_eval_direction": "up",
+   "_eval_magnitude": 200
+  },
+  {
+   "id": 37,
    "day": 259,
    "agent": "Sales Lead",
    "kind": "hire",
    "decision": "Hire 1x Account Executive (\u20b968,000/mo + 10% commission)",
-   "reasoning": "583 unassigned deals; AE utilization 5625%; sales-led deals leaking.",
+   "reasoning": "417 unassigned deals; AE utilization 4000%; sales-led deals leaking.",
    "data_considered": {
-    "open_deals": 675,
+    "open_deals": 480,
     "pipeline": 0.0,
-    "cash": 508145.7878,
+    "cash": 342677.9751,
     "runway": 999.0
    },
    "expected": {
@@ -5229,15 +5322,15 @@
    "_eval_magnitude": 1.0
   },
   {
-   "id": 35,
+   "id": 38,
    "day": 259,
    "agent": "CPO",
    "kind": "pricing_test_start",
    "decision": "Start price experiment: multiplier -> 0.78 (down from 0.78)",
    "reasoning": "Elasticity estimate -3.50 suggests cutting price should raise revenue-per-evaluation; enough evaluation volume to read signal in ~3 weeks.",
    "data_considered": {
-    "evaluations_30d": 428,
-    "win_rate_30d": 0.5724,
+    "evaluations_30d": 480,
+    "win_rate_30d": 0.4688,
     "elasticity_est": -3.5
    },
    "expected": {
@@ -5246,9 +5339,9 @@
    },
    "actual": {
     "metric": "eval_win_rate",
-    "baseline": 0.5724,
-    "value_at_eval": 0.7881,
-    "delta": 0.2157,
+    "baseline": 0.4688,
+    "value_at_eval": 0.7558,
+    "delta": 0.2871,
     "expected_magnitude": 0.0
    },
    "verdict": "success",
@@ -5258,7 +5351,37 @@
    "_eval_magnitude": 0.0
   },
   {
-   "id": 36,
+   "id": 39,
+   "day": 267,
+   "agent": "COO",
+   "kind": "hire",
+   "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
+   "reasoning": "Backlog 0 tickets (0.0d capacity), staffing 2/2, CSAT 0.85, churn 6.0% needs retention push",
+   "data_considered": {
+    "tickets_open": 0,
+    "csat": 0.8478,
+    "customers": 344,
+    "churn_pct": 6.0109
+   },
+   "expected": {
+    "csat_delta": 0.04,
+    "churn_delta": -0.004
+   },
+   "actual": {
+    "metric": "csat",
+    "baseline": 0.8478,
+    "value_at_eval": 0.853,
+    "delta": 0.0052,
+    "expected_magnitude": 0.03
+   },
+   "verdict": "partial",
+   "lesson": null,
+   "eval_due_day": 312,
+   "_eval_direction": "up",
+   "_eval_magnitude": 0.03
+  },
+  {
+   "id": 40,
    "day": 270,
    "agent": "CEO",
    "kind": "segment_focus",
@@ -5266,18 +5389,18 @@
    "reasoning": "Highest realized fit x budget among our base and funnel; concentrate product & marketing there.",
    "data_considered": {
     "demand_proxy": {
-     "sme_services": 0.327,
-     "kirana_retail": 0.327,
-     "d2c_brands": 0.213,
-     "mfg_sme": 0.053,
-     "enterprise_pilot": 0.08
+     "d2c_brands": 0.296,
+     "kirana_retail": 0.296,
+     "sme_services": 0.27,
+     "mfg_sme": 0.052,
+     "enterprise_pilot": 0.087
     },
     "customers_by_seg": {
-     "d2c_brands": 257,
-     "sme_services": 120,
-     "kirana_retail": 97
+     "d2c_brands": 227,
+     "kirana_retail": 90,
+     "sme_services": 40
     },
-    "avg_budget_fit": 2.1182
+    "avg_budget_fit": 2.3105
    },
    "expected": {
     "conversion_lift": 0.1,
@@ -5285,38 +5408,38 @@
    },
    "actual": {
     "metric": "cac_blended",
-    "baseline": 958.8446,
-    "value_at_eval": 1464.1407,
-    "delta": 505.296,
+    "baseline": 1095.4242,
+    "value_at_eval": 1026.5149,
+    "delta": -68.9093,
     "expected_magnitude": 0.08
    },
-   "verdict": "fail",
-   "lesson": "Segment focus did not lower CAC; fit assumption wrong or channels misaligned.",
+   "verdict": "success",
+   "lesson": null,
    "eval_due_day": 330,
    "_eval_direction": "down",
    "_eval_magnitude": 0.08
   },
   {
-   "id": 37,
+   "id": 41,
    "day": 280,
    "agent": "CMO",
    "kind": "marketing_plan",
-   "decision": "Weekly plan: \u20b916,354/day across channels",
-   "reasoning": "Phase=scale; run-rate rev \u20b91,016,767/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b966,720. Allocation follows sampling over observed per-channel CAC.",
+   "decision": "Weekly plan: \u20b99,362/day across channels",
+   "reasoning": "Phase=scale; run-rate rev \u20b9729,893/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b922,137. Allocation follows sampling over observed per-channel CAC.",
    "data_considered": {
     "channel_cacs": {
-     "content_seo": 244,
-     "google_ads": 731,
-     "meta_ads": 642,
-     "whatsapp_outreach": 600,
-     "referral_program": 199,
-     "events_partnerships": 1160
+     "content_seo": 236,
+     "google_ads": 572,
+     "meta_ads": 550,
+     "whatsapp_outreach": 554,
+     "referral_program": 172,
+     "events_partnerships": 1070
     },
-    "brand": 0.648
+    "brand": 0.502
    },
    "expected": {
-    "leads_per_week": 520.3545,
-    "cac_within_target": 66720.4844
+    "leads_per_week": 297.8818,
+    "cac_within_target": 22136.778
    },
    "actual": null,
    "verdict": null,
@@ -5324,52 +5447,52 @@
    "eval_due_day": 310
   },
   {
-   "id": 38,
+   "id": 42,
    "day": 280,
    "agent": "CPO",
    "kind": "pricing_test_result",
    "decision": "Keep price multiplier 0.78 (tested 0.78)",
-   "reasoning": "Win rate 76.7% vs baseline 57.2%; revenue-per-evaluation \u20b91196 vs \u20b9927; elasticity est now -3.50.",
+   "reasoning": "Win rate 79.2% vs baseline 46.9%; revenue-per-evaluation \u20b91235 vs \u20b9759; elasticity est now -3.50.",
    "data_considered": {
-    "baseline_win_rate": 0.5724,
-    "during_win_rate": 0.7667,
+    "baseline_win_rate": 0.4688,
+    "during_win_rate": 0.7924,
     "elasticity_prior": -3.5
    },
    "expected": {
-    "revenue_per_eval_delta": 0.2898
+    "revenue_per_eval_delta": 0.6278
    },
    "actual": {
     "metric": "eval_win_rate",
-    "baseline": 0.7667,
-    "value_at_eval": 0.7739,
-    "delta": 0.0071,
+    "baseline": 0.7924,
+    "value_at_eval": 0.7812,
+    "delta": -0.0112,
     "expected_magnitude": 0.0
    },
-   "verdict": "success",
-   "lesson": null,
+   "verdict": "fail",
+   "lesson": "Expected effect did not materialize; revisit assumptions.",
    "eval_due_day": 310,
    "_eval_direction": "up",
    "_eval_magnitude": 0.0
   },
   {
-   "id": 39,
+   "id": 43,
    "day": 281,
    "agent": "CEO",
    "kind": "fundraise",
-   "decision": "Accept term sheet: \u20b935,323,000 @ post \u20b9194,620,000 (dilute 18.1%) from Indus Ventures",
-   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +99.2%).",
+   "decision": "Accept term sheet: \u20b926,261,000 @ post \u20b9123,090,000 (dilute 21.3%) from Mumbai Angels X",
+   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +69.9%).",
    "data_considered": {
-    "cash": 843658.4367,
-    "mrr": 1033798.3,
-    "arr": 12405579.6,
-    "growth_mom": 0.9917,
+    "cash": 490198.3073,
+    "mrr": 740807.7,
+    "arr": 8889692.4,
+    "growth_mom": 0.699,
     "runway": 999.0,
-    "churn_pct": 2.4055,
-    "ltv": 145812.0197,
-    "cac": 943.9599
+    "churn_pct": 4.3825,
+    "ltv": 67377.0601,
+    "cac": 1037.9427
    },
    "expected": {
-    "cash_delta": 35323000.0
+    "cash_delta": 26261000.0
    },
    "actual": null,
    "verdict": null,
@@ -5377,59 +5500,91 @@
    "eval_due_day": 401,
    "_eval_metric": "cash",
    "_eval_direction": "up",
-   "_eval_magnitude": 17661500.0,
-   "_eval_baseline": 843658.4367
+   "_eval_magnitude": 13130500.0,
+   "_eval_baseline": 490198.3073
   },
   {
-   "id": 40,
-   "day": 285,
+   "id": 44,
+   "day": 287,
+   "agent": "CTO",
+   "kind": "hire",
+   "decision": "Hire 1x engineer (\u20b982,000/mo)",
+   "reasoning": "Phase scale: capacity 3/10 vs 503 customers; quality 0.43, debt 122; MRR \u20b9843,596 covers ramp.",
+   "data_considered": {
+    "quality": 0.4282,
+    "tech_debt": 122,
+    "features": 10,
+    "cash": 640338.0703,
+    "mrr": 843596.28,
+    "eng_capacity_target": 10
+   },
+   "expected": {
+    "points_shipped_30d": 200
+   },
+   "actual": {
+    "metric": "points_shipped_30d",
+    "baseline": 542.6024,
+    "value_at_eval": 800.0165,
+    "delta": 257.4141,
+    "expected_magnitude": 200.0
+   },
+   "verdict": "success",
+   "lesson": null,
+   "eval_due_day": 332,
+   "_eval_direction": "up",
+   "_eval_magnitude": 200
+  },
+  {
+   "id": 45,
+   "day": 288,
    "agent": "COO",
    "kind": "hire",
    "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
-   "reasoning": "Ticket backlog 77 = 12.8 days of capacity; CSAT 0.75 eroding retention.",
+   "reasoning": "Backlog 0 tickets (0.0d capacity), staffing 3/4, CSAT 0.85",
    "data_considered": {
-    "tickets_open": 77,
-    "csat": 0.7483,
-    "customers": 679
+    "tickets_open": 0,
+    "csat": 0.8503,
+    "customers": 515,
+    "churn_pct": 3.7931
    },
    "expected": {
-    "csat_delta": 0.05,
+    "csat_delta": 0.04,
     "churn_delta": -0.004
    },
    "actual": {
     "metric": "csat",
-    "baseline": 0.7483,
-    "value_at_eval": 0.6106,
-    "delta": -0.1377,
+    "baseline": 0.8503,
+    "value_at_eval": 0.8559,
+    "delta": 0.0056,
     "expected_magnitude": 0.03
    },
-   "verdict": "fail",
-   "lesson": "Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.",
-   "eval_due_day": 330,
+   "verdict": "partial",
+   "lesson": null,
+   "eval_due_day": 333,
    "_eval_direction": "up",
    "_eval_magnitude": 0.03
   },
   {
-   "id": 41,
+   "id": 46,
    "day": 308,
    "agent": "CMO",
    "kind": "marketing_plan",
-   "decision": "Weekly plan: \u20b930,023/day across channels",
-   "reasoning": "Phase=scale; run-rate rev \u20b91,740,682/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b917,195. Allocation follows sampling over observed per-channel CAC.",
+   "decision": "Weekly plan: \u20b916,467/day across channels",
+   "reasoning": "Phase=scale; run-rate rev \u20b91,286,654/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b918,739. Allocation follows sampling over observed per-channel CAC.",
    "data_considered": {
     "channel_cacs": {
-     "content_seo": 296,
-     "google_ads": 985,
-     "meta_ads": 729,
-     "whatsapp_outreach": 793,
-     "referral_program": 276,
-     "events_partnerships": 1498
+     "content_seo": 260,
+     "google_ads": 845,
+     "meta_ads": 642,
+     "whatsapp_outreach": 687,
+     "referral_program": 237,
+     "events_partnerships": 1205
     },
-    "brand": 0.85
+    "brand": 0.725
    },
    "expected": {
-    "leads_per_week": 955.2773,
-    "cac_within_target": 17194.8671
+    "leads_per_week": 523.95,
+    "cac_within_target": 18739.2536
    },
    "actual": null,
    "verdict": null,
@@ -5437,16 +5592,16 @@
    "eval_due_day": 338
   },
   {
-   "id": 42,
+   "id": 47,
    "day": 308,
    "agent": "Sales Lead",
    "kind": "hire",
    "decision": "Hire 1x Account Executive (\u20b968,000/mo + 10% commission)",
-   "reasoning": "687 unassigned deals; AE utilization 2950%; sales-led deals leaking.",
+   "reasoning": "534 unassigned deals; AE utilization 2283%; sales-led deals leaking.",
    "data_considered": {
-    "open_deals": 708,
+    "open_deals": 548,
     "pipeline": 0.0,
-    "cash": 1501157.7746,
+    "cash": 823368.2708,
     "runway": 999.0
    },
    "expected": {
@@ -5463,24 +5618,54 @@
    "_eval_baseline": 0.0
   },
   {
-   "id": 43,
+   "id": 48,
+   "day": 309,
+   "agent": "COO",
+   "kind": "hire",
+   "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
+   "reasoning": "Backlog 0 tickets (0.0d capacity), staffing 4/6, CSAT 0.85, churn 6.0% needs retention push",
+   "data_considered": {
+    "tickets_open": 0,
+    "csat": 0.8526,
+    "customers": 795,
+    "churn_pct": 6.0386
+   },
+   "expected": {
+    "csat_delta": 0.04,
+    "churn_delta": -0.004
+   },
+   "actual": {
+    "metric": "csat",
+    "baseline": 0.8526,
+    "value_at_eval": 0.8575,
+    "delta": 0.005,
+    "expected_magnitude": 0.03
+   },
+   "verdict": "partial",
+   "lesson": null,
+   "eval_due_day": 354,
+   "_eval_direction": "up",
+   "_eval_magnitude": 0.03
+  },
+  {
+   "id": 49,
    "day": 311,
    "agent": "CEO",
    "kind": "fundraise",
-   "decision": "Accept term sheet: \u20b960,000,000 @ post \u20b9309,830,000 (dilute 19.4%) from Nucleus Capital",
-   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +77.8%).",
+   "decision": "Accept term sheet: \u20b945,540,000 @ post \u20b9268,830,000 (dilute 16.9%) from Mumbai Angels X",
+   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +83.3%).",
    "data_considered": {
-    "cash": 1626615.0662,
-    "mrr": 1837622.65,
-    "arr": 22051471.8,
-    "growth_mom": 0.7775,
+    "cash": 890416.3032,
+    "mrr": 1357778.2,
+    "arr": 16293338.4,
+    "growth_mom": 0.8328,
     "runway": 999.0,
-    "churn_pct": 6.2603,
-    "ltv": 48806.2658,
-    "cac": 1299.8764
+    "churn_pct": 6.5116,
+    "ltv": 48941.344,
+    "cac": 1045.7198
    },
    "expected": {
-    "cash_delta": 60000000
+    "cash_delta": 45540000.0
    },
    "actual": null,
    "verdict": null,
@@ -5488,48 +5673,46 @@
    "eval_due_day": 431,
    "_eval_metric": "cash",
    "_eval_direction": "up",
-   "_eval_magnitude": 30000000.0,
-   "_eval_baseline": 1626615.0662
+   "_eval_magnitude": 22770000.0,
+   "_eval_baseline": 890416.3032
   },
   {
-   "id": 44,
-   "day": 315,
-   "agent": "COO",
+   "id": 50,
+   "day": 322,
+   "agent": "CTO",
    "kind": "hire",
-   "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
-   "reasoning": "Ticket backlog 126 = 6.3 days of capacity; CSAT 0.61 eroding retention.",
+   "decision": "Hire 1x engineer (\u20b982,000/mo)",
+   "reasoning": "Phase scale: capacity 4/19 vs 1047 customers; quality 0.46, debt 138; MRR \u20b91,719,524 covers ramp.",
    "data_considered": {
-    "tickets_open": 126,
-    "csat": 0.6086,
-    "customers": 1205
+    "quality": 0.4642,
+    "tech_debt": 138,
+    "features": 11,
+    "cash": 1423554.0275,
+    "mrr": 1719523.87,
+    "eng_capacity_target": 19
    },
    "expected": {
-    "csat_delta": 0.05,
-    "churn_delta": -0.004
+    "points_shipped_30d": 200
    },
-   "actual": {
-    "metric": "csat",
-    "baseline": 0.6086,
-    "value_at_eval": 0.673,
-    "delta": 0.0644,
-    "expected_magnitude": 0.03
-   },
-   "verdict": "success",
+   "actual": null,
+   "verdict": null,
    "lesson": null,
-   "eval_due_day": 360,
+   "eval_due_day": 367,
+   "_eval_metric": "points_shipped_30d",
    "_eval_direction": "up",
-   "_eval_magnitude": 0.03
+   "_eval_magnitude": 200,
+   "_eval_baseline": 720.8129
   },
   {
-   "id": 45,
+   "id": 51,
    "day": 329,
    "agent": "CPO",
    "kind": "pricing_test_start",
    "decision": "Start price experiment: multiplier -> 0.78 (down from 0.78)",
    "reasoning": "Elasticity estimate -3.50 suggests cutting price should raise revenue-per-evaluation; enough evaluation volume to read signal in ~3 weeks.",
    "data_considered": {
-    "evaluations_30d": 599,
-    "win_rate_30d": 0.7746,
+    "evaluations_30d": 482,
+    "win_rate_30d": 0.8299,
     "elasticity_est": -3.5
    },
    "expected": {
@@ -5543,29 +5726,55 @@
    "_eval_metric": "eval_win_rate",
    "_eval_direction": "up",
    "_eval_magnitude": 0.0,
-   "_eval_baseline": 0.7746
+   "_eval_baseline": 0.8299
   },
   {
-   "id": 46,
+   "id": 52,
+   "day": 330,
+   "agent": "COO",
+   "kind": "hire",
+   "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
+   "reasoning": "Backlog 0 tickets (0.0d capacity), staffing 5/10, CSAT 0.86",
+   "data_considered": {
+    "tickets_open": 0,
+    "csat": 0.8554,
+    "customers": 1251,
+    "churn_pct": 5.9816
+   },
+   "expected": {
+    "csat_delta": 0.04,
+    "churn_delta": -0.004
+   },
+   "actual": null,
+   "verdict": null,
+   "lesson": null,
+   "eval_due_day": 375,
+   "_eval_metric": "csat",
+   "_eval_direction": "up",
+   "_eval_magnitude": 0.03,
+   "_eval_baseline": 0.8554
+  },
+  {
+   "id": 53,
    "day": 336,
    "agent": "CMO",
    "kind": "marketing_plan",
-   "decision": "Weekly plan: \u20b951,351/day across channels",
-   "reasoning": "Phase=scale; run-rate rev \u20b92,793,188/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b919,458. Allocation follows sampling over observed per-channel CAC.",
+   "decision": "Weekly plan: \u20b931,228/day across channels",
+   "reasoning": "Phase=scale; run-rate rev \u20b92,375,135/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b918,115. Allocation follows sampling over observed per-channel CAC.",
    "data_considered": {
     "channel_cacs": {
-     "content_seo": 310,
-     "google_ads": 875,
-     "meta_ads": 680,
-     "whatsapp_outreach": 997,
-     "referral_program": 294,
-     "events_partnerships": 1270
+     "content_seo": 260,
+     "google_ads": 776,
+     "meta_ads": 663,
+     "whatsapp_outreach": 820,
+     "referral_program": 277,
+     "events_partnerships": 920
     },
     "brand": 0.85
    },
    "expected": {
-    "leads_per_week": 1633.8955,
-    "cac_within_target": 19458.1991
+    "leads_per_week": 993.6182,
+    "cac_within_target": 18115.3109
    },
    "actual": null,
    "verdict": null,
@@ -5573,21 +5782,21 @@
    "eval_due_day": 366
   },
   {
-   "id": 47,
+   "id": 54,
    "day": 341,
    "agent": "CEO",
    "kind": "fundraise",
-   "decision": "Accept term sheet: \u20b960,000,000 @ post \u20b9498,420,000 (dilute 12.0%) from Indus Ventures",
-   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +67.1%).",
+   "decision": "Accept term sheet: \u20b960,000,000 @ post \u20b9493,360,000 (dilute 12.2%) from Bharat Seed Fund",
+   "reasoning": "Opportunistic: take money when traction strong but runway tightening (runway 999.0mo, MoM +98.4%).",
    "data_considered": {
-    "cash": 2885576.9689,
-    "mrr": 3070110.14,
-    "arr": 36841321.68,
-    "growth_mom": 0.6707,
+    "cash": 1898185.5991,
+    "mrr": 2694454.54,
+    "arr": 32333454.48,
+    "growth_mom": 0.9845,
     "runway": 999.0,
-    "churn_pct": 4.4995,
-    "ltv": 62770.2697,
-    "cac": 1647.7857
+    "churn_pct": 5.4187,
+    "ltv": 61472.3945,
+    "cac": 1035.8263
    },
    "expected": {
     "cash_delta": 60000000
@@ -5599,22 +5808,22 @@
    "_eval_metric": "cash",
    "_eval_direction": "up",
    "_eval_magnitude": 30000000.0,
-   "_eval_baseline": 2885576.9689
+   "_eval_baseline": 1898185.5991
   },
   {
-   "id": 48,
+   "id": 55,
    "day": 350,
    "agent": "CPO",
    "kind": "pricing_test_result",
-   "decision": "Revert price multiplier 0.78 (tested 0.78)",
-   "reasoning": "Win rate 74.5% vs baseline 77.5%; revenue-per-evaluation \u20b91162 vs \u20b91208; elasticity est now -3.50.",
+   "decision": "Keep price multiplier 0.78 (tested 0.78)",
+   "reasoning": "Win rate 89.4% vs baseline 83.0%; revenue-per-evaluation \u20b91394 vs \u20b91294; elasticity est now -3.50.",
    "data_considered": {
-    "baseline_win_rate": 0.7746,
-    "during_win_rate": 0.7455,
+    "baseline_win_rate": 0.8299,
+    "during_win_rate": 0.8941,
     "elasticity_prior": -3.5
    },
    "expected": {
-    "revenue_per_eval_delta": -0.0377
+    "revenue_per_eval_delta": 0.0773
    },
    "actual": null,
    "verdict": null,
@@ -5623,44 +5832,72 @@
    "_eval_metric": "eval_win_rate",
    "_eval_direction": "up",
    "_eval_magnitude": 0.0,
-   "_eval_baseline": 0.7455
+   "_eval_baseline": 0.8941
   },
   {
-   "id": 49,
-   "day": 354,
+   "id": 56,
+   "day": 351,
    "agent": "COO",
    "kind": "hire",
    "decision": "Hire 1x Support Associate (\u20b932,000/mo)",
-   "reasoning": "Ticket backlog 103 = 3.0 days of capacity; CSAT 0.75 eroding retention.",
+   "reasoning": "Backlog 0 tickets (0.0d capacity), staffing 6/15, CSAT 0.86",
    "data_considered": {
-    "tickets_open": 103,
-    "csat": 0.75,
-    "customers": 2269
+    "tickets_open": 0,
+    "csat": 0.8569,
+    "customers": 1875,
+    "churn_pct": 4.8048
    },
    "expected": {
-    "csat_delta": 0.05,
+    "csat_delta": 0.04,
     "churn_delta": -0.004
    },
    "actual": null,
    "verdict": null,
    "lesson": null,
-   "eval_due_day": 399,
+   "eval_due_day": 396,
    "_eval_metric": "csat",
    "_eval_direction": "up",
    "_eval_magnitude": 0.03,
-   "_eval_baseline": 0.75
+   "_eval_baseline": 0.8569
   },
   {
-   "id": 50,
+   "id": 57,
+   "day": 357,
+   "agent": "CTO",
+   "kind": "hire",
+   "decision": "Hire 1x engineer (\u20b982,000/mo)",
+   "reasoning": "Phase scale: capacity 5/35 vs 2028 customers; quality 0.49, debt 158; MRR \u20b93,517,950 covers ramp.",
+   "data_considered": {
+    "quality": 0.4922,
+    "tech_debt": 158,
+    "features": 13,
+    "cash": 3069449.7904,
+    "mrr": 3517949.74,
+    "eng_capacity_target": 35
+   },
+   "expected": {
+    "points_shipped_30d": 200
+   },
+   "actual": null,
+   "verdict": null,
+   "lesson": null,
+   "eval_due_day": 402,
+   "_eval_metric": "points_shipped_30d",
+   "_eval_direction": "up",
+   "_eval_magnitude": 200,
+   "_eval_baseline": 931.0253
+  },
+  {
+   "id": 58,
    "day": 357,
    "agent": "Sales Lead",
    "kind": "hire",
    "decision": "Hire 1x Account Executive (\u20b968,000/mo + 10% commission)",
-   "reasoning": "1031 unassigned deals; AE utilization 2919%; sales-led deals leaking.",
+   "reasoning": "2978 unassigned deals; AE utilization 8331%; sales-led deals leaking.",
    "data_considered": {
-    "open_deals": 1051,
+    "open_deals": 2999,
     "pipeline": 0.0,
-    "cash": 4128230.504,
+    "cash": 3069449.7904,
     "runway": 999.0
    },
    "expected": {
@@ -5674,29 +5911,29 @@
    "_eval_metric": "closed_won_30d",
    "_eval_direction": "up",
    "_eval_magnitude": 1.0,
-   "_eval_baseline": 3.0
+   "_eval_baseline": 6.0
   },
   {
-   "id": 51,
+   "id": 59,
    "day": 364,
    "agent": "CMO",
    "kind": "marketing_plan",
-   "decision": "Weekly plan: \u20b960,000/day across channels",
-   "reasoning": "Phase=scale; run-rate rev \u20b94,323,126/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b920,077. Allocation follows sampling over observed per-channel CAC.",
+   "decision": "Weekly plan: \u20b958,339/day across channels",
+   "reasoning": "Phase=scale; run-rate rev \u20b93,968,191/mo; growth_bias 0.97; blended CAC target \u2248 LTV/3=\u20b921,065. Allocation follows sampling over observed per-channel CAC.",
    "data_considered": {
     "channel_cacs": {
-     "content_seo": 288,
-     "google_ads": 953,
-     "meta_ads": 763,
-     "whatsapp_outreach": 804,
-     "referral_program": 373,
-     "events_partnerships": 1680
+     "content_seo": 324,
+     "google_ads": 903,
+     "meta_ads": 759,
+     "whatsapp_outreach": 893,
+     "referral_program": 330,
+     "events_partnerships": 1514
     },
     "brand": 0.85
    },
    "expected": {
-    "leads_per_week": 1909.0909,
-    "cac_within_target": 20076.9512
+    "leads_per_week": 1856.2409,
+    "cac_within_target": 21064.8655
    },
    "actual": null,
    "verdict": null,
@@ -5706,39 +5943,37 @@
  ],
  "company_events": [
   {
+   "day": 156,
+   "kind": "hire_started",
+   "note": "1x support (joins in 10d)",
+   "role": "support"
+  },
+  {
    "day": 160,
    "kind": "term_sheet",
    "note": "Nucleus Capital: \u20b91,677,000 @ \u20b99,760,000 post"
   },
   {
-   "day": 177,
-   "kind": "expansion",
-   "note": "c8993 upgraded to Scale"
+   "day": 166,
+   "kind": "joined",
+   "note": "support joined the team",
+   "role": "support"
   },
   {
-   "day": 181,
-   "kind": "expansion",
-   "note": "c4118 upgraded to Scale"
-  },
-  {
-   "day": 185,
+   "day": 178,
    "kind": "incident",
    "note": "Outage affected 2 customers; tickets +1"
   },
   {
-   "day": 187,
-   "kind": "expansion",
-   "note": "c1185 upgraded to Scale"
-  },
-  {
    "day": 190,
    "kind": "term_sheet",
-   "note": "Nucleus Capital: \u20b94,124,000 @ \u20b919,650,000 post"
+   "note": "Pebble Capital: \u20b92,974,000 @ \u20b916,410,000 post"
   },
   {
-   "day": 208,
-   "kind": "expansion",
-   "note": "c5032 upgraded to Scale"
+   "day": 210,
+   "kind": "hire_started",
+   "note": "1x junior_engineer (joins in 21d)",
+   "role": "junior_engineer"
   },
   {
    "day": 210,
@@ -5747,25 +5982,20 @@
    "role": "account_exec"
   },
   {
-   "day": 212,
-   "kind": "expansion",
-   "note": "c4182 upgraded to Scale"
-  },
-  {
    "day": 217,
-   "kind": "hire_started",
-   "note": "1x engineer (joins in 21d)",
-   "role": "engineer"
+   "kind": "incident",
+   "note": "Outage affected 12 customers; tickets +4"
   },
   {
    "day": 220,
    "kind": "term_sheet",
-   "note": "Pebble Capital: \u20b98,289,000 @ \u20b944,360,000 post"
+   "note": "Mumbai Angels X: \u20b97,676,000 @ \u20b937,970,000 post"
   },
   {
-   "day": 224,
-   "kind": "expansion",
-   "note": "c4385 upgraded to Scale"
+   "day": 231,
+   "kind": "joined",
+   "note": "junior_engineer joined the team",
+   "role": "junior_engineer"
   },
   {
    "day": 231,
@@ -5774,30 +6004,57 @@
    "role": "account_exec"
   },
   {
-   "day": 238,
-   "kind": "joined",
-   "note": "engineer joined the team",
-   "role": "engineer"
+   "day": 232,
+   "kind": "expansion",
+   "note": "c4311 upgraded to Scale"
   },
   {
-   "day": 240,
+   "day": 243,
    "kind": "expansion",
-   "note": "c5111 upgraded to Scale"
+   "note": "c4232 upgraded to Scale"
   },
   {
-   "day": 241,
+   "day": 245,
    "kind": "expansion",
-   "note": "c8944 upgraded to Scale"
+   "note": "c4148 upgraded to Scale"
+  },
+  {
+   "day": 246,
+   "kind": "hire_started",
+   "note": "1x support (joins in 10d)",
+   "role": "support"
+  },
+  {
+   "day": 250,
+   "kind": "expansion",
+   "note": "c3265 upgraded to Scale"
   },
   {
    "day": 250,
    "kind": "term_sheet",
-   "note": "Indus Ventures: \u20b923,829,000 @ \u20b9101,340,000 post"
+   "note": "Mumbai Angels X: \u20b919,356,000 @ \u20b983,850,000 post"
+  },
+  {
+   "day": 252,
+   "kind": "hire_started",
+   "note": "1x junior_engineer (joins in 21d)",
+   "role": "junior_engineer"
   },
   {
    "day": 253,
+   "kind": "incident",
+   "note": "Outage affected 31 customers; tickets +12"
+  },
+  {
+   "day": 254,
    "kind": "expansion",
-   "note": "c3777 upgraded to Scale"
+   "note": "c3797 upgraded to Scale"
+  },
+  {
+   "day": 256,
+   "kind": "joined",
+   "note": "support joined the team",
+   "role": "support"
   },
   {
    "day": 259,
@@ -5806,19 +6063,52 @@
    "role": "account_exec"
   },
   {
-   "day": 269,
+   "day": 260,
    "kind": "expansion",
-   "note": "c3656 upgraded to Scale"
+   "note": "c5359 upgraded to Scale"
+  },
+  {
+   "day": 260,
+   "kind": "incident",
+   "note": "Outage affected 20 customers; tickets +8"
+  },
+  {
+   "day": 264,
+   "kind": "expansion",
+   "note": "c354 upgraded to Scale"
+  },
+  {
+   "day": 267,
+   "kind": "hire_started",
+   "note": "1x support (joins in 10d)",
+   "role": "support"
+  },
+  {
+   "day": 272,
+   "kind": "expansion",
+   "note": "c4011 upgraded to Scale"
+  },
+  {
+   "day": 273,
+   "kind": "joined",
+   "note": "junior_engineer joined the team",
+   "role": "junior_engineer"
+  },
+  {
+   "day": 273,
+   "kind": "expansion",
+   "note": "c6220 upgraded to Scale"
+  },
+  {
+   "day": 273,
+   "kind": "expansion",
+   "note": "c9356 upgraded to Scale"
   },
   {
    "day": 277,
-   "kind": "expansion",
-   "note": "c1469 upgraded to Scale"
-  },
-  {
-   "day": 279,
-   "kind": "expansion",
-   "note": "c3261 upgraded to Scale"
+   "kind": "joined",
+   "note": "support joined the team",
+   "role": "support"
   },
   {
    "day": 280,
@@ -5829,104 +6119,95 @@
   {
    "day": 280,
    "kind": "term_sheet",
-   "note": "Indus Ventures: \u20b935,323,000 @ \u20b9194,620,000 post"
+   "note": "Mumbai Angels X: \u20b926,261,000 @ \u20b9123,090,000 post"
   },
   {
-   "day": 282,
+   "day": 287,
+   "kind": "hire_started",
+   "note": "1x engineer (joins in 21d)",
+   "role": "engineer"
+  },
+  {
+   "day": 287,
    "kind": "expansion",
-   "note": "c5088 upgraded to Scale"
+   "note": "c5223 upgraded to Scale"
   },
   {
-   "day": 283,
-   "kind": "incident",
-   "note": "Outage affected 69 customers; tickets +27"
-  },
-  {
-   "day": 284,
-   "kind": "incident",
-   "note": "Outage affected 49 customers; tickets +19"
-  },
-  {
-   "day": 285,
+   "day": 288,
    "kind": "hire_started",
    "note": "1x support (joins in 10d)",
    "role": "support"
   },
   {
-   "day": 285,
-   "kind": "expansion",
-   "note": "c3877 upgraded to Scale"
-  },
-  {
-   "day": 285,
-   "kind": "expansion",
-   "note": "c9006 upgraded to Scale"
-  },
-  {
-   "day": 286,
-   "kind": "incident",
-   "note": "Outage affected 26 customers; tickets +10"
-  },
-  {
-   "day": 289,
-   "kind": "expansion",
-   "note": "c5306 upgraded to Scale"
-  },
-  {
-   "day": 289,
-   "kind": "expansion",
-   "note": "c5245 upgraded to Scale"
-  },
-  {
    "day": 290,
    "kind": "expansion",
-   "note": "c4634 upgraded to Scale"
+   "note": "c2464 upgraded to Scale"
   },
   {
-   "day": 295,
+   "day": 291,
+   "kind": "expansion",
+   "note": "c4624 upgraded to Scale"
+  },
+  {
+   "day": 292,
+   "kind": "expansion",
+   "note": "c1433 upgraded to Scale"
+  },
+  {
+   "day": 294,
+   "kind": "expansion",
+   "note": "c4134 upgraded to Scale"
+  },
+  {
+   "day": 297,
+   "kind": "expansion",
+   "note": "c4151 upgraded to Scale"
+  },
+  {
+   "day": 297,
+   "kind": "incident",
+   "note": "Outage affected 71 customers; tickets +28"
+  },
+  {
+   "day": 298,
    "kind": "joined",
    "note": "support joined the team",
    "role": "support"
   },
   {
-   "day": 298,
+   "day": 299,
    "kind": "expansion",
-   "note": "c4722 upgraded to Scale"
-  },
-  {
-   "day": 300,
-   "kind": "expansion",
-   "note": "c5218 upgraded to Scale"
+   "note": "c5279 upgraded to Scale"
   },
   {
    "day": 301,
    "kind": "incident",
-   "note": "Outage affected 104 customers; tickets +41"
+   "note": "Outage affected 66 customers; tickets +26"
   },
   {
    "day": 302,
-   "kind": "expansion",
-   "note": "c3906 upgraded to Scale"
-  },
-  {
-   "day": 302,
-   "kind": "expansion",
-   "note": "c4310 upgraded to Scale"
+   "kind": "incident",
+   "note": "Outage affected 26 customers; tickets +10"
   },
   {
    "day": 303,
    "kind": "expansion",
-   "note": "c3806 upgraded to Scale"
-  },
-  {
-   "day": 303,
-   "kind": "expansion",
-   "note": "c1376 upgraded to Scale"
+   "note": "c1717 upgraded to Scale"
   },
   {
    "day": 304,
    "kind": "expansion",
-   "note": "c4973 upgraded to Scale"
+   "note": "c4542 upgraded to Scale"
+  },
+  {
+   "day": 305,
+   "kind": "expansion",
+   "note": "c318 upgraded to Growth"
+  },
+  {
+   "day": 307,
+   "kind": "expansion",
+   "note": "c6170 upgraded to Scale"
   },
   {
    "day": 308,
@@ -5935,61 +6216,98 @@
    "role": "account_exec"
   },
   {
-   "day": 310,
-   "kind": "term_sheet",
-   "note": "Nucleus Capital: \u20b960,000,000 @ \u20b9309,830,000 post"
+   "day": 308,
+   "kind": "joined",
+   "note": "engineer joined the team",
+   "role": "engineer"
   },
   {
-   "day": 312,
-   "kind": "expansion",
-   "note": "c7471 upgraded to Scale"
-  },
-  {
-   "day": 312,
-   "kind": "expansion",
-   "note": "c4696 upgraded to Scale"
-  },
-  {
-   "day": 315,
+   "day": 309,
    "kind": "hire_started",
    "note": "1x support (joins in 10d)",
    "role": "support"
   },
   {
-   "day": 317,
-   "kind": "expansion",
-   "note": "c6584 upgraded to Scale"
+   "day": 310,
+   "kind": "term_sheet",
+   "note": "Mumbai Angels X: \u20b945,540,000 @ \u20b9268,830,000 post"
   },
   {
-   "day": 317,
+   "day": 311,
    "kind": "expansion",
-   "note": "c3945 upgraded to Scale"
+   "note": "c5567 upgraded to Scale"
   },
   {
-   "day": 321,
+   "day": 312,
    "kind": "expansion",
-   "note": "c3409 upgraded to Scale"
+   "note": "c3661 upgraded to Scale"
   },
   {
-   "day": 321,
+   "day": 313,
    "kind": "expansion",
-   "note": "c2267 upgraded to Scale"
+   "note": "c4811 upgraded to Scale"
   },
   {
-   "day": 322,
+   "day": 315,
    "kind": "expansion",
-   "note": "c5729 upgraded to Scale"
+   "note": "c4202 upgraded to Scale"
   },
   {
-   "day": 325,
+   "day": 315,
+   "kind": "incident",
+   "note": "Outage affected 55 customers; tickets +22"
+  },
+  {
+   "day": 316,
+   "kind": "expansion",
+   "note": "c9022 upgraded to Scale"
+  },
+  {
+   "day": 319,
    "kind": "joined",
    "note": "support joined the team",
    "role": "support"
   },
   {
+   "day": 320,
+   "kind": "expansion",
+   "note": "c5330 upgraded to Scale"
+  },
+  {
+   "day": 322,
+   "kind": "hire_started",
+   "note": "1x engineer (joins in 21d)",
+   "role": "engineer"
+  },
+  {
+   "day": 322,
+   "kind": "expansion",
+   "note": "c9069 upgraded to Scale"
+  },
+  {
+   "day": 323,
+   "kind": "incident",
+   "note": "Outage affected 78 customers; tickets +31"
+  },
+  {
+   "day": 326,
+   "kind": "expansion",
+   "note": "c4242 upgraded to Scale"
+  },
+  {
+   "day": 327,
+   "kind": "expansion",
+   "note": "c953 upgraded to Scale"
+  },
+  {
    "day": 328,
    "kind": "expansion",
-   "note": "c6728 upgraded to Scale"
+   "note": "c7070 upgraded to Scale"
+  },
+  {
+   "day": 328,
+   "kind": "expansion",
+   "note": "c3752 upgraded to Scale"
   },
   {
    "day": 329,
@@ -5998,120 +6316,134 @@
    "role": "account_exec"
   },
   {
-   "day": 329,
-   "kind": "expansion",
-   "note": "c5725 upgraded to Scale"
-  },
-  {
    "day": 330,
-   "kind": "incident",
-   "note": "Outage affected 138 customers; tickets +55"
-  },
-  {
-   "day": 331,
-   "kind": "expansion",
-   "note": "c6538 upgraded to Scale"
-  },
-  {
-   "day": 332,
-   "kind": "incident",
-   "note": "Outage affected 65 customers; tickets +26"
-  },
-  {
-   "day": 336,
-   "kind": "expansion",
-   "note": "c3844 upgraded to Scale"
-  },
-  {
-   "day": 336,
-   "kind": "expansion",
-   "note": "c4191 upgraded to Scale"
-  },
-  {
-   "day": 340,
-   "kind": "term_sheet",
-   "note": "Indus Ventures: \u20b960,000,000 @ \u20b9498,420,000 post"
-  },
-  {
-   "day": 341,
-   "kind": "expansion",
-   "note": "c2743 upgraded to Scale"
-  },
-  {
-   "day": 344,
-   "kind": "expansion",
-   "note": "c6528 upgraded to Scale"
-  },
-  {
-   "day": 349,
-   "kind": "expansion",
-   "note": "c3779 upgraded to Scale"
-  },
-  {
-   "day": 349,
-   "kind": "expansion",
-   "note": "c5222 upgraded to Scale"
-  },
-  {
-   "day": 351,
-   "kind": "incident",
-   "note": "Outage affected 69 customers; tickets +27"
-  },
-  {
-   "day": 352,
-   "kind": "expansion",
-   "note": "c6706 upgraded to Scale"
-  },
-  {
-   "day": 352,
-   "kind": "expansion",
-   "note": "c4409 upgraded to Scale"
-  },
-  {
-   "day": 352,
-   "kind": "expansion",
-   "note": "c7371 upgraded to Scale"
-  },
-  {
-   "day": 352,
-   "kind": "expansion",
-   "note": "c4812 upgraded to Scale"
-  },
-  {
-   "day": 352,
-   "kind": "incident",
-   "note": "Outage affected 234 customers; tickets +93"
-  },
-  {
-   "day": 353,
-   "kind": "expansion",
-   "note": "c6574 upgraded to Scale"
-  },
-  {
-   "day": 354,
    "kind": "hire_started",
    "note": "1x support (joins in 10d)",
    "role": "support"
   },
   {
-   "day": 355,
+   "day": 332,
    "kind": "expansion",
-   "note": "c4462 upgraded to Scale"
+   "note": "c2886 upgraded to Scale"
   },
   {
-   "day": 356,
+   "day": 333,
    "kind": "expansion",
-   "note": "c1669 upgraded to Scale"
+   "note": "c4372 upgraded to Scale"
   },
   {
-   "day": 356,
+   "day": 333,
    "kind": "expansion",
-   "note": "c3703 upgraded to Scale"
+   "note": "c6997 upgraded to Scale"
   },
   {
-   "day": 356,
+   "day": 334,
+   "kind": "expansion",
+   "note": "c4778 upgraded to Scale"
+  },
+  {
+   "day": 334,
+   "kind": "expansion",
+   "note": "c7293 upgraded to Scale"
+  },
+  {
+   "day": 336,
+   "kind": "expansion",
+   "note": "c2500 upgraded to Scale"
+  },
+  {
+   "day": 338,
    "kind": "incident",
-   "note": "Outage affected 219 customers; tickets +87"
+   "note": "Outage affected 171 customers; tickets +68"
+  },
+  {
+   "day": 340,
+   "kind": "joined",
+   "note": "support joined the team",
+   "role": "support"
+  },
+  {
+   "day": 340,
+   "kind": "incident",
+   "note": "Outage affected 168 customers; tickets +67"
+  },
+  {
+   "day": 340,
+   "kind": "term_sheet",
+   "note": "Bharat Seed Fund: \u20b960,000,000 @ \u20b9493,360,000 post"
+  },
+  {
+   "day": 343,
+   "kind": "joined",
+   "note": "engineer joined the team",
+   "role": "engineer"
+  },
+  {
+   "day": 344,
+   "kind": "expansion",
+   "note": "c7012 upgraded to Scale"
+  },
+  {
+   "day": 345,
+   "kind": "expansion",
+   "note": "c9517 upgraded to Scale"
+  },
+  {
+   "day": 345,
+   "kind": "expansion",
+   "note": "c847 upgraded to Scale"
+  },
+  {
+   "day": 347,
+   "kind": "expansion",
+   "note": "c7361 upgraded to Scale"
+  },
+  {
+   "day": 348,
+   "kind": "expansion",
+   "note": "c5988 upgraded to Scale"
+  },
+  {
+   "day": 348,
+   "kind": "incident",
+   "note": "Outage affected 55 customers; tickets +22"
+  },
+  {
+   "day": 349,
+   "kind": "expansion",
+   "note": "c4515 upgraded to Scale"
+  },
+  {
+   "day": 349,
+   "kind": "expansion",
+   "note": "c6629 upgraded to Scale"
+  },
+  {
+   "day": 351,
+   "kind": "hire_started",
+   "note": "1x support (joins in 10d)",
+   "role": "support"
+  },
+  {
+   "day": 353,
+   "kind": "expansion",
+   "note": "c3799 upgraded to Scale"
+  },
+  {
+   "day": 353,
+   "kind": "expansion",
+   "note": "c4094 upgraded to Scale"
+  },
+  {
+   "day": 355,
+   "kind": "incident",
+   "note": "Outage affected 86 customers; tickets +34"
+  },
+  {
+   "day": 357,
+   "kind": "hire_started",
+   "note": "1x engineer (joins in 21d)",
+   "role": "engineer"
   },
   {
    "day": 357,
@@ -6120,65 +6452,55 @@
    "role": "account_exec"
   },
   {
-   "day": 357,
+   "day": 358,
    "kind": "expansion",
-   "note": "c9604 upgraded to Scale"
+   "note": "c5522 upgraded to Scale"
   },
   {
    "day": 358,
    "kind": "expansion",
-   "note": "c4648 upgraded to Scale"
+   "note": "c5032 upgraded to Scale"
+  },
+  {
+   "day": 360,
+   "kind": "expansion",
+   "note": "c5413 upgraded to Scale"
+  },
+  {
+   "day": 360,
+   "kind": "expansion",
+   "note": "c7079 upgraded to Scale"
   },
   {
    "day": 361,
-   "kind": "expansion",
-   "note": "c4368 upgraded to Scale"
-  },
-  {
-   "day": 361,
-   "kind": "expansion",
-   "note": "c7317 upgraded to Scale"
-  },
-  {
-   "day": 362,
-   "kind": "expansion",
-   "note": "c6480 upgraded to Scale"
-  },
-  {
-   "day": 363,
-   "kind": "expansion",
-   "note": "c7249 upgraded to Scale"
-  },
-  {
-   "day": 363,
-   "kind": "expansion",
-   "note": "c4967 upgraded to Scale"
-  },
-  {
-   "day": 364,
    "kind": "joined",
    "note": "support joined the team",
    "role": "support"
   },
   {
-   "day": 364,
+   "day": 362,
    "kind": "expansion",
-   "note": "c3724 upgraded to Scale"
+   "note": "c9541 upgraded to Scale"
   },
   {
-   "day": 364,
+   "day": 362,
+   "kind": "incident",
+   "note": "Outage affected 68 customers; tickets +27"
+  },
+  {
+   "day": 363,
    "kind": "expansion",
-   "note": "c7035 upgraded to Scale"
+   "note": "c9315 upgraded to Scale"
   },
   {
    "day": 365,
    "kind": "expansion",
-   "note": "c3986 upgraded to Scale"
+   "note": "c4256 upgraded to Scale"
   },
   {
    "day": 365,
    "kind": "expansion",
-   "note": "c4335 upgraded to Scale"
+   "note": "c7486 upgraded to Scale"
   }
  ],
  "market_events": [
@@ -6217,10 +6539,10 @@
   {
    "name": "KhataKing",
    "archetype": "discount_disruptor",
-   "customers": 2996,
-   "quality": 0.443,
-   "price_mult": 0.669,
-   "brand": 0.519,
+   "customers": 3160,
+   "quality": 0.441,
+   "price_mult": 0.717,
+   "brand": 0.513,
    "features": [
     "core_billing",
     "inventory_advanced",
@@ -6231,7 +6553,7 @@
   {
    "name": "LedgerLyf",
    "archetype": "premium_incumbent",
-   "customers": 2226,
+   "customers": 2243,
    "quality": 0.55,
    "price_mult": 1.019,
    "brand": 0.484,
@@ -6249,11 +6571,12 @@
   {
    "name": "BizzBoost",
    "archetype": "marketing_blitzer",
-   "customers": 2527,
+   "customers": 2513,
    "quality": 0.454,
    "price_mult": 1.159,
-   "brand": 0.821,
+   "brand": 0.858,
    "features": [
+    "analytics_dash",
     "core_billing",
     "crm_lite",
     "inventory_basic",
@@ -6263,78 +6586,77 @@
   {
    "name": "FactoryDesk",
    "archetype": "niche_specialist",
-   "customers": 2384,
+   "customers": 2618,
    "quality": 0.573,
    "price_mult": 1.069,
-   "brand": 0.475,
+   "brand": 0.469,
    "features": [
     "analytics_dash",
     "bom_manufacturing",
     "core_billing",
+    "crm_lite",
     "inventory_advanced",
     "mobile_app",
-    "orders_sync",
-    "payments_upi",
-    "whatsapp_deep"
+    "orders_sync"
    ]
   }
  ],
  "customer_states": {
-  "dormant": 5744,
-  "shopping": 590,
-  "trial": 710,
-  "active": 2605,
-  "churned": 106
+  "dormant": 5723,
+  "shopping": 714,
+  "trial": 890,
+  "active": 2311,
+  "churned": 117
  },
  "pool_size": 9755,
  "decision_scorecard": {
-  "total": 26,
-  "success": 15,
-  "partial": 0,
-  "fail": 11
+  "total": 31,
+  "success": 17,
+  "partial": 4,
+  "fail": 10
  },
  "channel_summary": {
   "content_seo": {
-   "spend30": 269073,
-   "leads30": 890.0,
-   "observed_cpl": 293.4,
+   "spend30": 299719,
+   "leads30": 952.9,
+   "observed_cpl": 322.9,
    "score": 2.5,
-   "cum_spend": 725116
+   "cum_spend": 539895
   },
   "google_ads": {
-   "spend30": 298802,
-   "leads30": 325.1,
-   "observed_cpl": 908.7,
+   "spend30": 245434,
+   "leads30": 276.1,
+   "observed_cpl": 919.1,
    "score": 2.5,
-   "cum_spend": 722308
+   "cum_spend": 506475
   },
   "meta_ads": {
-   "spend30": 295849,
-   "leads30": 389.0,
-   "observed_cpl": 771.0,
+   "spend30": 252435,
+   "leads30": 344.2,
+   "observed_cpl": 750.5,
    "score": 2.5,
-   "cum_spend": 654977
+   "cum_spend": 498824
   },
   "whatsapp_outreach": {
-   "spend30": 250371,
-   "leads30": 277.7,
-   "observed_cpl": 866.9,
-   "score": 2.499,
-   "cum_spend": 706631
+   "spend30": 241260,
+   "leads30": 269.4,
+   "observed_cpl": 926.0,
+   "score": 2.5,
+   "cum_spend": 484255
   },
   "referral_program": {
-   "spend30": 302616,
-   "leads30": 860.3,
-   "observed_cpl": 347.3,
+   "spend30": 240499,
+   "leads30": 748.0,
+   "observed_cpl": 333.2,
    "score": 2.5,
-   "cum_spend": 678620
+   "cum_spend": 489351
   },
   "events_partnerships": {
-   "spend30": 300426,
-   "leads30": 181.1,
-   "observed_cpl": 1781.8,
-   "score": 2.495,
-   "cum_spend": 646577
+   "spend30": 212569,
+   "leads30": 147.5,
+   "observed_cpl": 1517.4,
+   "score": 2.497,
+   "cum_spend": 415352
   }
  }
 }

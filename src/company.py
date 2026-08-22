@@ -215,3 +215,9 @@ class Company:
         events = self.channel_conversions.get(ch, [])
         cutoff = self.day - 30
         return sum(1 for d, _ in events if d >= cutoff)
+
+    def dormant_fraction(self) -> float:
+        """Share of the addressable universe still unpenetrated & available."""
+        if self.pool is None or self.pool.total_size == 0:
+            return 1.0
+        return len(self.pool.ids_in_state("dormant")) / self.pool.total_size

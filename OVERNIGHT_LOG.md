@@ -66,6 +66,35 @@ share **4–20%**, win rates **59–86%**, near-insolvent survivors present.
   sums (single source of truth); all metrics now economically coherent.
 - Valuation proxy corrected to equity value (operating multiple + cash).
 
+## Phase 5 - Strategic intelligence upgrade (measure → learn → adjust)
+
+The 5-year flagship exposed a genuine flaw in the agent layer: **33 sales
+hires vs 1 engineer in five years**. The CTO's hiring policy required quality
+> 0.5 before scaling the team, but only engineers raise quality capacity - a
+self-imposed deadlock that capped quality at 0.44 while churn crept to 8%.
+
+Fixes (all in agent policy, none in market mechanics):
+1. Engineering scaled with installed base (`2 + customers/60`), quality
+   treated as the *reason* to hire, not a precondition.
+2. Support staffed predictively at 1:120 customers plus backlog/churn-reactive.
+3. TAM-saturation guardrail: when dormant pool < 25%, marketing throttles and
+   tilts toward referral/content.
+
+**Measured effect on the same seed (5-year run):**
+
+| Metric | v1 agents | v2 agents |
+|---|---|---|
+| MRR | ₹1.24Cr | **₹2.27Cr** |
+| Customers | 3,492 | 7,060 |
+| Cash (cumulative) | ₹39.2Cr | ₹51.5Cr |
+| Valuation proxy | ₹69Cr | **₹193Cr** |
+| Quality | 0.44 | 0.61 |
+| Org balance | 33 AE / 7 support / 1 eng | 44 eng / 58 support / 33 AE |
+
+This is the overnight loop working as intended: ANALYZE runs, find the
+weakness, fix the *policy*, MEASURE the delta - the improvement came from
+better decisions, not from changing the game.
+
 ## Engineering post-mortems worth keeping
 
 1. **Lagging indicators kill.** The single most lethal agent bug was trusting

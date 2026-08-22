@@ -259,9 +259,22 @@ class AgentSuite:
         # hard floor rule: never let ads starve payroll
         if c.finance.cash < max(30_000, k["salaries_monthly"] * 1.2):
             budget = min(budget, 150.0)
+        # TAM saturation guardrail: when the dormant pool thins, paid channels
+        # inflate CAC - throttle and lean on referral/content instead
+        dorm_frac = c.dormant_fraction()
+        if dorm_frac < 0.25:
+            budget *= clamp(dorm_frac / 0.25, 0.55, 1.0)
         budget = round(budget, 0)
 
         alloc = self._allocate(budget, phase, rng)
+        # saturation tilt: force weight toward cheap-CPL channels when pool thins
+        dorm_frac = c.dormant_fraction()
+        if dorm_frac < 0.30:
+            tilt = {"referral_program": 1.6, "content_seo": 1.4,
+                    "google_ads": 0.7, "meta_ads": 0.6}
+            alloc = {k_: v * tilt.get(k_, 1.0) for k_, v in alloc.items()}
+            tot_ = sum(alloc.values()) or 1.0
+            alloc = {k_: v / tot_ for k_, v in alloc.items()}
         actions.append(dict(type="set_marketing", daily_budget=budget, allocation=alloc))
         if c.day % 28 == 0:
             c.log_decision(
@@ -354,26 +367,26 @@ class AgentSuite:
         if pin:
             actions.append(dict(type="pin_feature", feature=pin))
 
-        # hiring engineers: only once there is revenue signal or deep pockets
+        # hiring engineers: scale capacity with the installed base; do NOT
+        # gate on quality (low quality is the reason TO hire, not to wait -
+        # the founder-only deadlock lesson from the 5-year run)
         afford = (k["runway_eff"] > 7 or k["burn30"] < 0) and k["cash"] > 80_000
         salary = SALARY["engineer"]
-        revenue_signal = k["mrr"] >= 20_000
-        eag = c.strategy.hire_eagerness
-        want_more = (p.quality > 0.5 and eng_n < 2 + int(k["customers"] / 40)) or eng_n == 1
+        target_eng = 2 + int(k["customers"] / 60)
+        want_more = eng_n < max(2, target_eng)
         if phase in ("grow", "scale") and afford and want_more \
                 and hire_affordable(c, k, salary) and rng_ok(c, "hire_eng", 30):
-            role = "junior_engineer" if p.quality < 0.5 and k["cash"] < 150_000 else "engineer"
+            role = "junior_engineer" if p.quality < 0.5 and k["cash"] < 300_000 else "engineer"
             actions.append(dict(type="hire", role=role, n=1))
             d = c.log_decision(
                 day=c.day, agent="CTO", kind="hire",
                 decision=f"Hire 1x {role} (\u20b9{(82_000 if role=='engineer' else 52_000):,.0f}/mo)",
-                reasoning=(f"Phase {phase}: feature coverage gap on focus segments; "
-                           f"capacity {eng_n} eng; quality {p.quality:.2f}; MRR "
-                           f"\u20b9{k['mrr']:,.0f} covers ramp; runway "
-                           f"{k['runway']:.1f}mo supports it."),
+                reasoning=(f"Phase {phase}: capacity {eng_n}/{target_eng} vs "
+                           f"{k['customers']} customers; quality {p.quality:.2f}, "
+                           f"debt {p.tech_debt:.0f}; MRR \u20b9{k['mrr']:,.0f} covers ramp."),
                 data_considered={"quality": p.quality, "tech_debt": round(p.tech_debt),
                                  "features": len(p.features), "cash": k["cash"],
-                                 "mrr": k["mrr"]},
+                                 "mrr": k["mrr"], "eng_capacity_target": target_eng},
                 expected={"points_shipped_30d": +200},
                 eval_horizon_days=45)
             c.queue_evaluation(d["id"], "points_shipped_30d", "up", 200)
@@ -502,22 +515,30 @@ class AgentSuite:
     def _coo(self, actions, k, phase):
         c = self.c
         support_n = c.support_headcount()
-        capacity = c.ops.resolution_capacity_daily(support_n, founder_supporting=True)
+        capacity = c.ops.resolution_capacity_daily(support_n, founder_supporting=False)
         backlog_days = c.ops.tickets_open / max(capacity, 1)
         afford = (k["runway_eff"] > 7 or k["burn30"] < 0) and k["cash"] > 80_000
-        if k["customers"] >= 12 and phase not in ("survive",) \
-                and backlog_days > 2.5 and support_n < 1 + int(k["customers"] / 80) \
+        # predictive staffing: 1 support per ~120 customers, plus reactive backlog rule
+        target_support = max(1, int(k["customers"] / 120))
+        churn_fighting = k["churn_pct"] > 6.0
+        need = (backlog_days > 2.5) or (support_n < target_support) or \
+               (churn_fighting and support_n < target_support + 1)
+        if k["customers"] >= 12 and phase not in ("survive",) and need \
+                and support_n < target_support + 2 \
                 and hire_affordable(c, k, SALARY["support"]) \
-                and rng_ok(c, "hire_support", 30):
+                and rng_ok(c, "hire_support", 21):
             actions.append(dict(type="hire", role="support", n=1))
             d = c.log_decision(
                 day=c.day, agent="COO", kind="hire",
                 decision="Hire 1x Support Associate (\u20b932,000/mo)",
-                reasoning=(f"Ticket backlog {c.ops.tickets_open} = {backlog_days:.1f} days "
-                           f"of capacity; CSAT {c.ops.csat:.2f} eroding retention."),
+                reasoning=(f"Backlog {c.ops.tickets_open} tickets ({backlog_days:.1f}d "
+                           f"capacity), staffing {support_n}/{target_support}, CSAT "
+                           f"{c.ops.csat:.2f}" +
+                           (f", churn {k['churn_pct']:.1f}% needs retention push" if churn_fighting else "")),
                 data_considered={"tickets_open": c.ops.tickets_open,
-                                 "csat": c.ops.csat, "customers": k["customers"]},
-                expected={"csat_delta": +0.05, "churn_delta": -0.004},
+                                 "csat": c.ops.csat, "customers": k["customers"],
+                                 "churn_pct": k["churn_pct"]},
+                expected={"csat_delta": +0.04, "churn_delta": -0.004},
                 eval_horizon_days=45)
             c.queue_evaluation(d["id"], "csat", "up", 0.03)
 
