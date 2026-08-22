@@ -110,19 +110,27 @@ better decisions, not from changing the game.
 - **Full test suite re-run**: 25 passed; both dashboard JS files parse under
   node.
 
-## Phase 7 - The lifecycle finding
+## Phase 7 - The lifecycle finding & learning verification
 
-The 5-year tournament completed the arc:
+Final-mechanics tournaments (with accumulated knowledge priors):
 
 | Horizon | Winner |
 |---|---|
-| Year 1 | blitz_growth (₹51L) |
-| Year 2 | blitz_growth (₹140L), first deaths appear |
-| Year 5 | **balanced (₹207L)** |
+| Year 1 | product_led (₹43.5L) |
+| Year 2 | product_led (₹138.3L) |
+| Year 5 | blitz_growth (₹203L), balanced close behind (₹198.8L); lean's first death |
 
-Aggression wins early; discipline wins late. Emergent from saturation,
-dominance backlash and compounding retention - not programmed. Recorded as
-the simulation's clearest finding in FINAL_REPORT.md.
+Raw aggression wins in deep early markets; compounding quality/retention
+economics take over as markets saturate; rankings shift as the knowledge base
+learns - all emergent, none scripted.
+
+**Learning A/B strengthened**: with the KB at 446 observed runs, a 12-seed
+A/B showed learned priors deliver **+50% median year-1 MRR** vs blank priors
+(8/12 seeds better) - up from +11% at the earlier n=6 check.
+
+Also this phase: winback flow (churned re-enter at reduced organic rate),
+investor cooldown after repeated declines, CPO guard for underpowered pricing
+tests, dead-code cleanup pass.
 
 ## Engineering post-mortems worth keeping
 

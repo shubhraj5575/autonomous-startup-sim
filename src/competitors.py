@@ -118,10 +118,6 @@ class Competitor:
     def _is_funded(self, day: int) -> bool:
         return (day - self.entry_day) < 400 and self.archetype == "marketing_blitzer"
 
-    def offer_view(self, tier_prices_ref: list[float]) -> tuple:
-        """Build the Offer tuple used by customer evaluation."""
-        prices = [p * self.price_mult for p in tier_prices_ref]
-        return prices
 
 
 DEFAULT_COMPETITORS = [

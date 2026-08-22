@@ -56,9 +56,6 @@ class SalesSystem:
         self.pipeline_value: float = 0.0
         self.unworked_leads_today: int = 0
 
-    def hiring_plan_ok(self) -> bool:
-        return True
-
     def add_deal(self, cid: int, segment: str, tier: int, mrr: float,
                  day: int, cycle_days: int) -> Deal:
         d = Deal(did=self._next_did, cid=cid, segment=segment, tier=tier,
