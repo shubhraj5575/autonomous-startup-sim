@@ -42,16 +42,18 @@ strategic intelligence measurably improves over successive experiments.
 - Quality rot, tech debt, support backlogs, over-hiring ahead of payroll — all
   modeled failure modes that the agent layer must actually manage.
 
-Example result - the same agents, different horizons, one seed set:
+Example result - the same agents, different horizons (final mechanics,
+accumulated knowledge):
 
-| Horizon | Winner of strategy tournament | Median MRR |
+| Horizon | Tournament winner | Median MRR |
 |---|---|---|
-| Year 1 | `blitz_growth` | ₹51.0L |
-| Year 2 | `blitz_growth` (deaths appear: 80% survival) | ₹140.1L |
-| Year 5 | **`balanced`** | ₹207.2L |
+| Year 1 | `product_led` | ₹43.5L |
+| Year 2 | `product_led` | ₹138.3L |
+| Year 5 | `blitz_growth` (lean records first death) | ₹203.0L |
 
-Aggression wins early; discipline wins late. This ordering was not programmed
-- it emerges from saturation, dominance backlash and retention economics.
+Raw aggression wins in deep early markets; compounding quality and retention
+economics take over as markets mature and saturate. Rankings shift as the
+knowledge base accumulates - strategy evaluation is a moving target.
 
 ## Horizons & experiments
 

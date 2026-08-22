@@ -7,7 +7,7 @@
 
 | Metric | Value |
 |---|---|
-| Cash | ₹87,857 |
+| Cash | ₹87,861 |
 | MRR / ARR | ₹1,999 / ₹23,988 |
 | Customers | 1 |
 | Market share | 0.0% |
@@ -30,9 +30,9 @@
 
 | Channel | Spend | Leads | CPL | Learned score |
 |---|---|---|---|---|
-| Content/SEO | ₹430 | 4 | ₹20 | 1.00 |
-| Google Ads | ₹453 | 1 | ₹27 | 1.00 |
-| Meta Ads | ₹364 | 1 | ₹13 | 1.00 |
-| WhatsApp Outreach | ₹465 | 6 | ₹21 | 1.00 |
-| Referral | ₹1,585 | 31 | ₹55 | 1.00 |
-| Events | ₹415 | 0 | ₹0 | 1.00 |
+| Content/SEO | ₹347 | 2 | ₹13 | 1.00 |
+| Google Ads | ₹371 | 6 | ₹15 | 1.00 |
+| Meta Ads | ₹456 | 4 | ₹17 | 1.00 |
+| WhatsApp Outreach | ₹330 | 1 | ₹15 | 1.00 |
+| Referral | ₹1,779 | 30 | ₹66 | 1.00 |
+| Events | ₹429 | 4 | ₹20 | 1.00 |

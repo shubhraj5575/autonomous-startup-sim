@@ -313,6 +313,7 @@ class World:
             elif t == "reject_term_sheet":
                 sh = getattr(c, "_pending_term_sheet", None)
                 if sh:
+                    c._last_funding_decline_day = c.day
                     c.company_event(c.day, "funding_declined",
                                     f"Declined {sh['firm']}'s \u20b9{sh['amount']:,.0f} sheet")
                     c._pending_term_sheet = None
@@ -464,31 +465,34 @@ class World:
         referrals = 0
 
         # --- organic demand: segment-level Poisson flips (fast path) ------
+        # churned customers re-enter the funnel at a reduced rate (winback)
         for seg, spec in SEGMENTS.items():
-            bucket = self.pool.seg_bucket(seg, STATE_DORMANT)
-            n_dorm = len(bucket)
-            if n_dorm == 0:
-                continue
-            p_day = self.market.monthly_shopping_rate(seg) * (0.35 + 1.3 * brand) * 2.2
-            mean = n_dorm * p_day
-            if mean < 1e-6:
-                continue
-            u1, u2 = _hash_uniforms(self.cfg.seed, "orgflip", seg, day)
-            z = math.sqrt(-2.0 * math.log(max(u1, 1e-12))) * math.cos(2 * math.pi * u2)
-            sd = math.sqrt(n_dorm * p_day * max(1e-9, 1 - p_day))
-            k = int(round(mean + z * sd))
-            k = max(0, min(k, n_dorm))
-            if k == 0:
-                continue
-            elig = [cid for cid in bucket
-                    if self.pool.get(cid).cooldown_until <= day]
-            if not elig:
-                continue
-            for cid in r.sample(elig, min(k, len(elig))):
-                cust = self.pool.get(cid)
-                cust.source = "organic"
-                cust.shopping_since = day
-                self.pool.transition(cust, STATE_SHOPPING)
+            for bucket, rate_mult in ((self.pool.seg_bucket(seg, STATE_DORMANT), 1.0),
+                                      (self.pool.seg_bucket(seg, STATE_CHURNED), 0.35)):
+                n_dorm = len(bucket)
+                if n_dorm == 0:
+                    continue
+                p_day = self.market.monthly_shopping_rate(seg) * (0.35 + 1.3 * brand) \
+                    * 2.2 * rate_mult
+                mean = n_dorm * p_day
+                if mean < 1e-6:
+                    continue
+                u1, u2 = _hash_uniforms(self.cfg.seed, "orgflip", seg, day, rate_mult)
+                z = math.sqrt(-2.0 * math.log(max(u1, 1e-12))) * math.cos(2 * math.pi * u2)
+                sd = math.sqrt(n_dorm * p_day * max(1e-9, 1 - p_day))
+                k = int(round(mean + z * sd))
+                k = max(0, min(k, n_dorm))
+                if k == 0:
+                    continue
+                elig = [cid for cid in bucket
+                        if self.pool.get(cid).cooldown_until <= day]
+                if not elig:
+                    continue
+                for cid in r.sample(elig, min(k, len(elig))):
+                    cust = self.pool.get(cid)
+                    cust.source = "organic"
+                    cust.shopping_since = day
+                    self.pool.transition(cust, STATE_SHOPPING)
 
         # --- shopping evaluations ----------------------------------------
         for cid in list(self.pool.ids_in_state(STATE_SHOPPING)):

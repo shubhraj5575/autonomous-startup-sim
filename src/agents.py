@@ -450,6 +450,24 @@ class AgentSuite:
             if elapsed >= 21:
                 win_rate_during = c.recent_eval_win_rate(days=elapsed)
                 baseline = ps.get("baseline_win_rate", 0.3)
+                if baseline < 1e-3:
+                    # no readable baseline (too few conversions): revert safely
+                    actions.append(dict(type="set_price_mult",
+                                        mult=ps["baseline_mult"]))
+                    d = c.log_decision(
+                        day=today, agent="CPO", kind="pricing_test_result",
+                        decision=f"Revert price multiplier to {ps['baseline_mult']:.2f} "
+                                 f"(test {ps['mult']:.2f}) - unreadable signal",
+                        reasoning=(f"Baseline win rate ~0 over measurement window; "
+                                   f"experiment underpowered at current lead volume."),
+                        data_considered={"evaluations_30d": c.recent_eval_count(30)},
+                        expected={"revenue_per_eval_delta": 0.0},
+                        eval_horizon_days=30)
+                    ps.update(active=False)
+                    self.last_price_action_day = today
+                    return
+                win_rate_during = c.recent_eval_win_rate(days=elapsed)
+                baseline = ps.get("baseline_win_rate", 0.3)
                 pr_old, pr_new = ps["baseline_price"], ps["test_price"]
                 rev_old = baseline * pr_old
                 rev_new = win_rate_during * pr_new

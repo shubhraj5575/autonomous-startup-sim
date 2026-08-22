@@ -18,6 +18,10 @@ FIRMS = ["Indus Ventures", "Bharat Seed Fund", "Mumbai Angels X", "Pebble Capita
 def maybe_term_sheet(company, view, rng: random.Random) -> dict | None:
     """Called monthly. Returns a sheet dict or None; CEO decides."""
     c = company
+    # investors stop circling a founder who keeps saying no
+    last_no = getattr(c, "_last_funding_decline_day", -10_000)
+    if c.day - last_no < 180:
+        return None
     k_mrr = c.current_mrr
     if k_mrr < 40_000:
         return None
