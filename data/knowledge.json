@@ -1,0 +1,132 @@
+{
+ "schema": 1,
+ "updated_utc": "2026-08-22T19:34:05Z",
+ "runs_observed": 29,
+ "channel_scores": {
+  "content_seo": 2.8656918114942522,
+  "google_ads": 2.4625089811494254,
+  "meta_ads": 2.569393121839081,
+  "whatsapp_outreach": 2.5096842335632186,
+  "referral_program": 2.836761724137932,
+  "events_partnerships": 2.0996451335384614
+ },
+ "channel_samples": {
+  "content_seo": 29,
+  "google_ads": 29,
+  "meta_ads": 29,
+  "whatsapp_outreach": 29,
+  "referral_program": 29,
+  "events_partnerships": 25
+ },
+ "price_elasticity": {
+  "mean": -2.776102748828046,
+  "n": 29
+ },
+ "strategy_outcomes": {
+  "balanced": {
+   "runs": 13,
+   "survivals": 13,
+   "mrr_multiples": [
+    16.155,
+    47.255,
+    22.769,
+    39.879,
+    44.917,
+    7.443,
+    37.537,
+    17.622,
+    9.158,
+    24.067,
+    21.445,
+    28.981,
+    34.458
+   ],
+   "valuations": [
+    310184164.0,
+    907304978.0,
+    437163794.0,
+    765677603.0,
+    862402236.0,
+    142910740.0,
+    720719318.0,
+    338339290.0,
+    175838786.0,
+    462077983.0,
+    411743261.0,
+    556443767.0,
+    661586433.0
+   ]
+  },
+  "blitz_growth": {
+   "runs": 4,
+   "survivals": 4,
+   "mrr_multiples": [
+    51.417,
+    26.778,
+    24.015,
+    42.869
+   ],
+   "valuations": [
+    987208295.0,
+    514133566.0,
+    461091168.0,
+    823083073.0
+   ]
+  },
+  "lean_profitable": {
+   "runs": 4,
+   "survivals": 4,
+   "mrr_multiples": [
+    22.769,
+    7.443,
+    9.158,
+    7.863
+   ],
+   "valuations": [
+    437163794.0,
+    142910740.0,
+    175838786.0,
+    150966753.0
+   ]
+  },
+  "premium_first": {
+   "runs": 4,
+   "survivals": 4,
+   "mrr_multiples": [
+    15.787,
+    3.375,
+    3.539,
+    13.394
+   ],
+   "valuations": [
+    303112368.0,
+    64802454.0,
+    67946412.0,
+    257163385.0
+   ]
+  },
+  "product_led": {
+   "runs": 4,
+   "survivals": 4,
+   "mrr_multiples": [
+    33.483,
+    35.419,
+    7.97,
+    29.62
+   ],
+   "valuations": [
+    642878481.0,
+    680051551.0,
+    153023835.0,
+    568705296.0
+   ]
+  }
+ },
+ "churn_lessons": {
+  "Segment focus did not lower CAC; fit assumption wrong or channels misaligned.": 56,
+  "Spend adjustment did not improve ROI; unit economics may be capped.": 52,
+  "Price move hurt conversion more than modeled; elasticity prior was too optimistic.": 22,
+  "Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.": 16,
+  "Expected effect did not materialize; revisit assumptions.": 23
+ }
+}

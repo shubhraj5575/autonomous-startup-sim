@@ -83,7 +83,7 @@ FEATURES = {
     "ai_insights":        dict(name="AI Insights & Forecasting",cost=380, tier=2),
     "api_access":         dict(name="Public API + Webhooks",    cost=240, tier=2),
     "security_sso":       dict(name="Security / SSO / Audit",   cost=260, tier=2),
-    "sla_support":        dict(name="SLA-backed Support",       cost=140, tier=2),
+    "sla_support":        dict(name="SLA-backed Support",       cost=140, tier=3),
 }
 
 # Pricing tiers: index -> monthly price. Tier gating: customer's needed feature

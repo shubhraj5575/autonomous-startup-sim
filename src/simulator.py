@@ -790,7 +790,11 @@ class World:
         rev_total30 = sum(v for _, v in list(self.revenue_window)[-30:]) or 0
         gross_margin = clamp(1.0 - cogs30 / max(rev_total30, 1.0), 0.05, 0.98)
         churn_rate_monthly = clamp(churn30 / max(len(c.active_ids) + churn30, 1), 0.001, 0.9)
-        ltv = arpu * gross_margin / max(churn_rate_monthly, 0.01) if arpu > 0 else 0.0
+        # LTV is only meaningful once there is churn signal and a real base
+        if len(c.active_ids) >= 20 and churn30 >= 2:
+            ltv = arpu * gross_margin / churn_rate_monthly
+        else:
+            ltv = None
         opex30 = mkt30 + sal30 + other30
         net_burn30 = opex30 - rev_total30
         runway = FinanceEngine.compute_runway(c.finance.cash, net_burn30)
@@ -809,8 +813,8 @@ class World:
             opex_mtd=opex30 / 30.0,
             net_income_mtd=(rev_total30 - opex30) / 30.0,
             gross_margin_pct=gross_margin * 100.0,
-            cac_blended=cac, ltv=ltv,
-            ltv_cac=(ltv / cac if cac > 0 else 0.0),
+            cac_blended=cac, ltv=ltv if ltv is not None else 0.0,
+            ltv_cac=(ltv / cac if (ltv and cac > 0) else None),
             payback_months=(cac / max(arpu * gross_margin, 1e-9)),
             logo_churn_pct_monthly=logo_churn_pct,
             net_revenue_retention_pct=100.0 + self._nrr_delta(),
