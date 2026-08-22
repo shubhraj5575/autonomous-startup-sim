@@ -7,13 +7,13 @@
 
 | Metric | Value |
 |---|---|
-| Cash | ₹87,861 |
-| MRR / ARR | ₹1,999 / ₹23,988 |
-| Customers | 1 |
+| Cash | ₹85,900 |
+| MRR / ARR | ₹0 / ₹0 |
+| Customers | 0 |
 | Market share | 0.0% |
-| Valuation proxy | ₹1.69L |
+| Valuation proxy | ₹85,900 |
 | Logo churn (monthly) | 0.0% |
-| CAC / LTV | ₹3,450 / n/a (too early) |
+| CAC / LTV | ₹0 / n/a (too early) |
 | Gross margin | 98% |
 | Product quality / debt | 0.51 / 70 |
 | Team size | 1 |
@@ -30,9 +30,9 @@
 
 | Channel | Spend | Leads | CPL | Learned score |
 |---|---|---|---|---|
-| Content/SEO | ₹347 | 2 | ₹13 | 1.00 |
-| Google Ads | ₹371 | 6 | ₹15 | 1.00 |
-| Meta Ads | ₹456 | 4 | ₹17 | 1.00 |
-| WhatsApp Outreach | ₹330 | 1 | ₹15 | 1.00 |
-| Referral | ₹1,779 | 30 | ₹66 | 1.00 |
-| Events | ₹429 | 4 | ₹20 | 1.00 |
+| Content/SEO | ₹396 | 0 | ₹0 | 1.00 |
+| Google Ads | ₹447 | 2 | ₹19 | 1.00 |
+| Meta Ads | ₹407 | 3 | ₹17 | 1.00 |
+| WhatsApp Outreach | ₹363 | 8 | ₹14 | 1.00 |
+| Referral | ₹1,687 | 33 | ₹59 | 1.00 |
+| Events | ₹413 | 5 | ₹19 | 1.00 |

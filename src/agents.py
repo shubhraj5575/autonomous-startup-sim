@@ -421,11 +421,18 @@ class AgentSuite:
         unassigned = k["unassigned"]
         open_deals = k["open_deals"]
         afford = (k["runway_eff"] > 7.5 or k["burn30"] < 0) and k["cash"] > 90_000
+        # staff to the pipeline AND to revenue: the AE bill must stay a sane
+        # share of bookings - the seed-4242 overspend lesson
+        ae_bill = aes * SALARY["account_exec"]
+        revenue_ok = k["mrr"] >= 60_000 and \
+            (ae_bill + SALARY["account_exec"]) <= 0.35 * max(k["mrr"], 1)
+        target_aes = max(1, int(open_deals / c.sales.MAX_DEALS_PER_AE) + 1)
         load_ratio = open_deals / max(1.0, aes * c.sales.MAX_DEALS_PER_AE)
 
-        if phase in ("grow", "scale") and (unassigned > 0 or load_ratio > 0.85) and afford \
+        if phase in ("grow", "scale") and aes < target_aes and revenue_ok \
+                and (unassigned > 0 or load_ratio > 0.85) and afford \
                 and hire_affordable(c, k, SALARY["account_exec"]) \
-                and c.strategy.hire_eagerness > 0.3 and rng_ok(c, "hire_ae", 45):
+                and rng_ok(c, "hire_ae", 18):
             actions.append(dict(type="hire_sales", role="account_exec", n=1))
             d = c.log_decision(
                 day=c.day, agent="Sales Lead", kind="hire",

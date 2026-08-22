@@ -94,7 +94,7 @@ competitor intel and channel-learning tables.
 | `src/finance.py` | ledger, SaaS metrics, valuation proxy |
 | `src/experiments.py` | clone-and-compare tournaments |
 | `src/knowledge.py` | cross-run learning persistence |
-| `docs/` | architecture deep-dive |
+| `ARCHITECTURE.md` | architecture deep-dive |
 | `runs/` | generated artifacts (one dir per run) |
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for the full design,

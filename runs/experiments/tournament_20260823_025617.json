@@ -1,0 +1,8750 @@
+{
+ "schema": 1,
+ "created_utc": "2026-08-22T21:26:17Z",
+ "days": 365,
+ "seeds": 8,
+ "presets": [
+  "balanced",
+  "lean_profitable",
+  "blitz_growth",
+  "premium_first",
+  "product_led"
+ ],
+ "aggregate": {
+  "balanced": {
+   "runs": 8,
+   "survival_rate": 1.0,
+   "median_mrr": 1827067.3485999713,
+   "mean_mrr": 1671909.3358999968,
+   "max_mrr": 2619551.890000033,
+   "median_cash": 830718.2134090585,
+   "median_valuation": 351627649.14460355,
+   "median_mrr_multiple": 18.270673485999716,
+   "decision_success_rate": 0.6032608695652174,
+   "decision_fail_rate": 0.30434782608695654
+  },
+  "lean_profitable": {
+   "runs": 8,
+   "survival_rate": 1.0,
+   "median_mrr": 1378550.8399999845,
+   "mean_mrr": 1166732.2687499877,
+   "max_mrr": 1706071.8899999806,
+   "median_cash": 566008.0442966423,
+   "median_valuation": 265247769.3242937,
+   "median_mrr_multiple": 13.785508399999847,
+   "decision_success_rate": 0.6054421768707483,
+   "decision_fail_rate": 0.32653061224489793
+  },
+  "blitz_growth": {
+   "runs": 8,
+   "survival_rate": 1.0,
+   "median_mrr": 3023082.4870000714,
+   "mean_mrr": 2708896.2164827823,
+   "max_mrr": 3459176.020000135,
+   "median_cash": 1687385.1248664302,
+   "median_valuation": 582184685.6146246,
+   "median_mrr_multiple": 30.230824870000717,
+   "decision_success_rate": 0.5683760683760684,
+   "decision_fail_rate": 0.21367521367521367
+  },
+  "premium_first": {
+   "runs": 8,
+   "survival_rate": 1.0,
+   "median_mrr": 70164.9,
+   "mean_mrr": 329085.322499997,
+   "max_mrr": 1289551.1699999834,
+   "median_cash": 79717.23225833414,
+   "median_valuation": 13551378.032258332,
+   "median_mrr_multiple": 0.701649,
+   "decision_success_rate": 0.4157303370786517,
+   "decision_fail_rate": 0.5617977528089888
+  },
+  "product_led": {
+   "runs": 8,
+   "survival_rate": 1.0,
+   "median_mrr": 1523554.3999999803,
+   "mean_mrr": 1538049.040721487,
+   "max_mrr": 2465379.770000006,
+   "median_cash": 644035.6433849894,
+   "median_valuation": 293146808.82843286,
+   "median_mrr_multiple": 15.235543999999802,
+   "decision_success_rate": 0.6136363636363636,
+   "decision_fail_rate": 0.32954545454545453
+  }
+ },
+ "ranking": [
+  "blitz_growth",
+  "balanced",
+  "product_led",
+  "lean_profitable",
+  "premium_first"
+ ],
+ "runs": [
+  {
+   "name": "balanced_s1000",
+   "strategy": "balanced",
+   "tournament_seed": 1000,
+   "alive": true,
+   "final": {
+    "cash": 1442264.2827033575,
+    "mrr": 2619551.890000033,
+    "arr": 31434622.6800004,
+    "active_customers": 1490,
+    "valuation_proxy": 504396227.1627097,
+    "market_share_pct": 13.046515923239077,
+    "logo_churn_pct_monthly": 5.202312138728324,
+    "cac_blended": 1609.9557894736843,
+    "ltv": 49048.624137850704,
+    "ltv_cac": 30.465820526590576,
+    "gross_margin_pct": 97.5736510823449,
+    "runway_months": 99.0,
+    "headcount": 18,
+    "founder_equity": 1.0,
+    "quality": 0.500466268750623,
+    "tech_debt": 164.28954741249834,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 27,
+    "success": 16,
+    "partial": 3,
+    "fail": 8
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 3998,
+     "cash": 85415,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 3998,
+     "cash": 80271,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 11994,
+     "cash": 86787,
+     "cust": 6
+    },
+    {
+     "day": 84,
+     "mrr": 13993,
+     "cash": 82169,
+     "cust": 7
+    },
+    {
+     "day": 98,
+     "mrr": 19990,
+     "cash": 86124,
+     "cust": 10
+    },
+    {
+     "day": 112,
+     "mrr": 29185,
+     "cash": 89899,
+     "cust": 15
+    },
+    {
+     "day": 126,
+     "mrr": 39980,
+     "cash": 84221,
+     "cust": 21
+    },
+    {
+     "day": 140,
+     "mrr": 47176,
+     "cash": 102908,
+     "cust": 25
+    },
+    {
+     "day": 154,
+     "mrr": 82960,
+     "cash": 112892,
+     "cust": 43
+    },
+    {
+     "day": 168,
+     "mrr": 109747,
+     "cash": 134992,
+     "cust": 58
+    },
+    {
+     "day": 182,
+     "mrr": 156703,
+     "cash": 151619,
+     "cust": 86
+    },
+    {
+     "day": 196,
+     "mrr": 189807,
+     "cash": 160220,
+     "cust": 106
+    },
+    {
+     "day": 210,
+     "mrr": 238562,
+     "cash": 254031,
+     "cust": 133
+    },
+    {
+     "day": 224,
+     "mrr": 292517,
+     "cash": 172445,
+     "cust": 161
+    },
+    {
+     "day": 238,
+     "mrr": 372943,
+     "cash": 296498,
+     "cust": 199
+    },
+    {
+     "day": 252,
+     "mrr": 476721,
+     "cash": 331944,
+     "cust": 265
+    },
+    {
+     "day": 266,
+     "mrr": 596662,
+     "cash": 456076,
+     "cust": 341
+    },
+    {
+     "day": 280,
+     "mrr": 784203,
+     "cash": 499830,
+     "cust": 457
+    },
+    {
+     "day": 294,
+     "mrr": 980851,
+     "cash": 730849,
+     "cust": 576
+    },
+    {
+     "day": 308,
+     "mrr": 1234944,
+     "cash": 608259,
+     "cust": 728
+    },
+    {
+     "day": 322,
+     "mrr": 1559136,
+     "cash": 1116463,
+     "cust": 905
+    },
+    {
+     "day": 336,
+     "mrr": 1885142,
+     "cash": 844498,
+     "cust": 1066
+    },
+    {
+     "day": 350,
+     "mrr": 2314064,
+     "cash": 1753182,
+     "cust": 1320
+    },
+    {
+     "day": 364,
+     "mrr": 2603960,
+     "cash": 1382591,
+     "cust": 1480
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1000",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1000,
+   "alive": true,
+   "final": {
+    "cash": 543466.0262599665,
+    "mrr": 1329691.589999983,
+    "arr": 15956299.079999797,
+    "active_customers": 768,
+    "valuation_proxy": 255844251.3062567,
+    "market_share_pct": 7.241014633799178,
+    "logo_churn_pct_monthly": 4.57516339869281,
+    "cac_blended": 983.2345732275132,
+    "ltv": 63490.39900898612,
+    "ltv_cac": 64.57299279110572,
+    "gross_margin_pct": 97.6024335150411,
+    "runway_months": 99.0,
+    "headcount": 12,
+    "founder_equity": 1.0,
+    "quality": 0.4709756568760743,
+    "tech_debt": 143.1676554573834,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 20,
+    "success": 11,
+    "partial": 1,
+    "fail": 8
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 2239,
+     "cash": 83693,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 2239,
+     "cash": 78555,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 2239,
+     "cash": 77809,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 4478,
+     "cash": 74866,
+     "cust": 2
+    },
+    {
+     "day": 98,
+     "mrr": 8956,
+     "cash": 72305,
+     "cust": 4
+    },
+    {
+     "day": 112,
+     "mrr": 8956,
+     "cash": 69348,
+     "cust": 4
+    },
+    {
+     "day": 126,
+     "mrr": 11194,
+     "cash": 72978,
+     "cust": 5
+    },
+    {
+     "day": 140,
+     "mrr": 13433,
+     "cash": 70010,
+     "cust": 6
+    },
+    {
+     "day": 154,
+     "mrr": 31344,
+     "cash": 90539,
+     "cust": 14
+    },
+    {
+     "day": 168,
+     "mrr": 43458,
+     "cash": 103153,
+     "cust": 20
+    },
+    {
+     "day": 182,
+     "mrr": 77203,
+     "cash": 104888,
+     "cust": 37
+    },
+    {
+     "day": 196,
+     "mrr": 96993,
+     "cash": 122421,
+     "cust": 48
+    },
+    {
+     "day": 210,
+     "mrr": 123540,
+     "cash": 180627,
+     "cust": 63
+    },
+    {
+     "day": 224,
+     "mrr": 157723,
+     "cash": 172462,
+     "cust": 82
+    },
+    {
+     "day": 238,
+     "mrr": 201721,
+     "cash": 261677,
+     "cust": 107
+    },
+    {
+     "day": 252,
+     "mrr": 248318,
+     "cash": 239707,
+     "cust": 136
+    },
+    {
+     "day": 266,
+     "mrr": 297075,
+     "cash": 248326,
+     "cust": 162
+    },
+    {
+     "day": 280,
+     "mrr": 366800,
+     "cash": 300405,
+     "cust": 201
+    },
+    {
+     "day": 294,
+     "mrr": 458294,
+     "cash": 427424,
+     "cust": 252
+    },
+    {
+     "day": 308,
+     "mrr": 552129,
+     "cash": 286116,
+     "cust": 304
+    },
+    {
+     "day": 322,
+     "mrr": 701218,
+     "cash": 590949,
+     "cust": 397
+    },
+    {
+     "day": 336,
+     "mrr": 811776,
+     "cash": 340375,
+     "cust": 464
+    },
+    {
+     "day": 350,
+     "mrr": 1046122,
+     "cash": 736638,
+     "cust": 612
+    },
+    {
+     "day": 364,
+     "mrr": 1306303,
+     "cash": 506302,
+     "cust": 753
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1000",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1000,
+   "alive": true,
+   "final": {
+    "cash": 950305.4801701022,
+    "mrr": 2203415.4441753128,
+    "arr": 26440985.330103755,
+    "active_customers": 1000,
+    "valuation_proxy": 424006070.7618302,
+    "market_share_pct": 11.714480115685944,
+    "logo_churn_pct_monthly": 4.861111111111112,
+    "cac_blended": 1915.3686006825938,
+    "ltv": 63637.11636809418,
+    "ltv_cac": 33.22447509341824,
+    "gross_margin_pct": 97.66563932608757,
+    "runway_months": 99.0,
+    "headcount": 18,
+    "founder_equity": 1.0,
+    "quality": 0.5100338015625061,
+    "tech_debt": 172.0537935550488,
+    "features": [
+     "ai_insights",
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.8555090400000002,
+    "brand": 0.85,
+    "elasticity_est": -1.3896111658021018
+   },
+   "scorecard": {
+    "total": 29,
+    "success": 16,
+    "partial": 6,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 84433,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 1699,
+     "cash": 79564,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 5097,
+     "cash": 77054,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 16992,
+     "cash": 83698,
+     "cust": 10
+    },
+    {
+     "day": 84,
+     "mrr": 33983,
+     "cash": 91746,
+     "cust": 20
+    },
+    {
+     "day": 98,
+     "mrr": 44278,
+     "cash": 80331,
+     "cust": 26
+    },
+    {
+     "day": 112,
+     "mrr": 54373,
+     "cash": 110665,
+     "cust": 31
+    },
+    {
+     "day": 126,
+     "mrr": 62971,
+     "cash": 90661,
+     "cust": 33
+    },
+    {
+     "day": 140,
+     "mrr": 60471,
+     "cash": 101669,
+     "cust": 32
+    },
+    {
+     "day": 154,
+     "mrr": 88457,
+     "cash": 110599,
+     "cust": 46
+    },
+    {
+     "day": 168,
+     "mrr": 135146,
+     "cash": 140837,
+     "cust": 70
+    },
+    {
+     "day": 182,
+     "mrr": 194472,
+     "cash": 151994,
+     "cust": 101
+    },
+    {
+     "day": 196,
+     "mrr": 236543,
+     "cash": 151130,
+     "cust": 123
+    },
+    {
+     "day": 210,
+     "mrr": 292323,
+     "cash": 222381,
+     "cust": 153
+    },
+    {
+     "day": 224,
+     "mrr": 347536,
+     "cash": 182746,
+     "cust": 182
+    },
+    {
+     "day": 238,
+     "mrr": 408599,
+     "cash": 292619,
+     "cust": 210
+    },
+    {
+     "day": 252,
+     "mrr": 498836,
+     "cash": 274952,
+     "cust": 254
+    },
+    {
+     "day": 266,
+     "mrr": 609626,
+     "cash": 412899,
+     "cust": 309
+    },
+    {
+     "day": 280,
+     "mrr": 743840,
+     "cash": 400166,
+     "cust": 377
+    },
+    {
+     "day": 294,
+     "mrr": 890273,
+     "cash": 589477,
+     "cust": 444
+    },
+    {
+     "day": 308,
+     "mrr": 1112246,
+     "cash": 400400,
+     "cust": 529
+    },
+    {
+     "day": 322,
+     "mrr": 1357059,
+     "cash": 1028200,
+     "cust": 650
+    },
+    {
+     "day": 336,
+     "mrr": 1539240,
+     "cash": 621043,
+     "cust": 731
+    },
+    {
+     "day": 350,
+     "mrr": 1858877,
+     "cash": 1327476,
+     "cust": 882
+    },
+    {
+     "day": 364,
+     "mrr": 2163510,
+     "cash": 879548,
+     "cust": 981
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1000",
+   "strategy": "premium_first",
+   "tournament_seed": 1000,
+   "alive": true,
+   "final": {
+    "cash": 399871.0300466568,
+    "mrr": 867798.5699999926,
+    "arr": 10413582.83999991,
+    "active_customers": 499,
+    "valuation_proxy": 167017196.47004524,
+    "market_share_pct": 4.273449623292009,
+    "logo_churn_pct_monthly": 5.343511450381679,
+    "cac_blended": 705.7740585774059,
+    "ltv": 62213.68869795459,
+    "ltv_cac": 88.14958263464042,
+    "gross_margin_pct": 97.6288644223458,
+    "runway_months": 99.0,
+    "headcount": 9,
+    "founder_equity": 1.0,
+    "quality": 0.4438176675765871,
+    "tech_debt": 128.76793703813095,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.6716527151807119,
+    "elasticity_est": -3.008302804948947
+   },
+   "scorecard": {
+    "total": 17,
+    "success": 8,
+    "partial": 0,
+    "fail": 9
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 5397,
+     "cash": 86793,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 5397,
+     "cash": 81649,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 5397,
+     "cash": 79153,
+     "cust": 2
+    },
+    {
+     "day": 84,
+     "mrr": 2699,
+     "cash": 76661,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 8096,
+     "cash": 75459,
+     "cust": 3
+    },
+    {
+     "day": 112,
+     "mrr": 10795,
+     "cash": 72957,
+     "cust": 4
+    },
+    {
+     "day": 126,
+     "mrr": 10795,
+     "cash": 70450,
+     "cust": 4
+    },
+    {
+     "day": 140,
+     "mrr": 10795,
+     "cash": 73239,
+     "cust": 4
+    },
+    {
+     "day": 154,
+     "mrr": 16192,
+     "cash": 75892,
+     "cust": 6
+    },
+    {
+     "day": 168,
+     "mrr": 21589,
+     "cash": 80162,
+     "cust": 8
+    },
+    {
+     "day": 182,
+     "mrr": 25187,
+     "cash": 82869,
+     "cust": 10
+    },
+    {
+     "day": 196,
+     "mrr": 55772,
+     "cash": 115014,
+     "cust": 27
+    },
+    {
+     "day": 210,
+     "mrr": 68366,
+     "cash": 108997,
+     "cust": 34
+    },
+    {
+     "day": 224,
+     "mrr": 96255,
+     "cash": 132570,
+     "cust": 46
+    },
+    {
+     "day": 238,
+     "mrr": 123244,
+     "cash": 158712,
+     "cust": 59
+    },
+    {
+     "day": 252,
+     "mrr": 133679,
+     "cash": 160522,
+     "cust": 65
+    },
+    {
+     "day": 266,
+     "mrr": 157067,
+     "cash": 207022,
+     "cust": 80
+    },
+    {
+     "day": 280,
+     "mrr": 216259,
+     "cash": 190889,
+     "cust": 115
+    },
+    {
+     "day": 294,
+     "mrr": 258719,
+     "cash": 241567,
+     "cust": 140
+    },
+    {
+     "day": 308,
+     "mrr": 325466,
+     "cash": 188364,
+     "cust": 182
+    },
+    {
+     "day": 322,
+     "mrr": 381507,
+     "cash": 299399,
+     "cust": 218
+    },
+    {
+     "day": 336,
+     "mrr": 509297,
+     "cash": 169351,
+     "cust": 270
+    },
+    {
+     "day": 350,
+     "mrr": 680571,
+     "cash": 374665,
+     "cust": 380
+    },
+    {
+     "day": 364,
+     "mrr": 846208,
+     "cash": 370704,
+     "cust": 487
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1000",
+   "strategy": "product_led",
+   "tournament_seed": 1000,
+   "alive": true,
+   "final": {
+    "cash": 1095354.6727099884,
+    "mrr": 2205464.9299999834,
+    "arr": 26465579.159999803,
+    "active_customers": 1255,
+    "valuation_proxy": 424544621.23270684,
+    "market_share_pct": 12.307466149949366,
+    "logo_churn_pct_monthly": 4.938271604938271,
+    "cac_blended": 1250.2817204301075,
+    "ltv": 55517.96613049904,
+    "ltv_cac": 44.40436521090653,
+    "gross_margin_pct": 97.58146637647044,
+    "runway_months": 99.0,
+    "headcount": 16,
+    "founder_equity": 1.0,
+    "quality": 0.49302101084367334,
+    "tech_debt": 158.7425593040164,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 26,
+    "success": 17,
+    "partial": 2,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 1899,
+     "cash": 78226,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 5697,
+     "cash": 76807,
+     "cust": 3
+    },
+    {
+     "day": 84,
+     "mrr": 20890,
+     "cash": 87347,
+     "cust": 11
+    },
+    {
+     "day": 98,
+     "mrr": 30285,
+     "cash": 87550,
+     "cust": 16
+    },
+    {
+     "day": 112,
+     "mrr": 40979,
+     "cash": 109837,
+     "cust": 22
+    },
+    {
+     "day": 126,
+     "mrr": 48076,
+     "cash": 102478,
+     "cust": 26
+    },
+    {
+     "day": 140,
+     "mrr": 53473,
+     "cash": 105842,
+     "cust": 29
+    },
+    {
+     "day": 154,
+     "mrr": 80460,
+     "cash": 94358,
+     "cust": 44
+    },
+    {
+     "day": 168,
+     "mrr": 101509,
+     "cash": 128481,
+     "cust": 56
+    },
+    {
+     "day": 182,
+     "mrr": 118581,
+     "cash": 87946,
+     "cust": 67
+    },
+    {
+     "day": 196,
+     "mrr": 147268,
+     "cash": 136186,
+     "cust": 83
+    },
+    {
+     "day": 210,
+     "mrr": 174614,
+     "cash": 215137,
+     "cust": 100
+    },
+    {
+     "day": 224,
+     "mrr": 203123,
+     "cash": 177130,
+     "cust": 114
+    },
+    {
+     "day": 238,
+     "mrr": 251159,
+     "cash": 260101,
+     "cust": 144
+    },
+    {
+     "day": 252,
+     "mrr": 323783,
+     "cash": 223482,
+     "cust": 191
+    },
+    {
+     "day": 266,
+     "mrr": 430081,
+     "cash": 326143,
+     "cust": 258
+    },
+    {
+     "day": 280,
+     "mrr": 565489,
+     "cash": 346506,
+     "cust": 338
+    },
+    {
+     "day": 294,
+     "mrr": 701615,
+     "cash": 485987,
+     "cust": 420
+    },
+    {
+     "day": 308,
+     "mrr": 897996,
+     "cash": 392813,
+     "cust": 535
+    },
+    {
+     "day": 322,
+     "mrr": 1211631,
+     "cash": 860626,
+     "cust": 707
+    },
+    {
+     "day": 336,
+     "mrr": 1442504,
+     "cash": 592919,
+     "cust": 832
+    },
+    {
+     "day": 350,
+     "mrr": 1830612,
+     "cash": 1308036,
+     "cust": 1066
+    },
+    {
+     "day": 364,
+     "mrr": 2185195,
+     "cash": 1059525,
+     "cust": 1242
+    }
+   ]
+  },
+  {
+   "name": "balanced_s1137",
+   "strategy": "balanced",
+   "tournament_seed": 1137,
+   "alive": true,
+   "final": {
+    "cash": 170029.9621133305,
+    "mrr": 260828.75000000012,
+    "arr": 3129945.0000000014,
+    "active_customers": 152,
+    "valuation_proxy": 50249149.96211335,
+    "market_share_pct": 1.3385850565722759,
+    "logo_churn_pct_monthly": 6.4,
+    "cac_blended": 2531.6185078431376,
+    "ltv": 33467.96400828509,
+    "ltv_cac": 13.219987097028605,
+    "gross_margin_pct": 97.5185927406264,
+    "runway_months": 12.485607264115314,
+    "headcount": 5,
+    "founder_equity": 1.0,
+    "quality": 0.40409579602713347,
+    "tech_debt": 112.20742922373452,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.47109157953827363,
+    "elasticity_est": -2.430958911482151
+   },
+   "scorecard": {
+    "total": 19,
+    "success": 10,
+    "partial": 0,
+    "fail": 9
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 5997,
+     "cash": 82239,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 11994,
+     "cash": 82162,
+     "cust": 6
+    },
+    {
+     "day": 84,
+     "mrr": 15992,
+     "cash": 86462,
+     "cust": 8
+    },
+    {
+     "day": 98,
+     "mrr": 21589,
+     "cash": 86538,
+     "cust": 11
+    },
+    {
+     "day": 112,
+     "mrr": 30385,
+     "cash": 98907,
+     "cust": 16
+    },
+    {
+     "day": 126,
+     "mrr": 39380,
+     "cash": 88916,
+     "cust": 21
+    },
+    {
+     "day": 140,
+     "mrr": 46577,
+     "cash": 110769,
+     "cust": 25
+    },
+    {
+     "day": 154,
+     "mrr": 51776,
+     "cash": 107392,
+     "cust": 26
+    },
+    {
+     "day": 168,
+     "mrr": 55194,
+     "cash": 104662,
+     "cust": 28
+    },
+    {
+     "day": 182,
+     "mrr": 60552,
+     "cash": 90680,
+     "cust": 32
+    },
+    {
+     "day": 196,
+     "mrr": 70087,
+     "cash": 107841,
+     "cust": 38
+    },
+    {
+     "day": 210,
+     "mrr": 79242,
+     "cash": 144773,
+     "cust": 44
+    },
+    {
+     "day": 224,
+     "mrr": 106770,
+     "cash": 144508,
+     "cust": 59
+    },
+    {
+     "day": 238,
+     "mrr": 119164,
+     "cash": 179824,
+     "cust": 67
+    },
+    {
+     "day": 252,
+     "mrr": 120420,
+     "cash": 157333,
+     "cust": 72
+    },
+    {
+     "day": 266,
+     "mrr": 132294,
+     "cash": 211343,
+     "cust": 80
+    },
+    {
+     "day": 280,
+     "mrr": 145469,
+     "cash": 184268,
+     "cust": 87
+    },
+    {
+     "day": 294,
+     "mrr": 161063,
+     "cash": 238794,
+     "cust": 95
+    },
+    {
+     "day": 308,
+     "mrr": 181214,
+     "cash": 202466,
+     "cust": 106
+    },
+    {
+     "day": 322,
+     "mrr": 196807,
+     "cash": 253618,
+     "cust": 116
+    },
+    {
+     "day": 336,
+     "mrr": 218637,
+     "cash": 188796,
+     "cust": 128
+    },
+    {
+     "day": 350,
+     "mrr": 242026,
+     "cash": 210556,
+     "cust": 143
+    },
+    {
+     "day": 364,
+     "mrr": 257710,
+     "cash": 159925,
+     "cust": 150
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1137",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1137,
+   "alive": true,
+   "final": {
+    "cash": 62049.47025333386,
+    "mrr": 22070.360000000004,
+    "arr": 264844.32000000007,
+    "active_customers": 9,
+    "valuation_proxy": 4299558.5902533345,
+    "market_share_pct": 0.11073864616574051,
+    "logo_churn_pct_monthly": 12.5,
+    "cac_blended": 2322.5,
+    "ltv": 0.0,
+    "ltv_cac": null,
+    "gross_margin_pct": 97.73950607533047,
+    "runway_months": 99.0,
+    "headcount": 1,
+    "founder_equity": 1.0,
+    "quality": 0.3685554424400791,
+    "tech_debt": 106.66838301090364,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.9,
+    "brand": 0.1252748636156276,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 7,
+    "success": 2,
+    "partial": 0,
+    "fail": 5
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 0,
+     "cash": 71233,
+     "cust": 0
+    },
+    {
+     "day": 84,
+     "mrr": 2239,
+     "cash": 68294,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 4478,
+     "cash": 61348,
+     "cust": 2
+    },
+    {
+     "day": 112,
+     "mrr": 4478,
+     "cash": 60599,
+     "cust": 2
+    },
+    {
+     "day": 126,
+     "mrr": 4478,
+     "cash": 59846,
+     "cust": 2
+    },
+    {
+     "day": 140,
+     "mrr": 6717,
+     "cash": 56894,
+     "cust": 3
+    },
+    {
+     "day": 154,
+     "mrr": 5037,
+     "cash": 56688,
+     "cust": 3
+    },
+    {
+     "day": 168,
+     "mrr": 2798,
+     "cash": 53739,
+     "cust": 2
+    },
+    {
+     "day": 182,
+     "mrr": 5037,
+     "cash": 53531,
+     "cust": 3
+    },
+    {
+     "day": 196,
+     "mrr": 9514,
+     "cash": 48769,
+     "cust": 5
+    },
+    {
+     "day": 210,
+     "mrr": 7276,
+     "cash": 48553,
+     "cust": 4
+    },
+    {
+     "day": 224,
+     "mrr": 7276,
+     "cash": 45596,
+     "cust": 4
+    },
+    {
+     "day": 238,
+     "mrr": 11756,
+     "cash": 47579,
+     "cust": 4
+    },
+    {
+     "day": 252,
+     "mrr": 11756,
+     "cash": 44622,
+     "cust": 4
+    },
+    {
+     "day": 266,
+     "mrr": 11756,
+     "cash": 48803,
+     "cust": 4
+    },
+    {
+     "day": 280,
+     "mrr": 11756,
+     "cash": 41846,
+     "cust": 4
+    },
+    {
+     "day": 294,
+     "mrr": 11756,
+     "cash": 46028,
+     "cust": 4
+    },
+    {
+     "day": 308,
+     "mrr": 11756,
+     "cash": 45269,
+     "cust": 4
+    },
+    {
+     "day": 322,
+     "mrr": 13994,
+     "cash": 51097,
+     "cust": 5
+    },
+    {
+     "day": 336,
+     "mrr": 20711,
+     "cash": 53066,
+     "cust": 8
+    },
+    {
+     "day": 350,
+     "mrr": 18472,
+     "cash": 61074,
+     "cust": 7
+    },
+    {
+     "day": 364,
+     "mrr": 22070,
+     "cash": 66419,
+     "cust": 9
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1137",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1137,
+   "alive": true,
+   "final": {
+    "cash": 2151458.329506864,
+    "mrr": 3459176.020000135,
+    "arr": 41510112.24000162,
+    "active_customers": 1963,
+    "valuation_proxy": 666313254.1695328,
+    "market_share_pct": 17.201276206891855,
+    "logo_churn_pct_monthly": 5.384615384615385,
+    "cac_blended": 2141.8985765124553,
+    "ltv": 45548.23533143361,
+    "ltv_cac": 21.26535580671494,
+    "gross_margin_pct": 97.56178813059336,
+    "runway_months": 99.0,
+    "headcount": 21,
+    "founder_equity": 1.0,
+    "quality": 0.5100338015625061,
+    "tech_debt": 172.0537935550488,
+    "features": [
+     "ai_insights",
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -2.378133433632251
+   },
+   "scorecard": {
+    "total": 30,
+    "success": 18,
+    "partial": 8,
+    "fail": 4
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 3398,
+     "cash": 87760,
+     "cust": 2
+    },
+    {
+     "day": 42,
+     "mrr": 3822,
+     "cash": 81628,
+     "cust": 3
+    },
+    {
+     "day": 56,
+     "mrr": 14017,
+     "cash": 88341,
+     "cust": 9
+    },
+    {
+     "day": 70,
+     "mrr": 22513,
+     "cash": 88563,
+     "cust": 14
+    },
+    {
+     "day": 84,
+     "mrr": 29310,
+     "cash": 95848,
+     "cust": 18
+    },
+    {
+     "day": 98,
+     "mrr": 38205,
+     "cash": 80700,
+     "cust": 23
+    },
+    {
+     "day": 112,
+     "mrr": 38405,
+     "cash": 95462,
+     "cust": 23
+    },
+    {
+     "day": 126,
+     "mrr": 44702,
+     "cash": 106181,
+     "cust": 26
+    },
+    {
+     "day": 140,
+     "mrr": 46901,
+     "cash": 109589,
+     "cust": 27
+    },
+    {
+     "day": 154,
+     "mrr": 69751,
+     "cash": 110320,
+     "cust": 37
+    },
+    {
+     "day": 168,
+     "mrr": 103274,
+     "cash": 127082,
+     "cust": 57
+    },
+    {
+     "day": 182,
+     "mrr": 140356,
+     "cash": 133287,
+     "cust": 80
+    },
+    {
+     "day": 196,
+     "mrr": 206366,
+     "cash": 166284,
+     "cust": 117
+    },
+    {
+     "day": 210,
+     "mrr": 285167,
+     "cash": 219812,
+     "cust": 166
+    },
+    {
+     "day": 224,
+     "mrr": 368602,
+     "cash": 199483,
+     "cust": 222
+    },
+    {
+     "day": 238,
+     "mrr": 495383,
+     "cash": 375032,
+     "cust": 297
+    },
+    {
+     "day": 252,
+     "mrr": 674059,
+     "cash": 388839,
+     "cust": 406
+    },
+    {
+     "day": 266,
+     "mrr": 871804,
+     "cash": 608142,
+     "cust": 502
+    },
+    {
+     "day": 280,
+     "mrr": 1045758,
+     "cash": 580935,
+     "cust": 612
+    },
+    {
+     "day": 294,
+     "mrr": 1271990,
+     "cash": 934324,
+     "cust": 751
+    },
+    {
+     "day": 308,
+     "mrr": 1739628,
+     "cash": 776302,
+     "cust": 985
+    },
+    {
+     "day": 322,
+     "mrr": 2163485,
+     "cash": 1544860,
+     "cust": 1232
+    },
+    {
+     "day": 336,
+     "mrr": 2614493,
+     "cash": 1360591,
+     "cust": 1479
+    },
+    {
+     "day": 350,
+     "mrr": 3076341,
+     "cash": 2351144,
+     "cust": 1751
+    },
+    {
+     "day": 364,
+     "mrr": 3429606,
+     "cash": 2071541,
+     "cust": 1950
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1137",
+   "strategy": "premium_first",
+   "tournament_seed": 1137,
+   "alive": true,
+   "final": {
+    "cash": 61371.07976666709,
+    "mrr": 79160.40000000001,
+    "arr": 949924.8,
+    "active_customers": 40,
+    "valuation_proxy": 15260167.879766667,
+    "market_share_pct": 0.3749980312810033,
+    "logo_churn_pct_monthly": 4.545454545454546,
+    "cac_blended": 538.8270526315788,
+    "ltv": 0.0,
+    "ltv_cac": null,
+    "gross_margin_pct": 97.68921847755153,
+    "runway_months": 99.0,
+    "headcount": 1,
+    "founder_equity": 1.0,
+    "quality": 0.3685554424400791,
+    "tech_debt": 106.66838301090364,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.9,
+    "brand": 0.1350153546396229,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 9,
+    "success": 3,
+    "partial": 1,
+    "fail": 5
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 0,
+     "cash": 71233,
+     "cust": 0
+    },
+    {
+     "day": 84,
+     "mrr": 0,
+     "cash": 66100,
+     "cust": 0
+    },
+    {
+     "day": 98,
+     "mrr": 0,
+     "cash": 56967,
+     "cust": 0
+    },
+    {
+     "day": 112,
+     "mrr": 0,
+     "cash": 51833,
+     "cust": 0
+    },
+    {
+     "day": 126,
+     "mrr": 0,
+     "cash": 46700,
+     "cust": 0
+    },
+    {
+     "day": 140,
+     "mrr": 2699,
+     "cash": 44213,
+     "cust": 1
+    },
+    {
+     "day": 154,
+     "mrr": 2699,
+     "cash": 39074,
+     "cust": 1
+    },
+    {
+     "day": 168,
+     "mrr": 2699,
+     "cash": 36583,
+     "cust": 1
+    },
+    {
+     "day": 182,
+     "mrr": 2699,
+     "cash": 31445,
+     "cust": 1
+    },
+    {
+     "day": 196,
+     "mrr": 2699,
+     "cash": 22306,
+     "cust": 1
+    },
+    {
+     "day": 210,
+     "mrr": 5397,
+     "cash": 22460,
+     "cust": 2
+    },
+    {
+     "day": 224,
+     "mrr": 5397,
+     "cash": 17317,
+     "cust": 2
+    },
+    {
+     "day": 238,
+     "mrr": 8096,
+     "cash": 20114,
+     "cust": 3
+    },
+    {
+     "day": 252,
+     "mrr": 8096,
+     "cash": 14965,
+     "cust": 3
+    },
+    {
+     "day": 266,
+     "mrr": 10795,
+     "cash": 20402,
+     "cust": 4
+    },
+    {
+     "day": 280,
+     "mrr": 13493,
+     "cash": 13891,
+     "cust": 5
+    },
+    {
+     "day": 294,
+     "mrr": 16192,
+     "cash": 19320,
+     "cust": 6
+    },
+    {
+     "day": 308,
+     "mrr": 21589,
+     "cash": 24737,
+     "cust": 8
+    },
+    {
+     "day": 322,
+     "mrr": 26986,
+     "cash": 32336,
+     "cust": 11
+    },
+    {
+     "day": 336,
+     "mrr": 48576,
+     "cash": 40875,
+     "cust": 23
+    },
+    {
+     "day": 350,
+     "mrr": 59370,
+     "cash": 54904,
+     "cust": 29
+    },
+    {
+     "day": 364,
+     "mrr": 79160,
+     "cash": 66863,
+     "cust": 40
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1137",
+   "strategy": "product_led",
+   "tournament_seed": 1137,
+   "alive": true,
+   "final": {
+    "cash": 138990.26114393555,
+    "mrr": 337145.9857719994,
+    "arr": 4045751.8292639926,
+    "active_customers": 179,
+    "valuation_proxy": 64871019.52936782,
+    "market_share_pct": 1.6881580038559318,
+    "logo_churn_pct_monthly": 7.142857142857142,
+    "cac_blended": 132.97717716102568,
+    "ltv": 34741.316292579184,
+    "ltv_cac": 261.25773635960087,
+    "gross_margin_pct": 97.59318751499309,
+    "runway_months": 99.0,
+    "headcount": 7,
+    "founder_equity": 1.0,
+    "quality": 0.43285508206254475,
+    "tech_debt": 121.72641412999768,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.9101160000000001,
+    "brand": 0.4322820088417479,
+    "elasticity_est": -0.15
+   },
+   "scorecard": {
+    "total": 19,
+    "success": 8,
+    "partial": 0,
+    "fail": 11
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 1899,
+     "cash": 78228,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 7596,
+     "cash": 78667,
+     "cust": 4
+    },
+    {
+     "day": 84,
+     "mrr": 9969,
+     "cash": 77699,
+     "cust": 6
+    },
+    {
+     "day": 98,
+     "mrr": 17565,
+     "cash": 82326,
+     "cust": 10
+    },
+    {
+     "day": 112,
+     "mrr": 24762,
+     "cash": 83309,
+     "cust": 14
+    },
+    {
+     "day": 126,
+     "mrr": 24462,
+     "cash": 91519,
+     "cust": 14
+    },
+    {
+     "day": 140,
+     "mrr": 33458,
+     "cash": 99764,
+     "cust": 19
+    },
+    {
+     "day": 154,
+     "mrr": 47850,
+     "cash": 98127,
+     "cust": 27
+    },
+    {
+     "day": 168,
+     "mrr": 62692,
+     "cash": 109749,
+     "cust": 36
+    },
+    {
+     "day": 182,
+     "mrr": 82662,
+     "cash": 90898,
+     "cust": 48
+    },
+    {
+     "day": 196,
+     "mrr": 93998,
+     "cash": 117158,
+     "cust": 53
+    },
+    {
+     "day": 210,
+     "mrr": 102994,
+     "cash": 147890,
+     "cust": 58
+    },
+    {
+     "day": 224,
+     "mrr": 113868,
+     "cash": 154199,
+     "cust": 64
+    },
+    {
+     "day": 238,
+     "mrr": 130062,
+     "cash": 210616,
+     "cust": 71
+    },
+    {
+     "day": 252,
+     "mrr": 137093,
+     "cash": 168439,
+     "cust": 75
+    },
+    {
+     "day": 266,
+     "mrr": 154285,
+     "cash": 242890,
+     "cust": 85
+    },
+    {
+     "day": 280,
+     "mrr": 173003,
+     "cash": 209178,
+     "cust": 92
+    },
+    {
+     "day": 294,
+     "mrr": 189998,
+     "cash": 254187,
+     "cust": 102
+    },
+    {
+     "day": 308,
+     "mrr": 203363,
+     "cash": 197343,
+     "cust": 110
+    },
+    {
+     "day": 322,
+     "mrr": 239566,
+     "cash": 256718,
+     "cust": 128
+    },
+    {
+     "day": 336,
+     "mrr": 280148,
+     "cash": 148150,
+     "cust": 148
+    },
+    {
+     "day": 350,
+     "mrr": 311220,
+     "cash": 281988,
+     "cust": 165
+    },
+    {
+     "day": 364,
+     "mrr": 342297,
+     "cash": 129727,
+     "cust": 180
+    }
+   ]
+  },
+  {
+   "name": "balanced_s1274",
+   "strategy": "balanced",
+   "tournament_seed": 1274,
+   "alive": true,
+   "final": {
+    "cash": 923342.8385899905,
+    "mrr": 1843458.619999976,
+    "arr": 22121503.43999971,
+    "active_customers": 1093,
+    "valuation_proxy": 354867397.87858534,
+    "market_share_pct": 8.604149534156718,
+    "logo_churn_pct_monthly": 5.015197568389058,
+    "cac_blended": 1000.7528344671202,
+    "ltv": 56156.06259760824,
+    "ltv_cac": 56.11381818119971,
+    "gross_margin_pct": 97.57958512713802,
+    "runway_months": 99.0,
+    "headcount": 14,
+    "founder_equity": 1.0,
+    "quality": 0.4683565346850681,
+    "tech_debt": 138.68152057274904,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 21,
+    "success": 13,
+    "partial": 1,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 3998,
+     "cash": 75149,
+     "cust": 2
+    },
+    {
+     "day": 84,
+     "mrr": 5997,
+     "cash": 71963,
+     "cust": 3
+    },
+    {
+     "day": 98,
+     "mrr": 7996,
+     "cash": 68694,
+     "cust": 4
+    },
+    {
+     "day": 112,
+     "mrr": 13993,
+     "cash": 71163,
+     "cust": 7
+    },
+    {
+     "day": 126,
+     "mrr": 21391,
+     "cash": 75371,
+     "cust": 9
+    },
+    {
+     "day": 140,
+     "mrr": 24989,
+     "cash": 77826,
+     "cust": 11
+    },
+    {
+     "day": 154,
+     "mrr": 48827,
+     "cash": 85534,
+     "cust": 25
+    },
+    {
+     "day": 168,
+     "mrr": 77612,
+     "cash": 98486,
+     "cust": 41
+    },
+    {
+     "day": 182,
+     "mrr": 97401,
+     "cash": 79556,
+     "cust": 54
+    },
+    {
+     "day": 196,
+     "mrr": 110244,
+     "cash": 117383,
+     "cust": 62
+    },
+    {
+     "day": 210,
+     "mrr": 135974,
+     "cash": 169058,
+     "cust": 74
+    },
+    {
+     "day": 224,
+     "mrr": 168178,
+     "cash": 176530,
+     "cust": 94
+    },
+    {
+     "day": 238,
+     "mrr": 197325,
+     "cash": 205633,
+     "cust": 110
+    },
+    {
+     "day": 252,
+     "mrr": 251841,
+     "cash": 176706,
+     "cust": 140
+    },
+    {
+     "day": 266,
+     "mrr": 307953,
+     "cash": 234352,
+     "cust": 175
+    },
+    {
+     "day": 280,
+     "mrr": 401249,
+     "cash": 269854,
+     "cust": 231
+    },
+    {
+     "day": 294,
+     "mrr": 524368,
+     "cash": 398943,
+     "cust": 310
+    },
+    {
+     "day": 308,
+     "mrr": 709171,
+     "cash": 338266,
+     "cust": 422
+    },
+    {
+     "day": 322,
+     "mrr": 894303,
+     "cash": 593684,
+     "cust": 535
+    },
+    {
+     "day": 336,
+     "mrr": 1173190,
+     "cash": 436113,
+     "cust": 680
+    },
+    {
+     "day": 350,
+     "mrr": 1536529,
+     "cash": 1085399,
+     "cust": 900
+    },
+    {
+     "day": 364,
+     "mrr": 1812273,
+     "cash": 853692,
+     "cust": 1075
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1274",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1274,
+   "alive": true,
+   "final": {
+    "cash": 252252.70403332298,
+    "mrr": 662725.6399999982,
+    "arr": 7952707.679999977,
+    "active_customers": 371,
+    "valuation_proxy": 127495575.58403297,
+    "market_share_pct": 3.249239025579261,
+    "logo_churn_pct_monthly": 5.2,
+    "cac_blended": 1343.8581266106441,
+    "ltv": 51487.35834148381,
+    "ltv_cac": 38.31309073625243,
+    "gross_margin_pct": 97.57821615330054,
+    "runway_months": 99.0,
+    "headcount": 8,
+    "founder_equity": 1.0,
+    "quality": 0.4062593841498994,
+    "tech_debt": 112.35977975266722,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.6622658727383254,
+    "elasticity_est": -1.2290057243675
+   },
+   "scorecard": {
+    "total": 17,
+    "success": 10,
+    "partial": 0,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 0,
+     "cash": 71233,
+     "cust": 0
+    },
+    {
+     "day": 84,
+     "mrr": 4478,
+     "cash": 70488,
+     "cust": 2
+    },
+    {
+     "day": 98,
+     "mrr": 8956,
+     "cash": 65731,
+     "cust": 4
+    },
+    {
+     "day": 112,
+     "mrr": 15672,
+     "cash": 71553,
+     "cust": 7
+    },
+    {
+     "day": 126,
+     "mrr": 20150,
+     "cash": 72856,
+     "cust": 9
+    },
+    {
+     "day": 140,
+     "mrr": 24188,
+     "cash": 80067,
+     "cust": 11
+    },
+    {
+     "day": 154,
+     "mrr": 27786,
+     "cash": 88080,
+     "cust": 13
+    },
+    {
+     "day": 168,
+     "mrr": 43978,
+     "cash": 110836,
+     "cust": 22
+    },
+    {
+     "day": 182,
+     "mrr": 55692,
+     "cash": 98326,
+     "cust": 29
+    },
+    {
+     "day": 196,
+     "mrr": 66047,
+     "cash": 121878,
+     "cust": 35
+    },
+    {
+     "day": 210,
+     "mrr": 79000,
+     "cash": 154258,
+     "cust": 43
+    },
+    {
+     "day": 224,
+     "mrr": 101131,
+     "cash": 152539,
+     "cust": 55
+    },
+    {
+     "day": 238,
+     "mrr": 126418,
+     "cash": 203743,
+     "cust": 71
+    },
+    {
+     "day": 252,
+     "mrr": 155384,
+     "cash": 189122,
+     "cust": 89
+    },
+    {
+     "day": 266,
+     "mrr": 170956,
+     "cash": 251721,
+     "cust": 99
+    },
+    {
+     "day": 280,
+     "mrr": 204060,
+     "cash": 228001,
+     "cust": 120
+    },
+    {
+     "day": 294,
+     "mrr": 260371,
+     "cash": 272199,
+     "cust": 156
+    },
+    {
+     "day": 308,
+     "mrr": 309233,
+     "cash": 255474,
+     "cust": 185
+    },
+    {
+     "day": 322,
+     "mrr": 359894,
+     "cash": 317730,
+     "cust": 215
+    },
+    {
+     "day": 336,
+     "mrr": 460826,
+     "cash": 214735,
+     "cust": 255
+    },
+    {
+     "day": 350,
+     "mrr": 572615,
+     "cash": 404472,
+     "cust": 320
+    },
+    {
+     "day": 364,
+     "mrr": 656607,
+     "cash": 244541,
+     "cust": 369
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1274",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1274,
+   "alive": true,
+   "final": {
+    "cash": 1959544.783170142,
+    "mrr": 3241246.2900001113,
+    "arr": 38894955.48000134,
+    "active_customers": 1893,
+    "valuation_proxy": 624278832.4631915,
+    "market_share_pct": 15.529685441823005,
+    "logo_churn_pct_monthly": 6.147859922178988,
+    "cac_blended": 1632.3444613050076,
+    "ltv": 41701.98330119867,
+    "ltv_cac": 25.547293656302944,
+    "gross_margin_pct": 97.56981286125676,
+    "runway_months": 99.0,
+    "headcount": 19,
+    "founder_equity": 1.0,
+    "quality": 0.5030727758515323,
+    "tech_debt": 167.31135207143916,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 28,
+    "success": 16,
+    "partial": 7,
+    "fail": 5
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 1699,
+     "cash": 86098,
+     "cust": 1
+    },
+    {
+     "day": 42,
+     "mrr": 1699,
+     "cash": 79559,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 5097,
+     "cash": 78016,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 11894,
+     "cash": 78061,
+     "cust": 7
+    },
+    {
+     "day": 84,
+     "mrr": 16992,
+     "cash": 78480,
+     "cust": 10
+    },
+    {
+     "day": 98,
+     "mrr": 18791,
+     "cash": 75728,
+     "cust": 11
+    },
+    {
+     "day": 112,
+     "mrr": 24288,
+     "cash": 79598,
+     "cust": 14
+    },
+    {
+     "day": 126,
+     "mrr": 33283,
+     "cash": 68983,
+     "cust": 19
+    },
+    {
+     "day": 140,
+     "mrr": 49475,
+     "cash": 78408,
+     "cust": 28
+    },
+    {
+     "day": 154,
+     "mrr": 69365,
+     "cash": 90421,
+     "cust": 39
+    },
+    {
+     "day": 168,
+     "mrr": 107686,
+     "cash": 130255,
+     "cust": 62
+    },
+    {
+     "day": 182,
+     "mrr": 150889,
+     "cash": 124440,
+     "cust": 83
+    },
+    {
+     "day": 196,
+     "mrr": 191369,
+     "cash": 175114,
+     "cust": 108
+    },
+    {
+     "day": 210,
+     "mrr": 239587,
+     "cash": 190288,
+     "cust": 136
+    },
+    {
+     "day": 224,
+     "mrr": 315249,
+     "cash": 240137,
+     "cust": 183
+    },
+    {
+     "day": 238,
+     "mrr": 422206,
+     "cash": 359711,
+     "cust": 250
+    },
+    {
+     "day": 252,
+     "mrr": 565985,
+     "cash": 287085,
+     "cust": 341
+    },
+    {
+     "day": 266,
+     "mrr": 693992,
+     "cash": 519271,
+     "cust": 422
+    },
+    {
+     "day": 280,
+     "mrr": 909914,
+     "cash": 547904,
+     "cust": 561
+    },
+    {
+     "day": 294,
+     "mrr": 1122254,
+     "cash": 842269,
+     "cust": 689
+    },
+    {
+     "day": 308,
+     "mrr": 1457167,
+     "cash": 772462,
+     "cust": 891
+    },
+    {
+     "day": 322,
+     "mrr": 1834020,
+     "cash": 1270335,
+     "cust": 1093
+    },
+    {
+     "day": 336,
+     "mrr": 2252924,
+     "cash": 1100093,
+     "cust": 1318
+    },
+    {
+     "day": 350,
+     "mrr": 2751546,
+     "cash": 2128166,
+     "cust": 1598
+    },
+    {
+     "day": 364,
+     "mrr": 3203825,
+     "cash": 1880938,
+     "cust": 1869
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1274",
+   "strategy": "premium_first",
+   "tournament_seed": 1274,
+   "alive": true,
+   "final": {
+    "cash": 47418.384866669214,
+    "mrr": 2698.6500000000005,
+    "arr": 32383.800000000007,
+    "active_customers": 1,
+    "valuation_proxy": 112185.98486666923,
+    "market_share_pct": 0.012276317212982113,
+    "logo_churn_pct_monthly": 66.66666666666666,
+    "cac_blended": 0.0,
+    "ltv": 0.0,
+    "ltv_cac": null,
+    "gross_margin_pct": 97.87721711575202,
+    "runway_months": 99.0,
+    "headcount": 1,
+    "founder_equity": 1.0,
+    "quality": 0.3685554424400791,
+    "tech_debt": 106.66838301090364,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 1.35,
+    "brand": 0.12521477991526708,
+    "elasticity_est": -2.8293930930912063
+   },
+   "scorecard": {
+    "total": 6,
+    "success": 0,
+    "partial": 0,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 2699,
+     "cash": 84144,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 2699,
+     "cash": 79005,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 2699,
+     "cash": 76514,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 2699,
+     "cash": 71376,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 2699,
+     "cash": 64885,
+     "cust": 1
+    },
+    {
+     "day": 112,
+     "mrr": 2699,
+     "cash": 59746,
+     "cust": 1
+    },
+    {
+     "day": 126,
+     "mrr": 8096,
+     "cash": 62546,
+     "cust": 3
+    },
+    {
+     "day": 140,
+     "mrr": 8096,
+     "cash": 57397,
+     "cust": 3
+    },
+    {
+     "day": 154,
+     "mrr": 8096,
+     "cash": 57543,
+     "cust": 3
+    },
+    {
+     "day": 168,
+     "mrr": 5397,
+     "cash": 55047,
+     "cust": 2
+    },
+    {
+     "day": 182,
+     "mrr": 5397,
+     "cash": 52551,
+     "cust": 2
+    },
+    {
+     "day": 196,
+     "mrr": 5397,
+     "cash": 46055,
+     "cust": 2
+    },
+    {
+     "day": 210,
+     "mrr": 8096,
+     "cash": 46201,
+     "cust": 3
+    },
+    {
+     "day": 224,
+     "mrr": 13496,
+     "cash": 43699,
+     "cust": 3
+    },
+    {
+     "day": 238,
+     "mrr": 13496,
+     "cash": 41198,
+     "cust": 3
+    },
+    {
+     "day": 252,
+     "mrr": 13496,
+     "cash": 46641,
+     "cust": 3
+    },
+    {
+     "day": 266,
+     "mrr": 10797,
+     "cash": 44144,
+     "cust": 2
+    },
+    {
+     "day": 280,
+     "mrr": 10797,
+     "cash": 45592,
+     "cust": 2
+    },
+    {
+     "day": 294,
+     "mrr": 10797,
+     "cash": 40449,
+     "cust": 2
+    },
+    {
+     "day": 308,
+     "mrr": 10797,
+     "cash": 45897,
+     "cust": 2
+    },
+    {
+     "day": 322,
+     "mrr": 13496,
+     "cash": 43397,
+     "cust": 3
+    },
+    {
+     "day": 336,
+     "mrr": 13496,
+     "cash": 48840,
+     "cust": 3
+    },
+    {
+     "day": 350,
+     "mrr": 13496,
+     "cash": 46339,
+     "cust": 3
+    },
+    {
+     "day": 364,
+     "mrr": 2699,
+     "cash": 51785,
+     "cust": 1
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1274",
+   "strategy": "product_led",
+   "tournament_seed": 1274,
+   "alive": true,
+   "final": {
+    "cash": 1099827.5949133246,
+    "mrr": 2119899.619999973,
+    "arr": 25438795.439999677,
+    "active_customers": 1259,
+    "valuation_proxy": 408120554.63490814,
+    "market_share_pct": 10.285123634978309,
+    "logo_churn_pct_monthly": 5.153203342618385,
+    "cac_blended": 957.0236363636363,
+    "ltv": 57548.46754851655,
+    "ltv_cac": 60.13275468010499,
+    "gross_margin_pct": 97.57553001395617,
+    "runway_months": 99.0,
+    "headcount": 15,
+    "founder_equity": 1.0,
+    "quality": 0.49636328868058777,
+    "tech_debt": 162.25127684765025,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 24,
+    "success": 15,
+    "partial": 3,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 1899,
+     "cash": 93629,
+     "cust": 1
+    },
+    {
+     "day": 28,
+     "mrr": 3798,
+     "cash": 90353,
+     "cust": 2
+    },
+    {
+     "day": 42,
+     "mrr": 3798,
+     "cash": 85210,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 3798,
+     "cash": 81929,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 3798,
+     "cash": 80515,
+     "cust": 2
+    },
+    {
+     "day": 84,
+     "mrr": 7596,
+     "cash": 80954,
+     "cust": 4
+    },
+    {
+     "day": 98,
+     "mrr": 13293,
+     "cash": 79119,
+     "cust": 7
+    },
+    {
+     "day": 112,
+     "mrr": 18990,
+     "cash": 83721,
+     "cust": 10
+    },
+    {
+     "day": 126,
+     "mrr": 27986,
+     "cash": 88474,
+     "cust": 15
+    },
+    {
+     "day": 140,
+     "mrr": 38681,
+     "cash": 99540,
+     "cust": 21
+    },
+    {
+     "day": 154,
+     "mrr": 49375,
+     "cash": 97210,
+     "cust": 27
+    },
+    {
+     "day": 168,
+     "mrr": 73213,
+     "cash": 119321,
+     "cust": 41
+    },
+    {
+     "day": 182,
+     "mrr": 85806,
+     "cash": 94012,
+     "cust": 48
+    },
+    {
+     "day": 196,
+     "mrr": 112253,
+     "cash": 145194,
+     "cust": 64
+    },
+    {
+     "day": 210,
+     "mrr": 144637,
+     "cash": 200679,
+     "cust": 84
+    },
+    {
+     "day": 224,
+     "mrr": 166946,
+     "cash": 170820,
+     "cust": 98
+    },
+    {
+     "day": 238,
+     "mrr": 211925,
+     "cash": 227069,
+     "cust": 124
+    },
+    {
+     "day": 252,
+     "mrr": 281550,
+     "cash": 156675,
+     "cust": 167
+    },
+    {
+     "day": 266,
+     "mrr": 367633,
+     "cash": 271295,
+     "cust": 214
+    },
+    {
+     "day": 280,
+     "mrr": 474178,
+     "cash": 275877,
+     "cust": 272
+    },
+    {
+     "day": 294,
+     "mrr": 610915,
+     "cash": 421878,
+     "cust": 354
+    },
+    {
+     "day": 308,
+     "mrr": 792057,
+     "cash": 356820,
+     "cust": 467
+    },
+    {
+     "day": 322,
+     "mrr": 1005762,
+     "cash": 680191,
+     "cust": 601
+    },
+    {
+     "day": 336,
+     "mrr": 1296161,
+     "cash": 527821,
+     "cust": 757
+    },
+    {
+     "day": 350,
+     "mrr": 1752507,
+     "cash": 1310221,
+     "cust": 1044
+    },
+    {
+     "day": 364,
+     "mrr": 2082474,
+     "cash": 987892,
+     "cust": 1241
+    }
+   ]
+  },
+  {
+   "name": "balanced_s1411",
+   "strategy": "balanced",
+   "tournament_seed": 1411,
+   "alive": true,
+   "final": {
+    "cash": 215962.3068599934,
+    "mrr": 677012.8699999938,
+    "arr": 8124154.439999926,
+    "active_customers": 406,
+    "valuation_proxy": 130202433.34685881,
+    "market_share_pct": 3.118323977788975,
+    "logo_churn_pct_monthly": 3.643724696356275,
+    "cac_blended": 953.7565225108223,
+    "ltv": 75018.46167831447,
+    "ltv_cac": 78.65577839596189,
+    "gross_margin_pct": 97.5644669095064,
+    "runway_months": 11.138981399508584,
+    "headcount": 8,
+    "founder_equity": 1.0,
+    "quality": 0.42021627046560445,
+    "tech_debt": 116.8615828420354,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.6648668298329072,
+    "elasticity_est": -3.446362158440165
+   },
+   "scorecard": {
+    "total": 16,
+    "success": 7,
+    "partial": 1,
+    "fail": 8
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 1999,
+     "cash": 83459,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 5997,
+     "cash": 82235,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 5997,
+     "cash": 79048,
+     "cust": 3
+    },
+    {
+     "day": 84,
+     "mrr": 9995,
+     "cash": 83700,
+     "cust": 5
+    },
+    {
+     "day": 98,
+     "mrr": 7996,
+     "cash": 76403,
+     "cust": 4
+    },
+    {
+     "day": 112,
+     "mrr": 7996,
+     "cash": 77132,
+     "cust": 4
+    },
+    {
+     "day": 126,
+     "mrr": 7996,
+     "cash": 75901,
+     "cust": 4
+    },
+    {
+     "day": 140,
+     "mrr": 7996,
+     "cash": 76630,
+     "cust": 4
+    },
+    {
+     "day": 154,
+     "mrr": 9995,
+     "cash": 75396,
+     "cust": 5
+    },
+    {
+     "day": 168,
+     "mrr": 27986,
+     "cash": 88066,
+     "cust": 14
+    },
+    {
+     "day": 182,
+     "mrr": 50375,
+     "cash": 89034,
+     "cust": 26
+    },
+    {
+     "day": 196,
+     "mrr": 54022,
+     "cash": 102357,
+     "cust": 29
+    },
+    {
+     "day": 210,
+     "mrr": 68017,
+     "cash": 115834,
+     "cust": 34
+    },
+    {
+     "day": 224,
+     "mrr": 78012,
+     "cash": 108132,
+     "cust": 39
+    },
+    {
+     "day": 238,
+     "mrr": 90206,
+     "cash": 151129,
+     "cust": 45
+    },
+    {
+     "day": 252,
+     "mrr": 112037,
+     "cash": 137302,
+     "cust": 56
+    },
+    {
+     "day": 266,
+     "mrr": 148520,
+     "cash": 194518,
+     "cust": 77
+    },
+    {
+     "day": 280,
+     "mrr": 182143,
+     "cash": 173727,
+     "cust": 98
+    },
+    {
+     "day": 294,
+     "mrr": 251011,
+     "cash": 205465,
+     "cust": 139
+    },
+    {
+     "day": 308,
+     "mrr": 299207,
+     "cash": 212096,
+     "cust": 169
+    },
+    {
+     "day": 322,
+     "mrr": 348823,
+     "cash": 293733,
+     "cust": 199
+    },
+    {
+     "day": 336,
+     "mrr": 438758,
+     "cash": 181734,
+     "cust": 257
+    },
+    {
+     "day": 350,
+     "mrr": 545725,
+     "cash": 416622,
+     "cust": 326
+    },
+    {
+     "day": 364,
+     "mrr": 666098,
+     "cash": 195606,
+     "cust": 399
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1411",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1411,
+   "alive": true,
+   "final": {
+    "cash": 588550.0623333179,
+    "mrr": 1427410.089999986,
+    "arr": 17128921.079999834,
+    "active_customers": 839,
+    "valuation_proxy": 274651287.3423307,
+    "market_share_pct": 6.559551985412491,
+    "logo_churn_pct_monthly": 4.780114722753346,
+    "cac_blended": 1039.2353097178684,
+    "ltv": 57375.31013489251,
+    "ltv_cac": 55.209161580998206,
+    "gross_margin_pct": 97.58083066213038,
+    "runway_months": 99.0,
+    "headcount": 14,
+    "founder_equity": 1.0,
+    "quality": 0.4683565346850681,
+    "tech_debt": 138.68152057274904,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.8473938751896297,
+    "elasticity_est": -3.4325306714264707
+   },
+   "scorecard": {
+    "total": 21,
+    "success": 14,
+    "partial": 3,
+    "fail": 4
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 2239,
+     "cash": 88829,
+     "cust": 1
+    },
+    {
+     "day": 42,
+     "mrr": 2239,
+     "cash": 83691,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 2239,
+     "cash": 78552,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 4478,
+     "cash": 77802,
+     "cust": 2
+    },
+    {
+     "day": 84,
+     "mrr": 6717,
+     "cash": 74851,
+     "cust": 3
+    },
+    {
+     "day": 98,
+     "mrr": 8956,
+     "cash": 72289,
+     "cust": 4
+    },
+    {
+     "day": 112,
+     "mrr": 11194,
+     "cash": 71526,
+     "cust": 5
+    },
+    {
+     "day": 126,
+     "mrr": 11194,
+     "cash": 72956,
+     "cust": 5
+    },
+    {
+     "day": 140,
+     "mrr": 11194,
+     "cash": 76581,
+     "cust": 5
+    },
+    {
+     "day": 154,
+     "mrr": 17911,
+     "cash": 84590,
+     "cust": 8
+    },
+    {
+     "day": 168,
+     "mrr": 24188,
+     "cash": 91853,
+     "cust": 11
+    },
+    {
+     "day": 182,
+     "mrr": 49375,
+     "cash": 100334,
+     "cust": 25
+    },
+    {
+     "day": 196,
+     "mrr": 56572,
+     "cash": 107281,
+     "cust": 29
+    },
+    {
+     "day": 210,
+     "mrr": 69165,
+     "cash": 133175,
+     "cust": 36
+    },
+    {
+     "day": 224,
+     "mrr": 105147,
+     "cash": 136460,
+     "cust": 56
+    },
+    {
+     "day": 238,
+     "mrr": 147786,
+     "cash": 210927,
+     "cust": 80
+    },
+    {
+     "day": 252,
+     "mrr": 202660,
+     "cash": 208814,
+     "cust": 112
+    },
+    {
+     "day": 266,
+     "mrr": 273725,
+     "cash": 243301,
+     "cust": 156
+    },
+    {
+     "day": 280,
+     "mrr": 362242,
+     "cash": 272087,
+     "cust": 209
+    },
+    {
+     "day": 294,
+     "mrr": 452377,
+     "cash": 380603,
+     "cust": 265
+    },
+    {
+     "day": 308,
+     "mrr": 603308,
+     "cash": 308507,
+     "cust": 352
+    },
+    {
+     "day": 322,
+     "mrr": 758393,
+     "cash": 532435,
+     "cust": 448
+    },
+    {
+     "day": 336,
+     "mrr": 901974,
+     "cash": 371820,
+     "cust": 538
+    },
+    {
+     "day": 350,
+     "mrr": 1158653,
+     "cash": 822450,
+     "cust": 693
+    },
+    {
+     "day": 364,
+     "mrr": 1405250,
+     "cash": 532263,
+     "cust": 826
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1411",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1411,
+   "alive": true,
+   "final": {
+    "cash": 1144253.7746918632,
+    "mrr": 2233331.6879751557,
+    "arr": 26799980.25570187,
+    "active_customers": 946,
+    "valuation_proxy": 429943937.8659218,
+    "market_share_pct": 10.951213883309773,
+    "logo_churn_pct_monthly": 2.923976608187134,
+    "cac_blended": 2363.6299212598424,
+    "ltv": 111388.94139555533,
+    "ltv_cac": 47.12621903863179,
+    "gross_margin_pct": 97.68611865406072,
+    "runway_months": 99.0,
+    "headcount": 17,
+    "founder_equity": 1.0,
+    "quality": 0.49612936253533885,
+    "tech_debt": 160.67902852062656,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 1.1362292640000002,
+    "brand": 0.85,
+    "elasticity_est": -0.15
+   },
+   "scorecard": {
+    "total": 27,
+    "success": 15,
+    "partial": 5,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 5097,
+     "cash": 89424,
+     "cust": 3
+    },
+    {
+     "day": 42,
+     "mrr": 8496,
+     "cash": 86204,
+     "cust": 5
+    },
+    {
+     "day": 56,
+     "mrr": 8496,
+     "cash": 86269,
+     "cust": 5
+    },
+    {
+     "day": 70,
+     "mrr": 15292,
+     "cash": 88930,
+     "cust": 9
+    },
+    {
+     "day": 84,
+     "mrr": 23788,
+     "cash": 92985,
+     "cust": 14
+    },
+    {
+     "day": 98,
+     "mrr": 25687,
+     "cash": 89183,
+     "cust": 15
+    },
+    {
+     "day": 112,
+     "mrr": 31084,
+     "cash": 94032,
+     "cust": 18
+    },
+    {
+     "day": 126,
+     "mrr": 35082,
+     "cash": 79447,
+     "cust": 20
+    },
+    {
+     "day": 140,
+     "mrr": 43378,
+     "cash": 90555,
+     "cust": 24
+    },
+    {
+     "day": 154,
+     "mrr": 61369,
+     "cash": 97330,
+     "cust": 33
+    },
+    {
+     "day": 168,
+     "mrr": 86553,
+     "cash": 124650,
+     "cust": 46
+    },
+    {
+     "day": 182,
+     "mrr": 115158,
+     "cash": 118963,
+     "cust": 61
+    },
+    {
+     "day": 196,
+     "mrr": 130831,
+     "cash": 132389,
+     "cust": 69
+    },
+    {
+     "day": 210,
+     "mrr": 189861,
+     "cash": 179190,
+     "cust": 96
+    },
+    {
+     "day": 224,
+     "mrr": 237445,
+     "cash": 186025,
+     "cust": 121
+    },
+    {
+     "day": 238,
+     "mrr": 303107,
+     "cash": 234880,
+     "cust": 150
+    },
+    {
+     "day": 252,
+     "mrr": 406915,
+     "cash": 252441,
+     "cust": 197
+    },
+    {
+     "day": 266,
+     "mrr": 496203,
+     "cash": 383897,
+     "cust": 241
+    },
+    {
+     "day": 280,
+     "mrr": 644115,
+     "cash": 371308,
+     "cust": 312
+    },
+    {
+     "day": 294,
+     "mrr": 881614,
+     "cash": 612498,
+     "cust": 399
+    },
+    {
+     "day": 308,
+     "mrr": 1085295,
+     "cash": 460217,
+     "cust": 488
+    },
+    {
+     "day": 322,
+     "mrr": 1396884,
+     "cash": 965116,
+     "cust": 605
+    },
+    {
+     "day": 336,
+     "mrr": 1625127,
+     "cash": 681809,
+     "cust": 707
+    },
+    {
+     "day": 350,
+     "mrr": 1969868,
+     "cash": 1485940,
+     "cust": 841
+    },
+    {
+     "day": 364,
+     "mrr": 2211654,
+     "cash": 1057602,
+     "cust": 936
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1411",
+   "strategy": "premium_first",
+   "tournament_seed": 1411,
+   "alive": true,
+   "final": {
+    "cash": 39404.347750002344,
+    "mrr": 10794.6,
+    "arr": 129535.20000000001,
+    "active_customers": 4,
+    "valuation_proxy": 2111967.5477500027,
+    "market_share_pct": 0.04599399244633606,
+    "logo_churn_pct_monthly": 0.0,
+    "cac_blended": 0.0,
+    "ltv": 0.0,
+    "ltv_cac": null,
+    "gross_margin_pct": 97.69238878698609,
+    "runway_months": 86.69873083982951,
+    "headcount": 1,
+    "founder_equity": 1.0,
+    "quality": 0.3685554424400791,
+    "tech_debt": 106.66838301090364,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 1.35,
+    "brand": 0.12521477991526708,
+    "elasticity_est": -2.8293930930912063
+   },
+   "scorecard": {
+    "total": 6,
+    "success": 0,
+    "partial": 1,
+    "fail": 5
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 2699,
+     "cash": 84146,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 2699,
+     "cash": 79008,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 2699,
+     "cash": 76517,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 2699,
+     "cash": 71378,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 2699,
+     "cash": 62240,
+     "cust": 1
+    },
+    {
+     "day": 112,
+     "mrr": 2699,
+     "cash": 59749,
+     "cust": 1
+    },
+    {
+     "day": 126,
+     "mrr": 5397,
+     "cash": 57255,
+     "cust": 2
+    },
+    {
+     "day": 140,
+     "mrr": 8096,
+     "cash": 57402,
+     "cust": 3
+    },
+    {
+     "day": 154,
+     "mrr": 8096,
+     "cash": 54900,
+     "cust": 3
+    },
+    {
+     "day": 168,
+     "mrr": 8096,
+     "cash": 55046,
+     "cust": 3
+    },
+    {
+     "day": 182,
+     "mrr": 8096,
+     "cash": 52545,
+     "cust": 3
+    },
+    {
+     "day": 196,
+     "mrr": 8096,
+     "cash": 51338,
+     "cust": 3
+    },
+    {
+     "day": 210,
+     "mrr": 8096,
+     "cash": 46189,
+     "cust": 3
+    },
+    {
+     "day": 224,
+     "mrr": 5397,
+     "cash": 48986,
+     "cust": 2
+    },
+    {
+     "day": 238,
+     "mrr": 5397,
+     "cash": 43842,
+     "cust": 2
+    },
+    {
+     "day": 252,
+     "mrr": 5397,
+     "cash": 43993,
+     "cust": 2
+    },
+    {
+     "day": 266,
+     "mrr": 5397,
+     "cash": 38850,
+     "cust": 2
+    },
+    {
+     "day": 280,
+     "mrr": 8096,
+     "cash": 37647,
+     "cust": 3
+    },
+    {
+     "day": 294,
+     "mrr": 10795,
+     "cash": 35142,
+     "cust": 4
+    },
+    {
+     "day": 308,
+     "mrr": 16192,
+     "cash": 40570,
+     "cust": 6
+    },
+    {
+     "day": 322,
+     "mrr": 13493,
+     "cash": 40705,
+     "cust": 5
+    },
+    {
+     "day": 336,
+     "mrr": 10795,
+     "cash": 43491,
+     "cust": 4
+    },
+    {
+     "day": 350,
+     "mrr": 10795,
+     "cash": 43632,
+     "cust": 4
+    },
+    {
+     "day": 364,
+     "mrr": 10795,
+     "cash": 43772,
+     "cust": 4
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1411",
+   "strategy": "product_led",
+   "tournament_seed": 1411,
+   "alive": true,
+   "final": {
+    "cash": 445041.9784899934,
+    "mrr": 945589.7099999886,
+    "arr": 11347076.519999862,
+    "active_customers": 579,
+    "valuation_proxy": 181998266.29848778,
+    "market_share_pct": 4.3298804036134335,
+    "logo_churn_pct_monthly": 4.2492917847025495,
+    "cac_blended": 988.3931548387096,
+    "ltv": 63084.47560692553,
+    "ltv_cac": 63.82528581677595,
+    "gross_margin_pct": 97.54457875861414,
+    "runway_months": 99.0,
+    "headcount": 10,
+    "founder_equity": 1.0,
+    "quality": 0.4447749890518834,
+    "tech_debt": 128.87907031378214,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.6587447891276343,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 17,
+    "success": 8,
+    "partial": 0,
+    "fail": 9
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 1899,
+     "cash": 73096,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 1899,
+     "cash": 67957,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 5697,
+     "cash": 62537,
+     "cust": 3
+    },
+    {
+     "day": 112,
+     "mrr": 7596,
+     "cash": 61113,
+     "cust": 4
+    },
+    {
+     "day": 126,
+     "mrr": 9495,
+     "cash": 61546,
+     "cust": 5
+    },
+    {
+     "day": 140,
+     "mrr": 13293,
+     "cash": 63836,
+     "cust": 7
+    },
+    {
+     "day": 154,
+     "mrr": 28486,
+     "cash": 79185,
+     "cust": 15
+    },
+    {
+     "day": 168,
+     "mrr": 45177,
+     "cash": 94144,
+     "cust": 24
+    },
+    {
+     "day": 182,
+     "mrr": 57671,
+     "cash": 86823,
+     "cust": 31
+    },
+    {
+     "day": 196,
+     "mrr": 64868,
+     "cash": 95671,
+     "cust": 35
+    },
+    {
+     "day": 210,
+     "mrr": 73763,
+     "cash": 136550,
+     "cust": 40
+    },
+    {
+     "day": 224,
+     "mrr": 89855,
+     "cash": 120265,
+     "cust": 49
+    },
+    {
+     "day": 238,
+     "mrr": 114324,
+     "cash": 175027,
+     "cust": 62
+    },
+    {
+     "day": 252,
+     "mrr": 139872,
+     "cash": 137988,
+     "cust": 78
+    },
+    {
+     "day": 266,
+     "mrr": 168556,
+     "cash": 220768,
+     "cust": 98
+    },
+    {
+     "day": 280,
+     "mrr": 199320,
+     "cash": 172314,
+     "cust": 117
+    },
+    {
+     "day": 294,
+     "mrr": 257254,
+     "cash": 247818,
+     "cust": 149
+    },
+    {
+     "day": 308,
+     "mrr": 335385,
+     "cash": 193955,
+     "cust": 200
+    },
+    {
+     "day": 322,
+     "mrr": 420902,
+     "cash": 314721,
+     "cust": 255
+    },
+    {
+     "day": 336,
+     "mrr": 609600,
+     "cash": 268395,
+     "cust": 373
+    },
+    {
+     "day": 350,
+     "mrr": 787564,
+     "cash": 486430,
+     "cust": 484
+    },
+    {
+     "day": 364,
+     "mrr": 932727,
+     "cash": 407818,
+     "cust": 570
+    }
+   ]
+  },
+  {
+   "name": "balanced_s1548",
+   "strategy": "balanced",
+   "tournament_seed": 1548,
+   "alive": true,
+   "final": {
+    "cash": 586008.7328433208,
+    "mrr": 1361029.1699999836,
+    "arr": 16332350.039999804,
+    "active_customers": 793,
+    "valuation_proxy": 261903609.37284017,
+    "market_share_pct": 8.181424924125242,
+    "logo_churn_pct_monthly": 6.300813008130081,
+    "cac_blended": 1112.7961165048544,
+    "ltv": 44518.544503391306,
+    "ltv_cac": 40.00602072841355,
+    "gross_margin_pct": 97.58457908763761,
+    "runway_months": 99.0,
+    "headcount": 12,
+    "founder_equity": 1.0,
+    "quality": 0.4749627007191218,
+    "tech_debt": 148.18272620466632,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.8381017814830457,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 22,
+    "success": 15,
+    "partial": 1,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 1999,
+     "cash": 78323,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 1999,
+     "cash": 73184,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 7996,
+     "cash": 75880,
+     "cust": 4
+    },
+    {
+     "day": 98,
+     "mrr": 9995,
+     "cash": 68682,
+     "cust": 5
+    },
+    {
+     "day": 112,
+     "mrr": 13993,
+     "cash": 75063,
+     "cust": 7
+    },
+    {
+     "day": 126,
+     "mrr": 19990,
+     "cash": 76389,
+     "cust": 10
+    },
+    {
+     "day": 140,
+     "mrr": 25387,
+     "cash": 84068,
+     "cust": 13
+    },
+    {
+     "day": 154,
+     "mrr": 40229,
+     "cash": 79810,
+     "cust": 22
+    },
+    {
+     "day": 168,
+     "mrr": 51024,
+     "cash": 98249,
+     "cust": 28
+    },
+    {
+     "day": 182,
+     "mrr": 69017,
+     "cash": 91800,
+     "cust": 36
+    },
+    {
+     "day": 196,
+     "mrr": 85670,
+     "cash": 128641,
+     "cust": 44
+    },
+    {
+     "day": 210,
+     "mrr": 121652,
+     "cash": 167680,
+     "cust": 66
+    },
+    {
+     "day": 224,
+     "mrr": 160154,
+     "cash": 168624,
+     "cust": 88
+    },
+    {
+     "day": 238,
+     "mrr": 193617,
+     "cash": 222881,
+     "cust": 109
+    },
+    {
+     "day": 252,
+     "mrr": 229649,
+     "cash": 174033,
+     "cust": 126
+    },
+    {
+     "day": 266,
+     "mrr": 297978,
+     "cash": 271168,
+     "cust": 165
+    },
+    {
+     "day": 280,
+     "mrr": 386738,
+     "cash": 231182,
+     "cust": 216
+    },
+    {
+     "day": 294,
+     "mrr": 448567,
+     "cash": 341490,
+     "cust": 256
+    },
+    {
+     "day": 308,
+     "mrr": 544759,
+     "cash": 290883,
+     "cust": 318
+    },
+    {
+     "day": 322,
+     "mrr": 764275,
+     "cash": 459869,
+     "cust": 425
+    },
+    {
+     "day": 336,
+     "mrr": 905608,
+     "cash": 338603,
+     "cust": 512
+    },
+    {
+     "day": 350,
+     "mrr": 1126422,
+     "cash": 825580,
+     "cust": 648
+    },
+    {
+     "day": 364,
+     "mrr": 1332963,
+     "cash": 528387,
+     "cust": 775
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1548",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1548,
+   "alive": true,
+   "final": {
+    "cash": 635078.9649199875,
+    "mrr": 1673384.04999998,
+    "arr": 20080608.59999976,
+    "active_customers": 939,
+    "valuation_proxy": 321924816.56491613,
+    "market_share_pct": 10.004779807920459,
+    "logo_churn_pct_monthly": 3.0560271646859083,
+    "cac_blended": 1117.2721893491125,
+    "ltv": 92460.2875048652,
+    "ltv_cac": 82.75538260621134,
+    "gross_margin_pct": 97.58560837544792,
+    "runway_months": 99.0,
+    "headcount": 14,
+    "founder_equity": 1.0,
+    "quality": 0.4683565346850681,
+    "tech_debt": 138.68152057274904,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 22,
+    "success": 13,
+    "partial": 2,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 4478,
+     "cash": 91022,
+     "cust": 2
+    },
+    {
+     "day": 42,
+     "mrr": 4478,
+     "cash": 85878,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 6717,
+     "cash": 87320,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 6717,
+     "cash": 82171,
+     "cust": 3
+    },
+    {
+     "day": 84,
+     "mrr": 11194,
+     "cash": 87999,
+     "cust": 5
+    },
+    {
+     "day": 98,
+     "mrr": 15672,
+     "cash": 83230,
+     "cust": 7
+    },
+    {
+     "day": 112,
+     "mrr": 15672,
+     "cash": 82453,
+     "cust": 7
+    },
+    {
+     "day": 126,
+     "mrr": 17911,
+     "cash": 90335,
+     "cust": 8
+    },
+    {
+     "day": 140,
+     "mrr": 30505,
+     "cash": 102302,
+     "cust": 15
+    },
+    {
+     "day": 154,
+     "mrr": 37261,
+     "cash": 96242,
+     "cust": 19
+    },
+    {
+     "day": 168,
+     "mrr": 44458,
+     "cash": 113939,
+     "cust": 23
+    },
+    {
+     "day": 182,
+     "mrr": 73243,
+     "cash": 128661,
+     "cust": 39
+    },
+    {
+     "day": 196,
+     "mrr": 82239,
+     "cash": 135897,
+     "cust": 44
+    },
+    {
+     "day": 210,
+     "mrr": 115162,
+     "cash": 174024,
+     "cust": 64
+    },
+    {
+     "day": 224,
+     "mrr": 140890,
+     "cash": 180249,
+     "cust": 80
+    },
+    {
+     "day": 238,
+     "mrr": 175083,
+     "cash": 228045,
+     "cust": 101
+    },
+    {
+     "day": 252,
+     "mrr": 220060,
+     "cash": 193180,
+     "cust": 129
+    },
+    {
+     "day": 266,
+     "mrr": 293148,
+     "cash": 253358,
+     "cust": 175
+    },
+    {
+     "day": 280,
+     "mrr": 363475,
+     "cash": 222846,
+     "cust": 218
+    },
+    {
+     "day": 294,
+     "mrr": 507058,
+     "cash": 443815,
+     "cust": 310
+    },
+    {
+     "day": 308,
+     "mrr": 656043,
+     "cash": 256438,
+     "cust": 401
+    },
+    {
+     "day": 322,
+     "mrr": 901828,
+     "cash": 586482,
+     "cust": 523
+    },
+    {
+     "day": 336,
+     "mrr": 1043360,
+     "cash": 334598,
+     "cust": 610
+    },
+    {
+     "day": 350,
+     "mrr": 1324487,
+     "cash": 916335,
+     "cust": 781
+    },
+    {
+     "day": 364,
+     "mrr": 1642200,
+     "cash": 580632,
+     "cust": 919
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1548",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1548,
+   "alive": true,
+   "final": {
+    "cash": 360722.76191177365,
+    "mrr": 1245378.455711293,
+    "arr": 14944541.468535516,
+    "active_customers": 493,
+    "valuation_proxy": 239473386.25848004,
+    "market_share_pct": 7.393455018131421,
+    "logo_churn_pct_monthly": 4.18848167539267,
+    "cac_blended": 2152.5045045045044,
+    "ltv": 78518.87520937568,
+    "ltv_cac": 36.47791446896429,
+    "gross_margin_pct": 97.70613652322322,
+    "runway_months": 99.0,
+    "headcount": 11,
+    "founder_equity": 1.0,
+    "quality": 0.481664062914268,
+    "tech_debt": 149.17930707795765,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 1.1362292640000002,
+    "brand": 0.85,
+    "elasticity_est": -0.6513812120984834
+   },
+   "scorecard": {
+    "total": 26,
+    "success": 14,
+    "partial": 5,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 84433,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 3398,
+     "cash": 81830,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 8496,
+     "cash": 80282,
+     "cust": 5
+    },
+    {
+     "day": 70,
+     "mrr": 15292,
+     "cash": 82636,
+     "cust": 9
+    },
+    {
+     "day": 84,
+     "mrr": 22089,
+     "cash": 83448,
+     "cust": 13
+    },
+    {
+     "day": 98,
+     "mrr": 29185,
+     "cash": 85189,
+     "cust": 17
+    },
+    {
+     "day": 112,
+     "mrr": 40180,
+     "cash": 94747,
+     "cust": 23
+    },
+    {
+     "day": 126,
+     "mrr": 48476,
+     "cash": 93939,
+     "cust": 27
+    },
+    {
+     "day": 140,
+     "mrr": 53073,
+     "cash": 104381,
+     "cust": 29
+    },
+    {
+     "day": 154,
+     "mrr": 59396,
+     "cash": 70643,
+     "cust": 30
+    },
+    {
+     "day": 168,
+     "mrr": 84574,
+     "cash": 99570,
+     "cust": 41
+    },
+    {
+     "day": 182,
+     "mrr": 99830,
+     "cash": 76161,
+     "cust": 49
+    },
+    {
+     "day": 196,
+     "mrr": 109289,
+     "cash": 111923,
+     "cust": 54
+    },
+    {
+     "day": 210,
+     "mrr": 126868,
+     "cash": 140823,
+     "cust": 63
+    },
+    {
+     "day": 224,
+     "mrr": 159288,
+     "cash": 140277,
+     "cust": 80
+    },
+    {
+     "day": 238,
+     "mrr": 199536,
+     "cash": 183171,
+     "cust": 101
+    },
+    {
+     "day": 252,
+     "mrr": 250456,
+     "cash": 155511,
+     "cust": 124
+    },
+    {
+     "day": 266,
+     "mrr": 331652,
+     "cash": 226200,
+     "cust": 164
+    },
+    {
+     "day": 280,
+     "mrr": 386368,
+     "cash": 218224,
+     "cust": 191
+    },
+    {
+     "day": 294,
+     "mrr": 496101,
+     "cash": 363194,
+     "cust": 245
+    },
+    {
+     "day": 308,
+     "mrr": 586200,
+     "cash": 233578,
+     "cust": 285
+    },
+    {
+     "day": 322,
+     "mrr": 739395,
+     "cash": 580399,
+     "cust": 354
+    },
+    {
+     "day": 336,
+     "mrr": 881967,
+     "cash": 276139,
+     "cust": 391
+    },
+    {
+     "day": 350,
+     "mrr": 1071407,
+     "cash": 752297,
+     "cust": 447
+    },
+    {
+     "day": 364,
+     "mrr": 1240821,
+     "cash": 321070,
+     "cust": 491
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1548",
+   "strategy": "premium_first",
+   "tournament_seed": 1548,
+   "alive": true,
+   "final": {
+    "cash": 98063.3847500012,
+    "mrr": 61169.39999999997,
+    "arr": 734032.7999999997,
+    "active_customers": 30,
+    "valuation_proxy": 11842588.184749996,
+    "market_share_pct": 0.34376784835654206,
+    "logo_churn_pct_monthly": 0.0,
+    "cac_blended": 444.4530476190476,
+    "ltv": 0.0,
+    "ltv_cac": null,
+    "gross_margin_pct": 97.75607803901951,
+    "runway_months": 99.0,
+    "headcount": 1,
+    "founder_equity": 1.0,
+    "quality": 0.3685554424400791,
+    "tech_debt": 106.66838301090364,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.9,
+    "brand": 0.1434099117494264,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 10,
+    "success": 6,
+    "partial": 0,
+    "fail": 4
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 0,
+     "cash": 71233,
+     "cust": 0
+    },
+    {
+     "day": 84,
+     "mrr": 0,
+     "cash": 66100,
+     "cust": 0
+    },
+    {
+     "day": 98,
+     "mrr": 0,
+     "cash": 56967,
+     "cust": 0
+    },
+    {
+     "day": 112,
+     "mrr": 5397,
+     "cash": 57126,
+     "cust": 2
+    },
+    {
+     "day": 126,
+     "mrr": 8096,
+     "cash": 54626,
+     "cust": 3
+    },
+    {
+     "day": 140,
+     "mrr": 8096,
+     "cash": 52125,
+     "cust": 3
+    },
+    {
+     "day": 154,
+     "mrr": 10795,
+     "cash": 54917,
+     "cust": 4
+    },
+    {
+     "day": 168,
+     "mrr": 13493,
+     "cash": 55057,
+     "cust": 5
+    },
+    {
+     "day": 182,
+     "mrr": 13493,
+     "cash": 57840,
+     "cust": 5
+    },
+    {
+     "day": 196,
+     "mrr": 13493,
+     "cash": 51329,
+     "cust": 5
+    },
+    {
+     "day": 210,
+     "mrr": 13493,
+     "cash": 54112,
+     "cust": 5
+    },
+    {
+     "day": 224,
+     "mrr": 16192,
+     "cash": 54243,
+     "cust": 6
+    },
+    {
+     "day": 238,
+     "mrr": 16192,
+     "cash": 57021,
+     "cust": 6
+    },
+    {
+     "day": 252,
+     "mrr": 13493,
+     "cash": 59805,
+     "cust": 5
+    },
+    {
+     "day": 266,
+     "mrr": 18891,
+     "cash": 67698,
+     "cust": 7
+    },
+    {
+     "day": 280,
+     "mrr": 16192,
+     "cash": 63647,
+     "cust": 6
+    },
+    {
+     "day": 294,
+     "mrr": 16192,
+     "cash": 71588,
+     "cust": 6
+    },
+    {
+     "day": 308,
+     "mrr": 16192,
+     "cash": 68843,
+     "cust": 6
+    },
+    {
+     "day": 322,
+     "mrr": 21589,
+     "cash": 80770,
+     "cust": 8
+    },
+    {
+     "day": 336,
+     "mrr": 25187,
+     "cash": 79115,
+     "cust": 10
+    },
+    {
+     "day": 350,
+     "mrr": 39580,
+     "cash": 101496,
+     "cust": 18
+    },
+    {
+     "day": 364,
+     "mrr": 57571,
+     "cash": 98953,
+     "cust": 28
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1548",
+   "strategy": "product_led",
+   "tournament_seed": 1548,
+   "alive": true,
+   "final": {
+    "cash": 424448.7734799918,
+    "mrr": 1245455.5499999847,
+    "arr": 14945466.599999815,
+    "active_customers": 718,
+    "valuation_proxy": 239551914.37347704,
+    "market_share_pct": 7.565763032004121,
+    "logo_churn_pct_monthly": 4.365904365904366,
+    "cac_blended": 923.6368781944443,
+    "ltv": 59552.90423218327,
+    "ltv_cac": 64.4765336228229,
+    "gross_margin_pct": 97.56049922858853,
+    "runway_months": 99.0,
+    "headcount": 14,
+    "founder_equity": 1.0,
+    "quality": 0.4703159148542091,
+    "tech_debt": 147.2806504411836,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.7714251065238529,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 24,
+    "success": 18,
+    "partial": 1,
+    "fail": 5
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 1899,
+     "cash": 83361,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 3798,
+     "cash": 80083,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 7596,
+     "cash": 80523,
+     "cust": 4
+    },
+    {
+     "day": 84,
+     "mrr": 15192,
+     "cash": 84410,
+     "cust": 8
+    },
+    {
+     "day": 98,
+     "mrr": 18990,
+     "cash": 81853,
+     "cust": 10
+    },
+    {
+     "day": 112,
+     "mrr": 27986,
+     "cash": 90362,
+     "cust": 15
+    },
+    {
+     "day": 126,
+     "mrr": 31484,
+     "cash": 92693,
+     "cust": 17
+    },
+    {
+     "day": 140,
+     "mrr": 40380,
+     "cash": 110943,
+     "cust": 22
+    },
+    {
+     "day": 154,
+     "mrr": 51174,
+     "cash": 108697,
+     "cust": 28
+    },
+    {
+     "day": 168,
+     "mrr": 61609,
+     "cash": 119402,
+     "cust": 34
+    },
+    {
+     "day": 182,
+     "mrr": 86301,
+     "cash": 104661,
+     "cust": 50
+    },
+    {
+     "day": 196,
+     "mrr": 115267,
+     "cash": 131179,
+     "cust": 68
+    },
+    {
+     "day": 210,
+     "mrr": 134517,
+     "cash": 189441,
+     "cust": 80
+    },
+    {
+     "day": 224,
+     "mrr": 161865,
+     "cash": 181637,
+     "cust": 95
+    },
+    {
+     "day": 238,
+     "mrr": 185273,
+     "cash": 232016,
+     "cust": 110
+    },
+    {
+     "day": 252,
+     "mrr": 231352,
+     "cash": 199884,
+     "cust": 138
+    },
+    {
+     "day": 266,
+     "mrr": 305234,
+     "cash": 300234,
+     "cust": 187
+    },
+    {
+     "day": 280,
+     "mrr": 408075,
+     "cash": 220267,
+     "cust": 250
+    },
+    {
+     "day": 294,
+     "mrr": 482473,
+     "cash": 360365,
+     "cust": 291
+    },
+    {
+     "day": 308,
+     "mrr": 574288,
+     "cash": 199522,
+     "cust": 348
+    },
+    {
+     "day": 322,
+     "mrr": 739451,
+     "cash": 501376,
+     "cust": 448
+    },
+    {
+     "day": 336,
+     "mrr": 819961,
+     "cash": 249404,
+     "cust": 486
+    },
+    {
+     "day": 350,
+     "mrr": 1073901,
+     "cash": 733054,
+     "cust": 615
+    },
+    {
+     "day": 364,
+     "mrr": 1228303,
+     "cash": 385793,
+     "cust": 709
+    }
+   ]
+  },
+  {
+   "name": "balanced_s1685",
+   "strategy": "balanced",
+   "tournament_seed": 1685,
+   "alive": true,
+   "final": {
+    "cash": 738093.5882281266,
+    "mrr": 1810676.0771999669,
+    "arr": 21728112.926399603,
+    "active_customers": 978,
+    "valuation_proxy": 348387900.41062176,
+    "market_share_pct": 10.56910258839767,
+    "logo_churn_pct_monthly": 4.87062404870624,
+    "cac_blended": 1344.1575757575758,
+    "ltv": 57034.1222151059,
+    "ltv_cac": 42.43112804907646,
+    "gross_margin_pct": 97.60261589196494,
+    "runway_months": 99.0,
+    "headcount": 16,
+    "founder_equity": 1.0,
+    "quality": 0.49636328868058777,
+    "tech_debt": 162.25127684765025,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.8268000000000001,
+    "brand": 0.85,
+    "elasticity_est": -0.15
+   },
+   "scorecard": {
+    "total": 26,
+    "success": 17,
+    "partial": 2,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 1999,
+     "cash": 83461,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 3998,
+     "cash": 80278,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 7996,
+     "cash": 79051,
+     "cust": 4
+    },
+    {
+     "day": 84,
+     "mrr": 17993,
+     "cash": 84776,
+     "cust": 7
+    },
+    {
+     "day": 98,
+     "mrr": 32485,
+     "cash": 91124,
+     "cust": 15
+    },
+    {
+     "day": 112,
+     "mrr": 38181,
+     "cash": 105782,
+     "cust": 19
+    },
+    {
+     "day": 126,
+     "mrr": 39581,
+     "cash": 99909,
+     "cust": 20
+    },
+    {
+     "day": 140,
+     "mrr": 45227,
+     "cash": 122194,
+     "cust": 24
+    },
+    {
+     "day": 154,
+     "mrr": 52224,
+     "cash": 118647,
+     "cust": 28
+    },
+    {
+     "day": 168,
+     "mrr": 66616,
+     "cash": 136103,
+     "cust": 36
+    },
+    {
+     "day": 182,
+     "mrr": 89869,
+     "cash": 118398,
+     "cust": 51
+    },
+    {
+     "day": 196,
+     "mrr": 113098,
+     "cash": 152768,
+     "cust": 65
+    },
+    {
+     "day": 210,
+     "mrr": 144267,
+     "cash": 211822,
+     "cust": 85
+    },
+    {
+     "day": 224,
+     "mrr": 212095,
+     "cash": 203172,
+     "cust": 125
+    },
+    {
+     "day": 238,
+     "mrr": 259773,
+     "cash": 253085,
+     "cust": 153
+    },
+    {
+     "day": 252,
+     "mrr": 336776,
+     "cash": 206714,
+     "cust": 200
+    },
+    {
+     "day": 266,
+     "mrr": 425954,
+     "cash": 296225,
+     "cust": 253
+    },
+    {
+     "day": 280,
+     "mrr": 581478,
+     "cash": 338473,
+     "cust": 323
+    },
+    {
+     "day": 294,
+     "mrr": 712572,
+     "cash": 407472,
+     "cust": 379
+    },
+    {
+     "day": 308,
+     "mrr": 836557,
+     "cash": 384310,
+     "cust": 474
+    },
+    {
+     "day": 322,
+     "mrr": 1056610,
+     "cash": 829850,
+     "cust": 600
+    },
+    {
+     "day": 336,
+     "mrr": 1206869,
+     "cash": 450888,
+     "cust": 667
+    },
+    {
+     "day": 350,
+     "mrr": 1533058,
+     "cash": 1082885,
+     "cust": 846
+    },
+    {
+     "day": 364,
+     "mrr": 1785851,
+     "cash": 665173,
+     "cust": 963
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1685",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1685,
+   "alive": true,
+   "final": {
+    "cash": 255768.7014633242,
+    "mrr": 945480.6899999918,
+    "arr": 11345768.2799999,
+    "active_customers": 542,
+    "valuation_proxy": 181788061.18146172,
+    "market_share_pct": 5.220418198147655,
+    "logo_churn_pct_monthly": 3.536977491961415,
+    "cac_blended": 733.1626794258373,
+    "ltv": 85583.23284278948,
+    "ltv_cac": 116.73157301161648,
+    "gross_margin_pct": 97.58944868376815,
+    "runway_months": 99.0,
+    "headcount": 10,
+    "founder_equity": 1.0,
+    "quality": 0.438099357032383,
+    "tech_debt": 125.25643530754645,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.5745062045822884,
+    "elasticity_est": -3.133732144678464
+   },
+   "scorecard": {
+    "total": 19,
+    "success": 13,
+    "partial": 0,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 4478,
+     "cash": 85885,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 4478,
+     "cash": 80742,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 6717,
+     "cash": 82182,
+     "cust": 3
+    },
+    {
+     "day": 84,
+     "mrr": 8956,
+     "cash": 79225,
+     "cust": 4
+    },
+    {
+     "day": 98,
+     "mrr": 13433,
+     "cash": 83242,
+     "cust": 6
+    },
+    {
+     "day": 112,
+     "mrr": 15672,
+     "cash": 82469,
+     "cust": 7
+    },
+    {
+     "day": 126,
+     "mrr": 13433,
+     "cash": 90483,
+     "cust": 6
+    },
+    {
+     "day": 140,
+     "mrr": 11194,
+     "cash": 89715,
+     "cust": 5
+    },
+    {
+     "day": 154,
+     "mrr": 15672,
+     "cash": 95532,
+     "cust": 7
+    },
+    {
+     "day": 168,
+     "mrr": 20150,
+     "cash": 96523,
+     "cust": 9
+    },
+    {
+     "day": 182,
+     "mrr": 38581,
+     "cash": 97441,
+     "cust": 19
+    },
+    {
+     "day": 196,
+     "mrr": 49375,
+     "cash": 108425,
+     "cust": 25
+    },
+    {
+     "day": 210,
+     "mrr": 69649,
+     "cash": 125852,
+     "cust": 33
+    },
+    {
+     "day": 224,
+     "mrr": 87640,
+     "cash": 123474,
+     "cust": 43
+    },
+    {
+     "day": 238,
+     "mrr": 109227,
+     "cash": 160495,
+     "cust": 57
+    },
+    {
+     "day": 252,
+     "mrr": 130100,
+     "cash": 156878,
+     "cust": 66
+    },
+    {
+     "day": 266,
+     "mrr": 172199,
+     "cash": 232598,
+     "cust": 92
+    },
+    {
+     "day": 280,
+     "mrr": 211959,
+     "cash": 162052,
+     "cust": 117
+    },
+    {
+     "day": 294,
+     "mrr": 272273,
+     "cash": 239453,
+     "cust": 155
+    },
+    {
+     "day": 308,
+     "mrr": 344597,
+     "cash": 141125,
+     "cust": 200
+    },
+    {
+     "day": 322,
+     "mrr": 431195,
+     "cash": 256399,
+     "cust": 253
+    },
+    {
+     "day": 336,
+     "mrr": 557254,
+     "cash": 193214,
+     "cust": 332
+    },
+    {
+     "day": 350,
+     "mrr": 780967,
+     "cash": 454766,
+     "cust": 443
+    },
+    {
+     "day": 364,
+     "mrr": 941543,
+     "cash": 221854,
+     "cust": 539
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1685",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1685,
+   "alive": true,
+   "final": {
+    "cash": 1760816.927363447,
+    "mrr": 3242456.8600001056,
+    "arr": 38909482.32000127,
+    "active_customers": 1754,
+    "valuation_proxy": 624312534.0473837,
+    "market_share_pct": 19.126767279650323,
+    "logo_churn_pct_monthly": 5.471847739888977,
+    "cac_blended": 1766.7325800376648,
+    "ltv": 47666.09289802594,
+    "ltv_cac": 26.979800699101702,
+    "gross_margin_pct": 97.59495306677842,
+    "runway_months": 99.0,
+    "headcount": 22,
+    "founder_equity": 1.0,
+    "quality": 0.5100338015625061,
+    "tech_debt": 172.0537935550488,
+    "features": [
+     "ai_insights",
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 31,
+    "success": 18,
+    "partial": 7,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 3398,
+     "cash": 87763,
+     "cust": 2
+    },
+    {
+     "day": 42,
+     "mrr": 10195,
+     "cash": 87874,
+     "cust": 6
+    },
+    {
+     "day": 56,
+     "mrr": 20390,
+     "cash": 93988,
+     "cust": 12
+    },
+    {
+     "day": 70,
+     "mrr": 27188,
+     "cash": 93333,
+     "cust": 14
+    },
+    {
+     "day": 84,
+     "mrr": 44180,
+     "cash": 113370,
+     "cust": 24
+    },
+    {
+     "day": 98,
+     "mrr": 60072,
+     "cash": 88641,
+     "cust": 33
+    },
+    {
+     "day": 112,
+     "mrr": 65967,
+     "cash": 111001,
+     "cust": 38
+    },
+    {
+     "day": 126,
+     "mrr": 73365,
+     "cash": 86934,
+     "cust": 39
+    },
+    {
+     "day": 140,
+     "mrr": 91656,
+     "cash": 119392,
+     "cust": 48
+    },
+    {
+     "day": 154,
+     "mrr": 113945,
+     "cash": 102658,
+     "cust": 59
+    },
+    {
+     "day": 168,
+     "mrr": 145469,
+     "cash": 149500,
+     "cust": 78
+    },
+    {
+     "day": 182,
+     "mrr": 196904,
+     "cash": 137688,
+     "cust": 110
+    },
+    {
+     "day": 196,
+     "mrr": 267388,
+     "cash": 181273,
+     "cust": 154
+    },
+    {
+     "day": 210,
+     "mrr": 350371,
+     "cash": 258095,
+     "cust": 206
+    },
+    {
+     "day": 224,
+     "mrr": 414780,
+     "cash": 211156,
+     "cust": 244
+    },
+    {
+     "day": 238,
+     "mrr": 511338,
+     "cash": 360430,
+     "cust": 304
+    },
+    {
+     "day": 252,
+     "mrr": 672759,
+     "cash": 331356,
+     "cust": 406
+    },
+    {
+     "day": 266,
+     "mrr": 825771,
+     "cash": 589696,
+     "cust": 495
+    },
+    {
+     "day": 280,
+     "mrr": 1003549,
+     "cash": 524960,
+     "cust": 600
+    },
+    {
+     "day": 294,
+     "mrr": 1253507,
+     "cash": 870087,
+     "cust": 707
+    },
+    {
+     "day": 308,
+     "mrr": 1550382,
+     "cash": 612741,
+     "cust": 867
+    },
+    {
+     "day": 322,
+     "mrr": 2005306,
+     "cash": 1412480,
+     "cust": 1118
+    },
+    {
+     "day": 336,
+     "mrr": 2377801,
+     "cash": 983566,
+     "cust": 1292
+    },
+    {
+     "day": 350,
+     "mrr": 2823947,
+     "cash": 2259968,
+     "cust": 1542
+    },
+    {
+     "day": 364,
+     "mrr": 3206593,
+     "cash": 1681706,
+     "cust": 1733
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1685",
+   "strategy": "premium_first",
+   "tournament_seed": 1685,
+   "alive": true,
+   "final": {
+    "cash": 613202.3111966522,
+    "mrr": 1289551.1699999834,
+    "arr": 15474614.039999802,
+    "active_customers": 791,
+    "valuation_proxy": 248207026.95119348,
+    "market_share_pct": 7.369859004359215,
+    "logo_churn_pct_monthly": 6.021505376344086,
+    "cac_blended": 1035.0529595015576,
+    "ltv": 46528.7405891373,
+    "ltv_cac": 44.95300473469858,
+    "gross_margin_pct": 97.57382513360892,
+    "runway_months": 99.0,
+    "headcount": 11,
+    "founder_equity": 1.0,
+    "quality": 0.44932944073104825,
+    "tech_debt": 128.76804116669953,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 19,
+    "success": 13,
+    "partial": 0,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 2699,
+     "cash": 79011,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 2699,
+     "cash": 73873,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 2699,
+     "cash": 74027,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 8096,
+     "cash": 70177,
+     "cust": 3
+    },
+    {
+     "day": 112,
+     "mrr": 10795,
+     "cash": 70322,
+     "cust": 4
+    },
+    {
+     "day": 126,
+     "mrr": 18891,
+     "cash": 78218,
+     "cust": 7
+    },
+    {
+     "day": 140,
+     "mrr": 24288,
+     "cash": 81446,
+     "cust": 9
+    },
+    {
+     "day": 154,
+     "mrr": 39580,
+     "cash": 80832,
+     "cust": 18
+    },
+    {
+     "day": 168,
+     "mrr": 55772,
+     "cash": 100051,
+     "cust": 27
+    },
+    {
+     "day": 182,
+     "mrr": 64768,
+     "cash": 92084,
+     "cust": 32
+    },
+    {
+     "day": 196,
+     "mrr": 86357,
+     "cash": 130290,
+     "cust": 44
+    },
+    {
+     "day": 210,
+     "mrr": 118741,
+     "cash": 165159,
+     "cust": 62
+    },
+    {
+     "day": 224,
+     "mrr": 146627,
+     "cash": 162794,
+     "cust": 79
+    },
+    {
+     "day": 238,
+     "mrr": 173973,
+     "cash": 225831,
+     "cust": 96
+    },
+    {
+     "day": 252,
+     "mrr": 193043,
+     "cash": 204134,
+     "cust": 108
+    },
+    {
+     "day": 266,
+     "mrr": 225429,
+     "cash": 241998,
+     "cust": 126
+    },
+    {
+     "day": 280,
+     "mrr": 284170,
+     "cash": 198461,
+     "cust": 162
+    },
+    {
+     "day": 294,
+     "mrr": 347738,
+     "cash": 286824,
+     "cust": 203
+    },
+    {
+     "day": 308,
+     "mrr": 470049,
+     "cash": 266704,
+     "cust": 279
+    },
+    {
+     "day": 322,
+     "mrr": 613856,
+     "cash": 367254,
+     "cust": 373
+    },
+    {
+     "day": 336,
+     "mrr": 788520,
+     "cash": 362220,
+     "cust": 484
+    },
+    {
+     "day": 350,
+     "mrr": 1035844,
+     "cash": 658607,
+     "cust": 633
+    },
+    {
+     "day": 364,
+     "mrr": 1261725,
+     "cash": 547139,
+     "cust": 773
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1685",
+   "strategy": "product_led",
+   "tournament_seed": 1685,
+   "alive": true,
+   "final": {
+    "cash": 824279.2833933233,
+    "mrr": 1801653.2499999758,
+    "arr": 21619838.99999971,
+    "active_customers": 1034,
+    "valuation_proxy": 346741703.2833887,
+    "market_share_pct": 10.21714154338547,
+    "logo_churn_pct_monthly": 4.6082949308755765,
+    "cac_blended": 1155.6772486772486,
+    "ltv": 60298.934640430365,
+    "ltv_cac": 52.17627560761156,
+    "gross_margin_pct": 97.57500791371491,
+    "runway_months": 99.0,
+    "headcount": 15,
+    "founder_equity": 1.0,
+    "quality": 0.481664062914268,
+    "tech_debt": 149.17930707795765,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 25,
+    "success": 16,
+    "partial": 2,
+    "fail": 7
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 1899,
+     "cash": 88495,
+     "cust": 1
+    },
+    {
+     "day": 42,
+     "mrr": 3798,
+     "cash": 85218,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 7596,
+     "cash": 85658,
+     "cust": 4
+    },
+    {
+     "day": 70,
+     "mrr": 11394,
+     "cash": 85988,
+     "cust": 6
+    },
+    {
+     "day": 84,
+     "mrr": 22789,
+     "cash": 93352,
+     "cust": 12
+    },
+    {
+     "day": 98,
+     "mrr": 30085,
+     "cash": 91815,
+     "cust": 16
+    },
+    {
+     "day": 112,
+     "mrr": 42679,
+     "cash": 107775,
+     "cust": 23
+    },
+    {
+     "day": 126,
+     "mrr": 47976,
+     "cash": 102160,
+     "cust": 26
+    },
+    {
+     "day": 140,
+     "mrr": 55172,
+     "cash": 108747,
+     "cust": 30
+    },
+    {
+     "day": 154,
+     "mrr": 65967,
+     "cash": 83521,
+     "cust": 36
+    },
+    {
+     "day": 168,
+     "mrr": 77201,
+     "cash": 114805,
+     "cust": 43
+    },
+    {
+     "day": 182,
+     "mrr": 101489,
+     "cash": 78416,
+     "cust": 58
+    },
+    {
+     "day": 196,
+     "mrr": 112824,
+     "cash": 120960,
+     "cust": 65
+    },
+    {
+     "day": 210,
+     "mrr": 145332,
+     "cash": 188626,
+     "cust": 86
+    },
+    {
+     "day": 224,
+     "mrr": 180496,
+     "cash": 180460,
+     "cust": 106
+    },
+    {
+     "day": 238,
+     "mrr": 226164,
+     "cash": 243313,
+     "cust": 134
+    },
+    {
+     "day": 252,
+     "mrr": 299147,
+     "cash": 195038,
+     "cust": 181
+    },
+    {
+     "day": 266,
+     "mrr": 398817,
+     "cash": 331232,
+     "cust": 245
+    },
+    {
+     "day": 280,
+     "mrr": 450093,
+     "cash": 317720,
+     "cust": 276
+    },
+    {
+     "day": 294,
+     "mrr": 531773,
+     "cash": 411312,
+     "cust": 328
+    },
+    {
+     "day": 308,
+     "mrr": 678265,
+     "cash": 300751,
+     "cust": 403
+    },
+    {
+     "day": 322,
+     "mrr": 975815,
+     "cash": 576223,
+     "cust": 544
+    },
+    {
+     "day": 336,
+     "mrr": 1203167,
+     "cash": 409285,
+     "cust": 682
+    },
+    {
+     "day": 350,
+     "mrr": 1530639,
+     "cash": 1102018,
+     "cust": 872
+    },
+    {
+     "day": 364,
+     "mrr": 1767349,
+     "cash": 714696,
+     "cust": 1014
+    }
+   ]
+  },
+  {
+   "name": "balanced_s1822",
+   "strategy": "balanced",
+   "tournament_seed": 1822,
+   "alive": true,
+   "final": {
+    "cash": 1500158.7556633328,
+    "mrr": 2600368.570000037,
+    "arr": 31204422.840000443,
+    "active_customers": 1531,
+    "valuation_proxy": 500770924.1956704,
+    "market_share_pct": 12.700542902325532,
+    "logo_churn_pct_monthly": 4.315886134067952,
+    "cac_blended": 1668.6162280701753,
+    "ltv": 55627.77992833411,
+    "ltv_cac": 33.3376716542365,
+    "gross_margin_pct": 97.54901072149578,
+    "runway_months": 99.0,
+    "headcount": 18,
+    "founder_equity": 1.0,
+    "quality": 0.500466268750623,
+    "tech_debt": 164.28954741249834,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 27,
+    "success": 19,
+    "partial": 5,
+    "fail": 3
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 1999,
+     "cash": 83456,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 3998,
+     "cash": 80274,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 5997,
+     "cash": 79048,
+     "cust": 3
+    },
+    {
+     "day": 84,
+     "mrr": 9995,
+     "cash": 79679,
+     "cust": 5
+    },
+    {
+     "day": 98,
+     "mrr": 13993,
+     "cash": 77940,
+     "cust": 7
+    },
+    {
+     "day": 112,
+     "mrr": 17991,
+     "cash": 80553,
+     "cust": 9
+    },
+    {
+     "day": 126,
+     "mrr": 32983,
+     "cash": 93468,
+     "cust": 17
+    },
+    {
+     "day": 140,
+     "mrr": 45577,
+     "cash": 110578,
+     "cust": 24
+    },
+    {
+     "day": 154,
+     "mrr": 64969,
+     "cash": 115804,
+     "cust": 33
+    },
+    {
+     "day": 168,
+     "mrr": 81161,
+     "cash": 131530,
+     "cust": 42
+    },
+    {
+     "day": 182,
+     "mrr": 115344,
+     "cash": 144986,
+     "cust": 61
+    },
+    {
+     "day": 196,
+     "mrr": 144671,
+     "cash": 156163,
+     "cust": 77
+    },
+    {
+     "day": 210,
+     "mrr": 194866,
+     "cash": 205301,
+     "cust": 108
+    },
+    {
+     "day": 224,
+     "mrr": 272452,
+     "cash": 183023,
+     "cust": 157
+    },
+    {
+     "day": 238,
+     "mrr": 379320,
+     "cash": 314736,
+     "cust": 221
+    },
+    {
+     "day": 252,
+     "mrr": 462978,
+     "cash": 326523,
+     "cust": 273
+    },
+    {
+     "day": 266,
+     "mrr": 614585,
+     "cash": 481021,
+     "cust": 366
+    },
+    {
+     "day": 280,
+     "mrr": 783848,
+     "cash": 467460,
+     "cust": 478
+    },
+    {
+     "day": 294,
+     "mrr": 950299,
+     "cash": 715168,
+     "cust": 580
+    },
+    {
+     "day": 308,
+     "mrr": 1265283,
+     "cash": 579611,
+     "cust": 755
+    },
+    {
+     "day": 322,
+     "mrr": 1598304,
+     "cash": 1198289,
+     "cust": 959
+    },
+    {
+     "day": 336,
+     "mrr": 1895691,
+     "cash": 916326,
+     "cust": 1117
+    },
+    {
+     "day": 350,
+     "mrr": 2266649,
+     "cash": 1746827,
+     "cust": 1338
+    },
+    {
+     "day": 364,
+     "mrr": 2567625,
+     "cash": 1434002,
+     "cust": 1510
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1822",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1822,
+   "alive": true,
+   "final": {
+    "cash": 804330.1723533156,
+    "mrr": 1567023.8399999824,
+    "arr": 18804286.07999979,
+    "active_customers": 933,
+    "valuation_proxy": 301672907.45234996,
+    "market_share_pct": 7.70536692424044,
+    "logo_churn_pct_monthly": 3.125,
+    "cac_blended": 1021.1273209549072,
+    "ltv": 91587.51742059318,
+    "ltv_cac": 89.6925540440394,
+    "gross_margin_pct": 97.58153451396286,
+    "runway_months": 99.0,
+    "headcount": 12,
+    "founder_equity": 1.0,
+    "quality": 0.4567902269089747,
+    "tech_debt": 133.38898459409407,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.4449091632536257
+   },
+   "scorecard": {
+    "total": 20,
+    "success": 13,
+    "partial": 1,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 0,
+     "cash": 71233,
+     "cust": 0
+    },
+    {
+     "day": 84,
+     "mrr": 2239,
+     "cash": 68295,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 2239,
+     "cash": 59156,
+     "cust": 1
+    },
+    {
+     "day": 112,
+     "mrr": 4478,
+     "cash": 58405,
+     "cust": 2
+    },
+    {
+     "day": 126,
+     "mrr": 6717,
+     "cash": 55457,
+     "cust": 3
+    },
+    {
+     "day": 140,
+     "mrr": 6717,
+     "cash": 56896,
+     "cust": 3
+    },
+    {
+     "day": 154,
+     "mrr": 13433,
+     "cash": 58329,
+     "cust": 6
+    },
+    {
+     "day": 168,
+     "mrr": 33583,
+     "cash": 78698,
+     "cust": 15
+    },
+    {
+     "day": 182,
+     "mrr": 59650,
+     "cash": 82579,
+     "cust": 29
+    },
+    {
+     "day": 196,
+     "mrr": 77201,
+     "cash": 97967,
+     "cust": 39
+    },
+    {
+     "day": 210,
+     "mrr": 98791,
+     "cash": 128885,
+     "cust": 51
+    },
+    {
+     "day": 224,
+     "mrr": 140172,
+     "cash": 148184,
+     "cust": 72
+    },
+    {
+     "day": 238,
+     "mrr": 168419,
+     "cash": 200197,
+     "cust": 86
+    },
+    {
+     "day": 252,
+     "mrr": 212061,
+     "cash": 193393,
+     "cust": 109
+    },
+    {
+     "day": 266,
+     "mrr": 267936,
+     "cash": 264954,
+     "cust": 140
+    },
+    {
+     "day": 280,
+     "mrr": 351979,
+     "cash": 244125,
+     "cust": 187
+    },
+    {
+     "day": 294,
+     "mrr": 441034,
+     "cash": 343318,
+     "cust": 242
+    },
+    {
+     "day": 308,
+     "mrr": 572055,
+     "cash": 287578,
+     "cust": 322
+    },
+    {
+     "day": 322,
+     "mrr": 746977,
+     "cash": 515389,
+     "cust": 428
+    },
+    {
+     "day": 336,
+     "mrr": 964371,
+     "cash": 402681,
+     "cust": 564
+    },
+    {
+     "day": 350,
+     "mrr": 1247347,
+     "cash": 891024,
+     "cust": 737
+    },
+    {
+     "day": 364,
+     "mrr": 1528160,
+     "cash": 750823,
+     "cust": 912
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1822",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1822,
+   "alive": true,
+   "final": {
+    "cash": 1891742.8988521742,
+    "mrr": 3118758.330000079,
+    "arr": 37425099.96000095,
+    "active_customers": 1790,
+    "valuation_proxy": 600693342.2588674,
+    "market_share_pct": 15.371939428702527,
+    "logo_churn_pct_monthly": 4.716981132075472,
+    "cac_blended": 2003.7186932849365,
+    "ltv": 52411.16304361902,
+    "ltv_cac": 26.156946690802744,
+    "gross_margin_pct": 97.56063697215109,
+    "runway_months": 99.0,
+    "headcount": 18,
+    "founder_equity": 1.0,
+    "quality": 0.500466268750623,
+    "tech_debt": 164.28954741249834,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -2.876855173669764
+   },
+   "scorecard": {
+    "total": 32,
+    "success": 18,
+    "partial": 6,
+    "fail": 8
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 84433,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 78500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 5097,
+     "cash": 77557,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 16992,
+     "cash": 82505,
+     "cust": 10
+    },
+    {
+     "day": 84,
+     "mrr": 32284,
+     "cash": 90506,
+     "cust": 19
+    },
+    {
+     "day": 98,
+     "mrr": 41179,
+     "cash": 79718,
+     "cust": 24
+    },
+    {
+     "day": 112,
+     "mrr": 56172,
+     "cash": 103200,
+     "cust": 32
+    },
+    {
+     "day": 126,
+     "mrr": 58471,
+     "cash": 71102,
+     "cust": 33
+    },
+    {
+     "day": 140,
+     "mrr": 78763,
+     "cash": 113966,
+     "cust": 41
+    },
+    {
+     "day": 154,
+     "mrr": 99852,
+     "cash": 82852,
+     "cust": 51
+    },
+    {
+     "day": 168,
+     "mrr": 119262,
+     "cash": 139898,
+     "cust": 62
+    },
+    {
+     "day": 182,
+     "mrr": 149079,
+     "cash": 114746,
+     "cust": 80
+    },
+    {
+     "day": 196,
+     "mrr": 184286,
+     "cash": 170002,
+     "cust": 101
+    },
+    {
+     "day": 210,
+     "mrr": 249920,
+     "cash": 247253,
+     "cust": 136
+    },
+    {
+     "day": 224,
+     "mrr": 340238,
+     "cash": 211356,
+     "cust": 186
+    },
+    {
+     "day": 238,
+     "mrr": 448617,
+     "cash": 364101,
+     "cust": 253
+    },
+    {
+     "day": 252,
+     "mrr": 575947,
+     "cash": 439531,
+     "cust": 333
+    },
+    {
+     "day": 266,
+     "mrr": 762083,
+     "cash": 623414,
+     "cust": 447
+    },
+    {
+     "day": 280,
+     "mrr": 981349,
+     "cash": 616685,
+     "cust": 585
+    },
+    {
+     "day": 294,
+     "mrr": 1255772,
+     "cash": 971845,
+     "cust": 754
+    },
+    {
+     "day": 308,
+     "mrr": 1548520,
+     "cash": 892075,
+     "cust": 928
+    },
+    {
+     "day": 322,
+     "mrr": 1857073,
+     "cash": 1529370,
+     "cust": 1113
+    },
+    {
+     "day": 336,
+     "mrr": 2158688,
+     "cash": 1243962,
+     "cust": 1299
+    },
+    {
+     "day": 350,
+     "mrr": 2638435,
+     "cash": 2143772,
+     "cust": 1563
+    },
+    {
+     "day": 364,
+     "mrr": 3089128,
+     "cash": 1821834,
+     "cust": 1777
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1822",
+   "strategy": "premium_first",
+   "tournament_seed": 1822,
+   "alive": true,
+   "final": {
+    "cash": 170493.89600999883,
+    "mrr": 313413.8399999999,
+    "arr": 3760966.079999999,
+    "active_customers": 160,
+    "valuation_proxy": 60345951.17600998,
+    "market_share_pct": 1.4815273503488327,
+    "logo_churn_pct_monthly": 10.0,
+    "cac_blended": 2346.32,
+    "ltv": 27405.643685146497,
+    "ltv_cac": 11.680266837066766,
+    "gross_margin_pct": 97.61006865310513,
+    "runway_months": 99.0,
+    "headcount": 4,
+    "founder_equity": 1.0,
+    "quality": 0.3685554424400791,
+    "tech_debt": 106.66838301090364,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.43504799710526526,
+    "elasticity_est": -1.9445608081645667
+   },
+   "scorecard": {
+    "total": 14,
+    "success": 5,
+    "partial": 0,
+    "fail": 9
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 2699,
+     "cash": 73879,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 5397,
+     "cash": 71385,
+     "cust": 2
+    },
+    {
+     "day": 98,
+     "mrr": 5397,
+     "cash": 64889,
+     "cust": 2
+    },
+    {
+     "day": 112,
+     "mrr": 5397,
+     "cash": 65038,
+     "cust": 2
+    },
+    {
+     "day": 126,
+     "mrr": 5397,
+     "cash": 62542,
+     "cust": 2
+    },
+    {
+     "day": 140,
+     "mrr": 2699,
+     "cash": 60049,
+     "cust": 1
+    },
+    {
+     "day": 154,
+     "mrr": 5397,
+     "cash": 57556,
+     "cust": 2
+    },
+    {
+     "day": 168,
+     "mrr": 5397,
+     "cash": 57711,
+     "cust": 2
+    },
+    {
+     "day": 182,
+     "mrr": 8096,
+     "cash": 57862,
+     "cust": 3
+    },
+    {
+     "day": 196,
+     "mrr": 8096,
+     "cash": 48713,
+     "cust": 3
+    },
+    {
+     "day": 210,
+     "mrr": 16192,
+     "cash": 56791,
+     "cust": 6
+    },
+    {
+     "day": 224,
+     "mrr": 26987,
+     "cash": 64452,
+     "cust": 10
+    },
+    {
+     "day": 238,
+     "mrr": 43178,
+     "cash": 80364,
+     "cust": 17
+    },
+    {
+     "day": 252,
+     "mrr": 64768,
+     "cash": 87303,
+     "cust": 29
+    },
+    {
+     "day": 266,
+     "mrr": 85457,
+     "cash": 110586,
+     "cust": 41
+    },
+    {
+     "day": 280,
+     "mrr": 109745,
+     "cash": 84231,
+     "cust": 55
+    },
+    {
+     "day": 294,
+     "mrr": 140779,
+     "cash": 138539,
+     "cust": 73
+    },
+    {
+     "day": 308,
+     "mrr": 168125,
+     "cash": 128728,
+     "cust": 89
+    },
+    {
+     "day": 322,
+     "mrr": 194575,
+     "cash": 186018,
+     "cust": 102
+    },
+    {
+     "day": 336,
+     "mrr": 232538,
+     "cash": 161097,
+     "cust": 122
+    },
+    {
+     "day": 350,
+     "mrr": 281028,
+     "cash": 188614,
+     "cust": 144
+    },
+    {
+     "day": 364,
+     "mrr": 309816,
+     "cash": 163106,
+     "cust": 158
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1822",
+   "strategy": "product_led",
+   "tournament_seed": 1822,
+   "alive": true,
+   "final": {
+    "cash": 1386887.883606648,
+    "mrr": 2465379.770000006,
+    "arr": 29584557.240000073,
+    "active_customers": 1475,
+    "valuation_proxy": 474739803.72360784,
+    "market_share_pct": 12.096542862267286,
+    "logo_churn_pct_monthly": 5.218317358892439,
+    "cac_blended": 1489.169459962756,
+    "ltv": 50714.91457137685,
+    "ltv_cac": 34.055838462229296,
+    "gross_margin_pct": 97.55622880346105,
+    "runway_months": 99.0,
+    "headcount": 15,
+    "founder_equity": 1.0,
+    "quality": 0.4909930076109306,
+    "tech_debt": 156.60628631816712,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -2.2842844451385416
+   },
+   "scorecard": {
+    "total": 24,
+    "success": 14,
+    "partial": 2,
+    "fail": 8
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 3798,
+     "cash": 90356,
+     "cust": 2
+    },
+    {
+     "day": 42,
+     "mrr": 3798,
+     "cash": 85212,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 5697,
+     "cash": 83794,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 7596,
+     "cash": 82369,
+     "cust": 4
+    },
+    {
+     "day": 84,
+     "mrr": 17091,
+     "cash": 88069,
+     "cust": 9
+    },
+    {
+     "day": 98,
+     "mrr": 18990,
+     "cash": 83359,
+     "cust": 10
+    },
+    {
+     "day": 112,
+     "mrr": 22389,
+     "cash": 90703,
+     "cust": 12
+    },
+    {
+     "day": 126,
+     "mrr": 31384,
+     "cash": 98538,
+     "cust": 17
+    },
+    {
+     "day": 140,
+     "mrr": 43878,
+     "cash": 117519,
+     "cust": 24
+    },
+    {
+     "day": 154,
+     "mrr": 52574,
+     "cash": 120545,
+     "cust": 29
+    },
+    {
+     "day": 168,
+     "mrr": 62809,
+     "cash": 136462,
+     "cust": 35
+    },
+    {
+     "day": 182,
+     "mrr": 98431,
+     "cash": 108731,
+     "cust": 57
+    },
+    {
+     "day": 196,
+     "mrr": 133516,
+     "cash": 155810,
+     "cust": 75
+    },
+    {
+     "day": 210,
+     "mrr": 162482,
+     "cash": 228075,
+     "cust": 93
+    },
+    {
+     "day": 224,
+     "mrr": 199949,
+     "cash": 229394,
+     "cust": 115
+    },
+    {
+     "day": 238,
+     "mrr": 249606,
+     "cash": 282107,
+     "cust": 144
+    },
+    {
+     "day": 252,
+     "mrr": 323610,
+     "cash": 237063,
+     "cust": 190
+    },
+    {
+     "day": 266,
+     "mrr": 440192,
+     "cash": 361883,
+     "cust": 265
+    },
+    {
+     "day": 280,
+     "mrr": 531945,
+     "cash": 426390,
+     "cust": 326
+    },
+    {
+     "day": 294,
+     "mrr": 711793,
+     "cash": 591812,
+     "cust": 443
+    },
+    {
+     "day": 308,
+     "mrr": 956371,
+     "cash": 508883,
+     "cust": 574
+    },
+    {
+     "day": 322,
+     "mrr": 1273315,
+     "cash": 902660,
+     "cust": 775
+    },
+    {
+     "day": 336,
+     "mrr": 1591021,
+     "cash": 850239,
+     "cust": 986
+    },
+    {
+     "day": 350,
+     "mrr": 1977448,
+     "cash": 1567832,
+     "cust": 1221
+    },
+    {
+     "day": 364,
+     "mrr": 2434192,
+     "cash": 1311504,
+     "cust": 1459
+    }
+   ]
+  },
+  {
+   "name": "balanced_s1959",
+   "strategy": "balanced",
+   "tournament_seed": 1959,
+   "alive": true,
+   "final": {
+    "cash": 1159701.9789099814,
+    "mrr": 2202348.739999984,
+    "arr": 26428184.87999981,
+    "active_customers": 1328,
+    "valuation_proxy": 424010660.0589069,
+    "market_share_pct": 10.278636430809375,
+    "logo_churn_pct_monthly": 5.287896592244419,
+    "cac_blended": 1353.0344827586207,
+    "ltv": 49365.362202438446,
+    "ltv_cac": 36.48492542613576,
+    "gross_margin_pct": 97.56101033651252,
+    "runway_months": 99.0,
+    "headcount": 15,
+    "founder_equity": 1.0,
+    "quality": 0.481664062914268,
+    "tech_debt": 149.17930707795765,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 26,
+    "success": 14,
+    "partial": 4,
+    "fail": 8
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 1999,
+     "cash": 78325,
+     "cust": 1
+    },
+    {
+     "day": 70,
+     "mrr": 1999,
+     "cash": 73187,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 8495,
+     "cash": 76375,
+     "cust": 5
+    },
+    {
+     "day": 98,
+     "mrr": 16491,
+     "cash": 74829,
+     "cust": 9
+    },
+    {
+     "day": 112,
+     "mrr": 16291,
+     "cash": 79538,
+     "cust": 9
+    },
+    {
+     "day": 126,
+     "mrr": 21688,
+     "cash": 83830,
+     "cust": 12
+    },
+    {
+     "day": 140,
+     "mrr": 25686,
+     "cash": 84034,
+     "cust": 14
+    },
+    {
+     "day": 154,
+     "mrr": 27685,
+     "cash": 89019,
+     "cust": 15
+    },
+    {
+     "day": 168,
+     "mrr": 29684,
+     "cash": 94947,
+     "cust": 16
+    },
+    {
+     "day": 182,
+     "mrr": 34922,
+     "cash": 89811,
+     "cust": 19
+    },
+    {
+     "day": 196,
+     "mrr": 61233,
+     "cash": 115748,
+     "cust": 36
+    },
+    {
+     "day": 210,
+     "mrr": 106390,
+     "cash": 153826,
+     "cust": 64
+    },
+    {
+     "day": 224,
+     "mrr": 156585,
+     "cash": 162075,
+     "cust": 95
+    },
+    {
+     "day": 238,
+     "mrr": 222972,
+     "cash": 238246,
+     "cust": 136
+    },
+    {
+     "day": 252,
+     "mrr": 298485,
+     "cash": 210260,
+     "cust": 183
+    },
+    {
+     "day": 266,
+     "mrr": 393007,
+     "cash": 353125,
+     "cust": 245
+    },
+    {
+     "day": 280,
+     "mrr": 523347,
+     "cash": 388435,
+     "cust": 329
+    },
+    {
+     "day": 294,
+     "mrr": 658704,
+     "cash": 516550,
+     "cust": 410
+    },
+    {
+     "day": 308,
+     "mrr": 858379,
+     "cash": 474958,
+     "cust": 531
+    },
+    {
+     "day": 322,
+     "mrr": 1121482,
+     "cash": 795572,
+     "cust": 695
+    },
+    {
+     "day": 336,
+     "mrr": 1419453,
+     "cash": 684947,
+     "cust": 873
+    },
+    {
+     "day": 350,
+     "mrr": 1778411,
+     "cash": 1331541,
+     "cust": 1094
+    },
+    {
+     "day": 364,
+     "mrr": 2168104,
+     "cash": 1100722,
+     "cust": 1308
+    }
+   ]
+  },
+  {
+   "name": "lean_profitable_s1959",
+   "strategy": "lean_profitable",
+   "tournament_seed": 1959,
+   "alive": true,
+   "final": {
+    "cash": 740857.1596966538,
+    "mrr": 1706071.8899999806,
+    "arr": 20472862.67999977,
+    "active_customers": 979,
+    "valuation_proxy": 328306660.03969294,
+    "market_share_pct": 7.352469065811307,
+    "logo_churn_pct_monthly": 5.612244897959184,
+    "cac_blended": 1021.3810741687979,
+    "ltv": 52154.65944764323,
+    "ltv_cac": 51.06288021842073,
+    "gross_margin_pct": 97.59148033432538,
+    "runway_months": 99.0,
+    "headcount": 14,
+    "founder_equity": 1.0,
+    "quality": 0.47641297187836884,
+    "tech_debt": 144.14583367896452,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.5
+   },
+   "scorecard": {
+    "total": 21,
+    "success": 13,
+    "partial": 3,
+    "fail": 5
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 2239,
+     "cash": 73426,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 6717,
+     "cash": 72674,
+     "cust": 3
+    },
+    {
+     "day": 98,
+     "mrr": 8956,
+     "cash": 67915,
+     "cust": 4
+    },
+    {
+     "day": 112,
+     "mrr": 11194,
+     "cash": 69348,
+     "cust": 5
+    },
+    {
+     "day": 126,
+     "mrr": 11194,
+     "cash": 70777,
+     "cust": 5
+    },
+    {
+     "day": 140,
+     "mrr": 15672,
+     "cash": 74398,
+     "cust": 7
+    },
+    {
+     "day": 154,
+     "mrr": 22389,
+     "cash": 82252,
+     "cust": 10
+    },
+    {
+     "day": 168,
+     "mrr": 39860,
+     "cash": 101665,
+     "cust": 18
+    },
+    {
+     "day": 182,
+     "mrr": 52454,
+     "cash": 82284,
+     "cust": 25
+    },
+    {
+     "day": 196,
+     "mrr": 63248,
+     "cash": 106119,
+     "cust": 31
+    },
+    {
+     "day": 210,
+     "mrr": 84847,
+     "cash": 144037,
+     "cust": 44
+    },
+    {
+     "day": 224,
+     "mrr": 109596,
+     "cash": 156852,
+     "cust": 56
+    },
+    {
+     "day": 238,
+     "mrr": 139641,
+     "cash": 207019,
+     "cust": 73
+    },
+    {
+     "day": 252,
+     "mrr": 191275,
+     "cash": 223897,
+     "cust": 105
+    },
+    {
+     "day": 266,
+     "mrr": 291905,
+     "cash": 252551,
+     "cust": 162
+    },
+    {
+     "day": 280,
+     "mrr": 369629,
+     "cash": 229672,
+     "cust": 206
+    },
+    {
+     "day": 294,
+     "mrr": 493608,
+     "cash": 329779,
+     "cust": 257
+    },
+    {
+     "day": 308,
+     "mrr": 647442,
+     "cash": 224426,
+     "cust": 353
+    },
+    {
+     "day": 322,
+     "mrr": 872834,
+     "cash": 596975,
+     "cust": 493
+    },
+    {
+     "day": 336,
+     "mrr": 1055573,
+     "cash": 398332,
+     "cust": 610
+    },
+    {
+     "day": 350,
+     "mrr": 1384647,
+     "cash": 950772,
+     "cust": 811
+    },
+    {
+     "day": 364,
+     "mrr": 1673388,
+     "cash": 678505,
+     "cust": 958
+    }
+   ]
+  },
+  {
+   "name": "blitz_growth_s1959",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1959,
+   "alive": true,
+   "final": {
+    "cash": 1613953.3223694135,
+    "mrr": 2927406.6440000646,
+    "arr": 35128879.728000775,
+    "active_customers": 1602,
+    "valuation_proxy": 563676028.9703819,
+    "market_share_pct": 14.335527831340242,
+    "logo_churn_pct_monthly": 5.939716312056738,
+    "cac_blended": 1643.0813492063492,
+    "ltv": 44427.18994748396,
+    "ltv_cac": 27.038947261463008,
+    "gross_margin_pct": 97.59931470393578,
+    "runway_months": 99.0,
+    "headcount": 19,
+    "founder_equity": 1.0,
+    "quality": 0.5032365246623682,
+    "tech_debt": 167.36618212614707,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -3.4708908124600795
+   },
+   "scorecard": {
+    "total": 31,
+    "success": 18,
+    "partial": 7,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 90967,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 84433,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 1699,
+     "cash": 79562,
+     "cust": 1
+    },
+    {
+     "day": 56,
+     "mrr": 5097,
+     "cash": 77056,
+     "cust": 3
+    },
+    {
+     "day": 70,
+     "mrr": 10195,
+     "cash": 77166,
+     "cust": 6
+    },
+    {
+     "day": 84,
+     "mrr": 28886,
+     "cash": 88785,
+     "cust": 17
+    },
+    {
+     "day": 98,
+     "mrr": 36082,
+     "cash": 72343,
+     "cust": 21
+    },
+    {
+     "day": 112,
+     "mrr": 45677,
+     "cash": 94352,
+     "cust": 26
+    },
+    {
+     "day": 126,
+     "mrr": 50174,
+     "cash": 87150,
+     "cust": 29
+    },
+    {
+     "day": 140,
+     "mrr": 62867,
+     "cash": 113252,
+     "cust": 36
+    },
+    {
+     "day": 154,
+     "mrr": 81058,
+     "cash": 95614,
+     "cust": 45
+    },
+    {
+     "day": 168,
+     "mrr": 119917,
+     "cash": 120963,
+     "cust": 68
+    },
+    {
+     "day": 182,
+     "mrr": 160505,
+     "cash": 115543,
+     "cust": 92
+    },
+    {
+     "day": 196,
+     "mrr": 204476,
+     "cash": 168233,
+     "cust": 116
+    },
+    {
+     "day": 210,
+     "mrr": 275506,
+     "cash": 227495,
+     "cust": 156
+    },
+    {
+     "day": 224,
+     "mrr": 352481,
+     "cash": 192173,
+     "cust": 200
+    },
+    {
+     "day": 238,
+     "mrr": 451717,
+     "cash": 378433,
+     "cust": 261
+    },
+    {
+     "day": 252,
+     "mrr": 575226,
+     "cash": 287726,
+     "cust": 334
+    },
+    {
+     "day": 266,
+     "mrr": 686652,
+     "cash": 489613,
+     "cust": 401
+    },
+    {
+     "day": 280,
+     "mrr": 900073,
+     "cash": 487199,
+     "cust": 534
+    },
+    {
+     "day": 294,
+     "mrr": 1138609,
+     "cash": 765951,
+     "cust": 632
+    },
+    {
+     "day": 308,
+     "mrr": 1363391,
+     "cash": 574050,
+     "cust": 764
+    },
+    {
+     "day": 322,
+     "mrr": 1788709,
+     "cash": 1257357,
+     "cust": 990
+    },
+    {
+     "day": 336,
+     "mrr": 2098352,
+     "cash": 923837,
+     "cust": 1155
+    },
+    {
+     "day": 350,
+     "mrr": 2563037,
+     "cash": 1898669,
+     "cust": 1388
+    },
+    {
+     "day": 364,
+     "mrr": 2907269,
+     "cash": 1541618,
+     "cust": 1589
+    }
+   ]
+  },
+  {
+   "name": "premium_first_s1959",
+   "strategy": "premium_first",
+   "tournament_seed": 1959,
+   "alive": true,
+   "final": {
+    "cash": 2535.7553166673324,
+    "mrr": 8095.950000000001,
+    "arr": 97151.40000000001,
+    "active_customers": 3,
+    "valuation_proxy": 1556958.1553166674,
+    "market_share_pct": 0.0370663962886923,
+    "logo_churn_pct_monthly": 0.0,
+    "cac_blended": 0.0,
+    "ltv": 0.0,
+    "ltv_cac": null,
+    "gross_margin_pct": 97.69238878698609,
+    "runway_months": 0.8349889096178493,
+    "headcount": 1,
+    "founder_equity": 1.0,
+    "quality": 0.3685554424400791,
+    "tech_debt": 106.66838301090364,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "core_billing",
+     "crm_lite",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 1.35,
+    "brand": 0.1251606799639545,
+    "elasticity_est": -2.8293930930912063
+   },
+   "scorecard": {
+    "total": 8,
+    "success": 2,
+    "partial": 0,
+    "fail": 6
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 0,
+     "cash": 86633,
+     "cust": 0
+    },
+    {
+     "day": 42,
+     "mrr": 0,
+     "cash": 81500,
+     "cust": 0
+    },
+    {
+     "day": 56,
+     "mrr": 0,
+     "cash": 76367,
+     "cust": 0
+    },
+    {
+     "day": 70,
+     "mrr": 2699,
+     "cash": 73877,
+     "cust": 1
+    },
+    {
+     "day": 84,
+     "mrr": 2699,
+     "cash": 68739,
+     "cust": 1
+    },
+    {
+     "day": 98,
+     "mrr": 2699,
+     "cash": 64894,
+     "cust": 1
+    },
+    {
+     "day": 112,
+     "mrr": 2699,
+     "cash": 59755,
+     "cust": 1
+    },
+    {
+     "day": 126,
+     "mrr": 5397,
+     "cash": 59908,
+     "cust": 2
+    },
+    {
+     "day": 140,
+     "mrr": 5397,
+     "cash": 54765,
+     "cust": 2
+    },
+    {
+     "day": 154,
+     "mrr": 5397,
+     "cash": 54916,
+     "cust": 2
+    },
+    {
+     "day": 168,
+     "mrr": 5397,
+     "cash": 49772,
+     "cust": 2
+    },
+    {
+     "day": 182,
+     "mrr": 0,
+     "cash": 49927,
+     "cust": 0
+    },
+    {
+     "day": 196,
+     "mrr": 0,
+     "cash": 40794,
+     "cust": 0
+    },
+    {
+     "day": 210,
+     "mrr": 0,
+     "cash": 35660,
+     "cust": 0
+    },
+    {
+     "day": 224,
+     "mrr": 0,
+     "cash": 30527,
+     "cust": 0
+    },
+    {
+     "day": 238,
+     "mrr": 2699,
+     "cash": 28036,
+     "cust": 1
+    },
+    {
+     "day": 252,
+     "mrr": 2699,
+     "cash": 22898,
+     "cust": 1
+    },
+    {
+     "day": 266,
+     "mrr": 2699,
+     "cash": 20407,
+     "cust": 1
+    },
+    {
+     "day": 280,
+     "mrr": 8096,
+     "cash": 16558,
+     "cust": 3
+    },
+    {
+     "day": 294,
+     "mrr": 8096,
+     "cash": 14057,
+     "cust": 3
+    },
+    {
+     "day": 308,
+     "mrr": 8096,
+     "cash": 11555,
+     "cust": 3
+    },
+    {
+     "day": 322,
+     "mrr": 8096,
+     "cash": 11701,
+     "cust": 3
+    },
+    {
+     "day": 336,
+     "mrr": 8096,
+     "cash": 9200,
+     "cust": 3
+    },
+    {
+     "day": 350,
+     "mrr": 8096,
+     "cash": 9346,
+     "cust": 3
+    },
+    {
+     "day": 364,
+     "mrr": 8096,
+     "cash": 6899,
+     "cust": 3
+    }
+   ]
+  },
+  {
+   "name": "product_led_s1959",
+   "strategy": "product_led",
+   "tournament_seed": 1959,
+   "alive": true,
+   "final": {
+    "cash": 463792.00337665546,
+    "mrr": 1183803.5099999858,
+    "arr": 14205642.11999983,
+    "active_customers": 682,
+    "valuation_proxy": 227754065.92337394,
+    "market_share_pct": 5.698033311411609,
+    "logo_churn_pct_monthly": 8.775981524249422,
+    "cac_blended": 895.8593155893536,
+    "ltv": 32094.55194562716,
+    "ltv_cac": 35.82543752923227,
+    "gross_margin_pct": 97.58592175286142,
+    "runway_months": 99.0,
+    "headcount": 11,
+    "founder_equity": 1.0,
+    "quality": 0.47641297187836884,
+    "tech_debt": 144.14583367896452,
+    "features": [
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.7448417298111393,
+    "elasticity_est": -2.373069199803405
+   },
+   "scorecard": {
+    "total": 17,
+    "success": 12,
+    "partial": 0,
+    "fail": 5
+   },
+   "series": [
+    {
+     "day": 1,
+     "mrr": 0,
+     "cash": 99783,
+     "cust": 0
+    },
+    {
+     "day": 14,
+     "mrr": 0,
+     "cash": 91767,
+     "cust": 0
+    },
+    {
+     "day": 28,
+     "mrr": 1899,
+     "cash": 88494,
+     "cust": 1
+    },
+    {
+     "day": 42,
+     "mrr": 3798,
+     "cash": 85216,
+     "cust": 2
+    },
+    {
+     "day": 56,
+     "mrr": 3798,
+     "cash": 83799,
+     "cust": 2
+    },
+    {
+     "day": 70,
+     "mrr": 3798,
+     "cash": 80518,
+     "cust": 2
+    },
+    {
+     "day": 84,
+     "mrr": 5697,
+     "cash": 79096,
+     "cust": 3
+    },
+    {
+     "day": 98,
+     "mrr": 11394,
+     "cash": 77393,
+     "cust": 6
+    },
+    {
+     "day": 112,
+     "mrr": 17091,
+     "cash": 79368,
+     "cust": 9
+    },
+    {
+     "day": 126,
+     "mrr": 20790,
+     "cash": 80103,
+     "cust": 11
+    },
+    {
+     "day": 140,
+     "mrr": 25987,
+     "cash": 86807,
+     "cust": 14
+    },
+    {
+     "day": 154,
+     "mrr": 36682,
+     "cash": 82949,
+     "cust": 20
+    },
+    {
+     "day": 168,
+     "mrr": 47925,
+     "cash": 97554,
+     "cust": 27
+    },
+    {
+     "day": 182,
+     "mrr": 62318,
+     "cash": 87170,
+     "cust": 35
+    },
+    {
+     "day": 196,
+     "mrr": 63837,
+     "cash": 100806,
+     "cust": 36
+    },
+    {
+     "day": 210,
+     "mrr": 80029,
+     "cash": 143900,
+     "cust": 46
+    },
+    {
+     "day": 224,
+     "mrr": 105756,
+     "cash": 153410,
+     "cust": 62
+    },
+    {
+     "day": 238,
+     "mrr": 128145,
+     "cash": 196388,
+     "cust": 76
+    },
+    {
+     "day": 252,
+     "mrr": 171683,
+     "cash": 215217,
+     "cust": 103
+    },
+    {
+     "day": 266,
+     "mrr": 216721,
+     "cash": 243928,
+     "cust": 131
+    },
+    {
+     "day": 280,
+     "mrr": 252123,
+     "cash": 220808,
+     "cust": 154
+    },
+    {
+     "day": 294,
+     "mrr": 325256,
+     "cash": 307154,
+     "cust": 202
+    },
+    {
+     "day": 308,
+     "mrr": 427408,
+     "cash": 256262,
+     "cust": 264
+    },
+    {
+     "day": 322,
+     "mrr": 596904,
+     "cash": 454292,
+     "cust": 347
+    },
+    {
+     "day": 336,
+     "mrr": 782244,
+     "cash": 267329,
+     "cust": 450
+    },
+    {
+     "day": 350,
+     "mrr": 1021163,
+     "cash": 740948,
+     "cust": 605
+    },
+    {
+     "day": 364,
+     "mrr": 1174448,
+     "cash": 426850,
+     "cust": 676
+    }
+   ]
+  }
+ ]
+}

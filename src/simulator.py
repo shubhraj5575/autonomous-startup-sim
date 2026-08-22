@@ -495,7 +495,14 @@ class World:
                     self.pool.transition(cust, STATE_SHOPPING)
 
         # --- shopping evaluations ----------------------------------------
+        # customers with a live AE deal are already won over; they must not be
+        # re-evaluated (a daily re-eval used to let competitors poach them,
+        # voiding their own pending deal - the "lead vanished" leak)
+        deal_pending = {d.cid for d in c.sales.deals.values()
+                        if d.stage not in ("won", "lost")}
         for cid in list(self.pool.ids_in_state(STATE_SHOPPING)):
+            if cid in deal_pending:
+                continue
             cust = self.pool.get(cid)
             delay = 2 if SEGMENTS[cust.segment]["sales_mode"] == "self_serve" else 3
             if day - cust.shopping_since < delay:
@@ -533,11 +540,21 @@ class World:
                 cust.monthly_fee = c.product.effective_prices[best_tier]
                 cust.last_eval_day = day
                 if mode == "sales_led" or (mode == "hybrid" and r.random() < 0.45):
+                    # honest capacity gate: don't create doomed deals when the
+                    # AE bench is already saturated - the prospect walks away
+                    capacity = max(c.sales.ae_capacity(),
+                                   6.0)          # founder covers a little early on
+                    open_now = sum(1 for dd in c.sales.deals.values()
+                                   if dd.stage not in ("won", "lost"))
                     cyc = SEGMENTS[cust.segment]["cycle_days"]
-                    d = c.sales.add_deal(cust.cid, cust.segment, best_tier,
-                                         cust.monthly_fee, day,
-                                         r.randint(*cyc))
-                    cust.cooldown_until = day + 45     # patience window
+                    if open_now >= capacity * 1.5:
+                        cust.cooldown_until = day + r.randint(20, 40)
+                        self.pool.transition(cust, STATE_DORMANT)
+                    else:
+                        d = c.sales.add_deal(cust.cid, cust.segment, best_tier,
+                                             cust.monthly_fee, day,
+                                             r.randint(*cyc))
+                        cust.cooldown_until = day + 45     # patience window
                 else:
                     cust.trial_end_day = day + SEGMENTS[cust.segment]["trial_days"]
                     self.pool.transition(cust, STATE_TRIAL)
@@ -776,7 +793,8 @@ class World:
     # =============================================================== finance ==
     def settle_finance(self, day):
         if len(self.closed_won_window) > 2000:
-            del self.closed_won_window[:1000]
+            for _ in range(1000):
+                self.closed_won_window.popleft()
         c = self.company
         fin = c.finance
         n_active = len(c.active_ids)

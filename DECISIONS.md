@@ -164,3 +164,27 @@ could have regressed other phases unnoticed.
 **Decision.** Every intelligence upgrade is validated by re-running the
 flagship seed and the tournament suite; deltas reported in FINAL_REPORT.md
 (e.g., CTO deadlock fix: same-seed 5y MRR ₹1.24Cr → ₹2.27Cr).
+
+## D-015: Deal-pending customers leave the evaluation pool
+
+**Context.** The deepest mechanical bug of the build: customers with a pending
+AE deal remained in `shopping`, where the daily evaluation loop re-scored them
+against competitors until a loss transitioned them out - silently voiding 485
+pending deals in one run ("lead vanished"). Sales-led segments (mfg, enterprise)
+were effectively unplayable.
+
+**Decision.** Evaluation skips any customer with a live deal. Additionally:
+deal creation is gated on honest AE capacity (a saturated bench turns the
+prospect away rather than parking them), and sales hiring follows pipeline flow
+with the AE salary bill capped at ~35% of MRR.
+
+**Observed consequence.** mfg actives 12→664, enterprise 1→179 on the flagship
+seed; all five segments winnable; tournament medians dropped as inflated
+duplicate evaluations disappeared.
+
+## D-016: Investor attention is finite
+
+**Context.** Term sheets kept arriving monthly for a profitable company that
+kept declining - 56 identical rejections spamming one decision log.
+
+**Decision.** After a decline, investors back off for 180 days.

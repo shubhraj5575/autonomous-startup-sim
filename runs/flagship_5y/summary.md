@@ -7,48 +7,48 @@
 
 | Metric | Value |
 |---|---|
-| Cash | ₹50.86Cr |
-| MRR / ARR | ₹2.24Cr / ₹26.86Cr |
-| Customers | 7,170 |
-| Market share | 55.1% |
-| Valuation proxy | ₹168.07Cr |
-| Logo churn (monthly) | 3.6% |
-| CAC / LTV / ratio | ₹5,941 / ₹88,523 / 14.90 |
+| Cash | ₹51.70Cr |
+| MRR / ARR | ₹2.84Cr / ₹34.07Cr |
+| Customers | 7,795 |
+| Market share | 58.1% |
+| Valuation proxy | ₹283.64Cr |
+| Logo churn (monthly) | 3.2% |
+| CAC / LTV / ratio | ₹7,229 / ₹1.16L / 16.04 |
 | Gross margin | 98% |
-| Product quality / debt | 0.57 / 449 |
-| Team size | 139 |
+| Product quality / debt | 0.63 / 274 |
+| Team size | 175 |
 | Founder equity retained | 100.0% |
 
 ## Decision scorecard
 
-232 major decisions logged: **114 success**, 59 partial, **59 fail**.
+269 major decisions logged: **125 success**, 66 partial, **78 fail**.
 
 ### Failed decisions (lessons)
 
 - Day 21 [CEO/segment_focus]: Focus GTM on segments ['kirana_retail', 'sme_services']
   - Lesson: Segment focus did not lower CAC; fit assumption wrong or channels misaligned.
-- Day 84 [Strategy/risk_appetite_update]: Growth bias 0.62 -> 0.66
+- Day 70 [Strategy/risk_appetite_update]: Growth bias 0.54 -> 0.58
   - Lesson: Spend adjustment did not improve ROI; unit economics may be capped.
-- Day 135 [COO/hire]: Hire 1x Support Associate (₹32,000/mo)
+- Day 84 [Strategy/risk_appetite_update]: Growth bias 0.58 -> 0.62
+  - Lesson: Spend adjustment did not improve ROI; unit economics may be capped.
+- Day 154 [Strategy/risk_appetite_update]: Growth bias 0.78 -> 0.82
+  - Lesson: Spend adjustment did not improve ROI; unit economics may be capped.
+- Day 156 [COO/hire]: Hire 1x Support Associate (₹32,000/mo)
   - Lesson: Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.
-- Day 171 [COO/hire]: Hire 1x Support Associate (₹32,000/mo)
+- Day 168 [Strategy/risk_appetite_update]: Growth bias 0.82 -> 0.86
+  - Lesson: Spend adjustment did not improve ROI; unit economics may be capped.
+- Day 177 [COO/hire]: Hire 1x Support Associate (₹32,000/mo)
   - Lesson: Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.
-- Day 180 [CEO/segment_focus]: Focus GTM on segments ['d2c_brands', 'sme_services'] (was ['d2c_brands', 'kirana_retail'])
+- Day 180 [CEO/segment_focus]: Focus GTM on segments ['d2c_brands', 'sme_services'] (was ['kirana_retail', 'd2c_brands'])
   - Lesson: Segment focus did not lower CAC; fit assumption wrong or channels misaligned.
-- Day 182 [Strategy/risk_appetite_update]: Growth bias 0.90 -> 0.94
+- Day 182 [Strategy/risk_appetite_update]: Growth bias 0.86 -> 0.90
   - Lesson: Spend adjustment did not improve ROI; unit economics may be capped.
-- Day 196 [Sales Lead/hire]: Hire 1x Account Executive (₹68,000/mo + 10% commission)
-  - Lesson: Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.
-- Day 196 [Strategy/risk_appetite_update]: Growth bias 0.94 -> 0.97
+- Day 196 [Strategy/risk_appetite_update]: Growth bias 0.90 -> 0.94
   - Lesson: Spend adjustment did not improve ROI; unit economics may be capped.
-- Day 245 [Sales Lead/hire]: Hire 1x Account Executive (₹68,000/mo + 10% commission)
+- Day 210 [Strategy/risk_appetite_update]: Growth bias 0.94 -> 0.97
+  - Lesson: Spend adjustment did not improve ROI; unit economics may be capped.
+- Day 294 [Sales Lead/hire]: Hire 1x Account Executive (₹68,000/mo + 10% commission)
   - Lesson: Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.
-- Day 315 [CPO/pricing_test_result]: Keep price multiplier 0.78 (tested 0.78)
-  - Lesson: Expected effect did not materialize; revisit assumptions.
-- Day 336 [COO/hire]: Hire 1x Support Associate (₹32,000/mo)
-  - Lesson: Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.
-- Day 364 [CPO/pricing_test_start]: Start price experiment: multiplier -> 0.78 (down from 0.78)
-  - Lesson: Price move hurt conversion more than modeled; elasticity prior was too optimistic.
 
 ## Major events
 
@@ -69,9 +69,9 @@
 
 | Channel | Spend | Leads | CPL | Learned score |
 |---|---|---|---|---|
-| Content/SEO | ₹3.30L | 1118 | ₹299 | 2.50 |
-| Google Ads | ₹3.43L | 481 | ₹696 | 2.40 |
-| Meta Ads | ₹3.38L | 537 | ₹636 | 2.35 |
-| WhatsApp Outreach | ₹2.34L | 318 | ₹674 | 2.28 |
-| Referral | ₹3.33L | 1130 | ₹294 | 2.50 |
-| Events | ₹2.22L | 154 | ₹1,618 | 1.54 |
+| Content/SEO | ₹3.53L | 1137 | ₹292 | 2.50 |
+| Google Ads | ₹2.75L | 402 | ₹693 | 2.50 |
+| Meta Ads | ₹2.91L | 471 | ₹614 | 2.50 |
+| WhatsApp Outreach | ₹3.05L | 335 | ₹890 | 2.46 |
+| Referral | ₹3.02L | 909 | ₹318 | 2.50 |
+| Events | ₹2.74L | 129 | ₹2,787 | 1.96 |

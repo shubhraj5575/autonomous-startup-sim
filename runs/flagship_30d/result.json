@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "name": "flagship_30d",
- "created_utc": "2026-08-22T21:04:21.386580",
+ "created_utc": "2026-08-22T21:23:38.381965",
  "config": {
   "seed": 42,
   "days": 30,
@@ -16,18 +16,18 @@
  "days_run": 30,
  "strategy": "balanced",
  "final": {
-  "cash": 87860.65233333354,
-  "mrr": 1999.0,
-  "arr": 23988.0,
-  "active_customers": 1,
-  "valuation_proxy": 169000.06233333354,
-  "market_share_pct": 0.011465767576668765,
+  "cash": 85899.99999999996,
+  "mrr": 0.0,
+  "arr": 0.0,
+  "active_customers": 0,
+  "valuation_proxy": 85899.99999999996,
+  "market_share_pct": 0.0,
   "logo_churn_pct_monthly": 0.0,
-  "cac_blended": 3450.0,
+  "cac_blended": 0.0,
   "ltv": 0.0,
   "ltv_cac": null,
   "gross_margin_pct": 98.0,
-  "runway_months": 6.397620315533996,
+  "runway_months": 6.254854368932036,
   "headcount": 1,
   "founder_equity": 1.0,
   "quality": 0.5128708794480789,
@@ -477,7 +477,7 @@
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.021024954055034514,
-   "pipeline_value": 0,
+   "pipeline_value": 1999.0,
    "leads_trailing30": 24
   },
   {
@@ -504,8 +504,8 @@
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.02125314375920408,
-   "pipeline_value": 0,
-   "leads_trailing30": 28
+   "pipeline_value": 1999.0,
+   "leads_trailing30": 30
   },
   {
    "day": 18,
@@ -531,8 +531,8 @@
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.021494464095883667,
-   "pipeline_value": 0,
-   "leads_trailing30": 35
+   "pipeline_value": 1999.0,
+   "leads_trailing30": 36
   },
   {
    "day": 19,
@@ -558,8 +558,8 @@
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.021747776212937473,
-   "pipeline_value": 0,
-   "leads_trailing30": 34
+   "pipeline_value": 1999.0,
+   "leads_trailing30": 36
   },
   {
    "day": 20,
@@ -585,13 +585,13 @@
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.022012038563357598,
-   "pipeline_value": 0,
-   "leads_trailing30": 34
+   "pipeline_value": 1999.0,
+   "leads_trailing30": 38
   },
   {
    "day": 21,
    "date_label": "2026-01-22",
-   "cash": 89200.00000000012,
+   "cash": 89200.00000000009,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -607,18 +607,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 8.549520766773176,
-   "valuation_proxy": 89200.00000000012,
+   "runway_months": 8.549520766773172,
+   "valuation_proxy": 89200.00000000009,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.022286298137414253,
-   "pipeline_value": 0,
-   "leads_trailing30": 34
+   "pipeline_value": 1999.0,
+   "leads_trailing30": 41
   },
   {
    "day": 22,
    "date_label": "2026-01-23",
-   "cash": 88833.33333333346,
+   "cash": 88833.3333333334,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -634,18 +634,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 8.225308641975321,
-   "valuation_proxy": 88833.33333333346,
+   "runway_months": 8.225308641975316,
+   "valuation_proxy": 88833.3333333334,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.022569682557311222,
    "pipeline_value": 1999.0,
-   "leads_trailing30": 35
+   "leads_trailing30": 43
   },
   {
    "day": 23,
    "date_label": "2026-01-24",
-   "cash": 88466.6666666668,
+   "cash": 88466.66666666672,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -661,18 +661,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 7.922388059701505,
-   "valuation_proxy": 88466.6666666668,
+   "runway_months": 7.922388059701498,
+   "valuation_proxy": 88466.66666666672,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.02286139293827482,
-   "pipeline_value": 0,
-   "leads_trailing30": 41
+   "pipeline_value": 1999.0,
+   "leads_trailing30": 44
   },
   {
    "day": 24,
    "date_label": "2026-01-25",
-   "cash": 88100.00000000015,
+   "cash": 88100.00000000003,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -688,18 +688,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 7.638728323699436,
-   "valuation_proxy": 88100.00000000015,
+   "runway_months": 7.638728323699425,
+   "valuation_proxy": 88100.00000000003,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.023160697432395974,
-   "pipeline_value": 0,
-   "leads_trailing30": 40
+   "pipeline_value": 1999.0,
+   "leads_trailing30": 43
   },
   {
    "day": 25,
    "date_label": "2026-01-26",
-   "cash": 87733.33333333349,
+   "cash": 87733.33333333334,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -715,18 +715,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 7.372549019607856,
-   "valuation_proxy": 87733.33333333349,
+   "runway_months": 7.372549019607844,
+   "valuation_proxy": 87733.33333333334,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.023466925382091608,
-   "pipeline_value": 49999.0,
-   "leads_trailing30": 40
+   "pipeline_value": 51998.0,
+   "leads_trailing30": 46
   },
   {
    "day": 26,
    "date_label": "2026-01-27",
-   "cash": 87366.66666666683,
+   "cash": 87366.66666666666,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -742,18 +742,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 7.122282608695666,
-   "valuation_proxy": 87366.66666666683,
+   "runway_months": 7.122282608695651,
+   "valuation_proxy": 87366.66666666666,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.02377946201906393,
-   "pipeline_value": 0,
-   "leads_trailing30": 41
+   "pipeline_value": 51998.0,
+   "leads_trailing30": 47
   },
   {
    "day": 27,
    "date_label": "2026-01-28",
-   "cash": 87000.00000000017,
+   "cash": 86999.99999999997,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -769,18 +769,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 6.886543535620067,
-   "valuation_proxy": 87000.00000000017,
+   "runway_months": 6.886543535620051,
+   "valuation_proxy": 86999.99999999997,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.02409774365236685,
-   "pipeline_value": 0,
-   "leads_trailing30": 40
+   "pipeline_value": 51998.0,
+   "leads_trailing30": 46
   },
   {
    "day": 28,
    "date_label": "2026-01-29",
-   "cash": 86633.33333333352,
+   "cash": 86633.3333333333,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -796,18 +796,18 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 6.664102564102579,
-   "valuation_proxy": 86633.33333333352,
+   "runway_months": 6.664102564102562,
+   "valuation_proxy": 86633.3333333333,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.024421253295844596,
-   "pipeline_value": 0,
-   "leads_trailing30": 46
+   "pipeline_value": 51998.0,
+   "leads_trailing30": 49
   },
   {
    "day": 29,
    "date_label": "2026-01-30",
-   "cash": 86266.66666666686,
+   "cash": 86266.66666666663,
    "mrr": 0.0,
    "arr": 0.0,
    "active_customers": 0,
@@ -823,40 +823,40 @@
    "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 6.453865336658369,
-   "valuation_proxy": 86266.66666666686,
+   "runway_months": 6.453865336658351,
+   "valuation_proxy": 86266.66666666663,
    "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.024749516690957866,
-   "pipeline_value": 0,
-   "leads_trailing30": 47
+   "pipeline_value": 49999.0,
+   "leads_trailing30": 50
   },
   {
    "day": 30,
    "date_label": "2026-02-01",
-   "cash": 87860.65233333354,
-   "mrr": 1999.0,
-   "arr": 23988.0,
-   "active_customers": 1,
-   "new_customers_today": 1,
+   "cash": 85899.99999999996,
+   "mrr": 0.0,
+   "arr": 0.0,
+   "active_customers": 0,
+   "new_customers_today": 0,
    "churned_today": 0,
    "revenue_recognized_mtd": 0.0,
    "opex_mtd": 457.7777777777777,
    "net_income_mtd": -457.7777777777777,
    "gross_margin_pct": 98.0,
-   "cac_blended": 3450.0,
+   "cac_blended": 0.0,
    "ltv": 0.0,
    "ltv_cac": null,
-   "payback_months": 1.7610846239446254,
+   "payback_months": 0.0,
    "logo_churn_pct_monthly": 0.0,
    "net_revenue_retention_pct": 100.0,
-   "runway_months": 6.397620315533996,
-   "valuation_proxy": 169000.06233333354,
-   "market_share_pct": 0.011465767576668765,
+   "runway_months": 6.254854368932036,
+   "valuation_proxy": 85899.99999999996,
+   "market_share_pct": 0.0,
    "headcount": 1,
    "brand_awareness": 0.025082098685998148,
-   "pipeline_value": 0,
-   "leads_trailing30": 46
+   "pipeline_value": 49999.0,
+   "leads_trailing30": 50
   }
  ],
  "decisions": [
@@ -869,10 +869,10 @@
    "reasoning": "Highest realized fit x budget among our base and funnel; concentrate product & marketing there.",
    "data_considered": {
     "demand_proxy": {
-     "d2c_brands": 0.091,
-     "kirana_retail": 0.273,
-     "mfg_sme": 0.136,
-     "sme_services": 0.5
+     "d2c_brands": 0.125,
+     "sme_services": 0.5,
+     "kirana_retail": 0.25,
+     "mfg_sme": 0.125
     },
     "customers_by_seg": {},
     "avg_budget_fit": 1.0
@@ -900,10 +900,10 @@
    "data_considered": {
     "channel_cacs": {
      "content_seo": 0,
-     "google_ads": 15,
-     "meta_ads": 17,
-     "whatsapp_outreach": 15,
-     "referral_program": 66,
+     "google_ads": 19,
+     "meta_ads": 16,
+     "whatsapp_outreach": 16,
+     "referral_program": 51,
      "events_partnerships": 20
     },
     "brand": 0.024
@@ -975,10 +975,10 @@
   }
  ],
  "customer_states": {
-  "dormant": 8913,
-  "shopping": 31,
-  "trial": 3,
-  "active": 1,
+  "dormant": 8914,
+  "shopping": 32,
+  "trial": 2,
+  "active": 0,
   "churned": 0
  },
  "pool_size": 8948,
@@ -990,46 +990,46 @@
  },
  "channel_summary": {
   "content_seo": {
-   "spend30": 347,
-   "leads30": 1.8,
-   "observed_cpl": 13.2,
+   "spend30": 396,
+   "leads30": 0.0,
+   "observed_cpl": 0.0,
    "score": 1.0,
-   "cum_spend": 349
+   "cum_spend": 385
   },
   "google_ads": {
-   "spend30": 371,
-   "leads30": 5.6,
-   "observed_cpl": 15.2,
+   "spend30": 447,
+   "leads30": 1.5,
+   "observed_cpl": 19.4,
    "score": 1.0,
-   "cum_spend": 360
+   "cum_spend": 411
   },
   "meta_ads": {
-   "spend30": 456,
-   "leads30": 4.0,
-   "observed_cpl": 16.9,
+   "spend30": 407,
+   "leads30": 3.0,
+   "observed_cpl": 16.8,
    "score": 1.0,
-   "cum_spend": 449
+   "cum_spend": 411
   },
   "whatsapp_outreach": {
-   "spend30": 330,
-   "leads30": 0.9,
-   "observed_cpl": 15.1,
+   "spend30": 363,
+   "leads30": 8.1,
+   "observed_cpl": 14.4,
    "score": 1.0,
-   "cum_spend": 316
+   "cum_spend": 338
   },
   "referral_program": {
-   "spend30": 1779,
-   "leads30": 29.6,
-   "observed_cpl": 66.3,
+   "spend30": 1687,
+   "leads30": 33.4,
+   "observed_cpl": 58.9,
    "score": 1.0,
-   "cum_spend": 1693
+   "cum_spend": 1636
   },
   "events_partnerships": {
-   "spend30": 429,
-   "leads30": 4.1,
-   "observed_cpl": 19.8,
+   "spend30": 413,
+   "leads30": 4.8,
+   "observed_cpl": 19.2,
    "score": 1.0,
-   "cum_spend": 432
+   "cum_spend": 418
   }
  }
 }

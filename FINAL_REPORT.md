@@ -36,17 +36,16 @@ ground-truth market engine:
 
 | Horizon | End state |
 |---|---|
-| **30 days** | Alive. Cash ₹87,861. MRR ₹1,999 (1 customer). Cold start is hard. |
-| **90 days** | Alive. Cash ₹86,209. MRR ₹15,992 (8 customers). PMF search phase. |
-| **1 year** | Alive. Cash ₹38.4L. **MRR ₹46.1L**, ARR ₹5.5Cr, 2,640 customers, 20.4% share, churn 5.2%/mo, GM 97.6%, team 17, valuation proxy ₹88.9Cr. |
-| **5 years** | Alive. **MRR ₹2.24Cr**, ARR ₹26.9Cr, 7,170 customers, 55.1% share (backlash-capped), churn 3.6%/mo, GM 97.8%, org of 139 (45 eng / 59 support / 33 AE), quality 0.57, LTV/CAC 14.9, cumulative cash ₹50.9Cr, valuation proxy ₹168Cr, founder equity still 100% (never needed dilution). |
+| **30 days** | Alive. Cash ₹85,900. MRR ₹0 (0 customers). Cold start is genuinely hard. |
+| **90 days** | Alive. Cash ₹82,744. MRR ₹15,992 (8 customers). PMF search phase. |
+| **1 year** | Alive. Cash ₹9.9L. **MRR ₹21.4L**, 1,224 customers, 10.2% share, churn 5.1%/mo, GM 97.6%, team 19. Decision scorecard: 20 success / 3 partial / 13 fail. |
+| **5 years** | Alive. **MRR ₹2.84Cr**, 7,795 customers, 58% share (backlash-capped), churn 3.2%/mo, GM ~98%, org of 175, quality 0.63, LTV/CAC 16.0, cumulative cash ₹51.7Cr, valuation proxy ₹283Cr. |
 
-The 5-year arc: disciplined capacity hiring (engineering no longer deadlocked),
-support scaled ahead of churn (predictive 1:120 rule), TAM-saturation-aware
-marketing tilting spend to referral/content as the dormant pool thins, one
-incumbent-backlash event capping dominance. Decision scorecard over 5 years:
-232 major decisions, 114 success / 59 partial / 59 fail - a genuinely mixed
-record, recorded as it happened.
+The 5-year arc: a modest honest first year, then the sales-led segments
+(manufacturers, enterprise) unlock as AE capacity builds - the classic SaaS
+J-curve. Support scaled predictively ahead of churn; TAM-saturation-aware
+marketing tilts spend toward referral/content as the pool thins; one incumbent-
+backlash event capped dominance mid-run.
 
 ## 3. Strategy tournaments (cloned companies, identical market paths)
 
@@ -56,41 +55,41 @@ Final-mechanics tournaments, run with the accumulated knowledge base:
 
 | Rank | Strategy | Survival | Median MRR |
 |---|---|---|---|
-| 1 | product_led | 100% | ₹43.5L |
-| 2 | balanced | 100% | ₹35.0L |
-| 3 | blitz_growth | 100% | ₹32.7L |
-| 4 | lean_profitable | 100% | ₹15.5L |
-| 5 | premium_first | 100% | ₹4.5L |
+| 1 | blitz_growth | 100% | ₹30.2L |
+| 2 | balanced | 100% | ₹18.3L |
+| 3 | product_led | 100% | ₹15.2L |
+| 4 | lean_profitable | 100% | ₹13.8L |
+| 5 | premium_first | 100% | ₹0.7L |
 
 ### Year-2 tournament (730 days × 5 seeds × 4 presets = 20 runs)
 
 | Rank | Strategy | Survival | Median MRR |
 |---|---|---|---|
-| 1 | product_led | 100% | ₹138.3L |
-| 2 | balanced | 100% | ₹135.5L |
-| 3 | blitz_growth | 100% | ₹122.9L |
-| 4 | lean_profitable | 100% | ₹98.0L |
+| 1 | blitz_growth | 100% | ₹132.1L |
+| 2 | balanced | **80%** | ₹123.9L |
+| 3 | product_led | 100% | ₹120.1L |
+| 4 | lean_profitable | 100% | ₹111.4L |
 
 ### The long game: 5-year tournament (1825 days × 3 seeds × 3 presets)
 
 | Rank | Strategy | Survival | Median MRR |
 |---|---|---|---|
-| 1 | blitz_growth | 100% | ₹203.0L |
-| 2 | balanced | 100% | ₹198.8L |
-| 3 | lean_profitable | **67%** | ₹129.0L |
+| 1 | blitz_growth | 100% | ₹255.9L |
+| 2 | lean_profitable | 100% | ₹255.9L |
+| 3 | balanced | 100% | ₹242.5L |
 
 Key findings:
-- **The lifecycle arc**: blitz leads in deep early markets; product-led and
-  balanced overtake by years 1–2 as compounding retention and quality economics
-  dominate raw spend; by year 5 blitz edges back ahead on survivors while lean
-  records its first death.
-- **Premium pricing without quality parity is near-fatal for growth**:
-  premium_first's +35% price stance crushed win rates - an emergent result of
-  the discrete-choice model, not a scripted penalty.
-- **Knowledge priors shift tournament rankings between sessions** - learned
-  channel scores favor content/referral, which benefits product-led policies.
-  Strategy evaluation is a moving target as the firm learns; rankings are
-  reported per session rather than claimed as universal.
+- **Aggression leads on survivors at every horizon** in this seed set, but its
+  edge narrows from 65% over balanced (year 1) to a rounding error by year 5 -
+  and earlier tournament generations showed blitz dying outright under other
+  mechanics/knowledge states. Risk-adjusted, the gap is smaller than raw
+  medians suggest.
+- **Mortality appears by year 2**: balanced lost a clone to over-extension.
+- **Premium pricing without quality parity is non-viable**: premium_first's
+  +35% price stance nearly zeroes win rates - emergent from the discrete-choice
+  model, not scripted.
+- **lean_profitable's patience pays long-term**: it matches blitz's median by
+  year 5 after surviving everything - slow capital efficiency compounding.
 
 ### Capital stress test (balanced policy, 365 days, 8 seeds per level)
 
