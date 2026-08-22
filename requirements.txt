@@ -1,0 +1,2 @@
+# Core engine uses Python stdlib only.
+pytest>=7.0        # test suite
