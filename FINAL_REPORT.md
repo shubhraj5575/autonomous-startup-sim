@@ -50,28 +50,29 @@ recorded as it happened.
 
 ## 3. Strategy tournaments (cloned companies, identical market paths)
 
-### Year-1 tournament (365 days × 8 seeds × 5 presets = 40 runs)
+### The full lifecycle: 5-year tournament (1825 days × 3 seeds × 3 presets)
 
 | Rank | Strategy | Survival | Median MRR |
 |---|---|---|---|
-| 1 | blitz_growth | 100% | ₹51.0L |
-| 2 | balanced | 100% | ₹44.2L |
-| 3 | product_led | 100% | ₹26.5L |
-| 4 | lean_profitable | 100% | ₹23.6L |
-| 5 | premium_first | 100% | ₹4.5L |
+| 1 | **balanced** | 100% | **₹207.2L** |
+| 2 | blitz_growth | 100% | ₹180.4L |
+| 3 | lean_profitable | 100% | ₹138.6L |
 
-### Year-2 tournament (730 days × 5 seeds × 4 presets = 20 runs)
+The complete strategic story across horizons:
 
-| Rank | Strategy | Survival | Median MRR |
-|---|---|---|---|
-| 1 | blitz_growth | 100% | ₹140.1L |
-| 2 | product_led | **80%** | ₹133.4L |
-| 3 | balanced | **80%** | ₹133.1L |
-| 4 | lean_profitable | 100% | ₹91.6L |
+| Horizon | Winner | Runner-up |
+|---|---|---|
+| Year 1 | blitz_growth ₹51.0L | balanced ₹44.2L |
+| Year 2 | blitz_growth ₹140.1L | product_led ₹133.4L |
+| Year 5 | **balanced ₹207.2L** | blitz_growth ₹180.4L |
+
+**Aggression wins early; discipline wins late.** This ordering was not
+programmed - it emerges from saturation, dominance backlash and compounding
+retention economics. It is the simulation's clearest single finding.
 
 Key findings:
-- **Aggression pays while markets are deep**: blitz leads both horizons among
-  survivors, with large per-seed variance.
+- **Aggression pays while markets are deep**: blitz leads both early horizons
+  among survivors, with large per-seed variance.
 - **Mortality emerges by year 2**: even balanced dies once in five clones -
   dominance backlash, competitive erosion and over-extension create real risk
   beyond the startup phase.

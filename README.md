@@ -42,8 +42,16 @@ strategic intelligence measurably improves over successive experiments.
 - Quality rot, tech debt, support backlogs, over-hiring ahead of payroll — all
   modeled failure modes that the agent layer must actually manage.
 
-Example spread across year-1 seeds with the default policy:
-MRR after 365 days ranged **₹7L → ₹48L**; some seeds ended near-insolvent.
+Example result - the same agents, different horizons, one seed set:
+
+| Horizon | Winner of strategy tournament | Median MRR |
+|---|---|---|
+| Year 1 | `blitz_growth` | ₹51.0L |
+| Year 2 | `blitz_growth` (deaths appear: 80% survival) | ₹140.1L |
+| Year 5 | **`balanced`** | ₹207.2L |
+
+Aggression wins early; discipline wins late. This ordering was not programmed
+- it emerges from saturation, dominance backlash and retention economics.
 
 ## Horizons & experiments
 

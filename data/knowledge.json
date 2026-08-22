@@ -1,31 +1,31 @@
 {
  "schema": 1,
- "updated_utc": "2026-08-22T20:56:51Z",
- "runs_observed": 328,
+ "updated_utc": "2026-08-22T21:01:25Z",
+ "runs_observed": 337,
  "channel_scores": {
-  "content_seo": 2.8229486041611476,
-  "google_ads": 2.39777505912705,
-  "meta_ads": 2.513875847158535,
-  "whatsapp_outreach": 2.385830435821416,
-  "referral_program": 2.702881246307303,
-  "events_partnerships": 2.0330127423945603
+  "content_seo": 2.8178019329292376,
+  "google_ads": 2.3498132906125946,
+  "meta_ads": 2.4498143058185855,
+  "whatsapp_outreach": 2.323466776029011,
+  "referral_program": 2.6984137758459927,
+  "events_partnerships": 1.9723547531227539
  },
  "channel_samples": {
-  "content_seo": 328,
-  "google_ads": 328,
-  "meta_ads": 328,
-  "whatsapp_outreach": 328,
-  "referral_program": 328,
-  "events_partnerships": 256
+  "content_seo": 337,
+  "google_ads": 337,
+  "meta_ads": 337,
+  "whatsapp_outreach": 337,
+  "referral_program": 337,
+  "events_partnerships": 265
  },
  "price_elasticity": {
-  "mean": -2.879166034258057,
-  "n": 328
+  "mean": -2.8893820771268044,
+  "n": 337
  },
  "strategy_outcomes": {
   "balanced": {
-   "runs": 72,
-   "survivals": 71,
+   "runs": 75,
+   "survivals": 74,
    "mrr_multiples": [
     20.88,
     46.915,
@@ -98,7 +98,10 @@
     134.713,
     8.709,
     140.166,
-    130.847
+    130.847,
+    155.607,
+    220.393,
+    207.202
    ],
    "valuations": [
     402683953.0,
@@ -172,12 +175,15 @@
     2105398218.0,
     125682289.0,
     1761213876.0,
-    2572458043.0
+    2572458043.0,
+    1302613293.0,
+    2276032794.0,
+    2008267978.0
    ]
   },
   "lean_profitable": {
-   "runs": 72,
-   "survivals": 72,
+   "runs": 75,
+   "survivals": 75,
    "mrr_multiples": [
     41.749,
     11.834,
@@ -250,7 +256,10 @@
     91.606,
     84.895,
     78.56,
-    99.117
+    99.117,
+    117.731,
+    149.887,
+    138.602
    ],
    "valuations": [
     806635137.0,
@@ -324,12 +333,15 @@
     1558723967.0,
     848697466.0,
     1089594033.0,
-    1631882542.0
+    1631882542.0,
+    660118465.0,
+    1240086812.0,
+    637547395.0
    ]
   },
   "blitz_growth": {
-   "runs": 72,
-   "survivals": 72,
+   "runs": 75,
+   "survivals": 75,
    "mrr_multiples": [
     45.16,
     47.644,
@@ -402,7 +414,10 @@
     141.446,
     111.085,
     140.088,
-    141.833
+    141.833,
+    167.505,
+    210.977,
+    180.438
    ],
    "valuations": [
     872105928.0,
@@ -476,7 +491,10 @@
     2333230890.0,
     2175782399.0,
     1734923252.0,
-    2043989696.0
+    2043989696.0,
+    1293485194.0,
+    1876923014.0,
+    1540116824.0
    ]
   },
   "premium_first": {
@@ -721,11 +739,11 @@
   }
  },
  "churn_lessons": {
-  "Segment focus did not lower CAC; fit assumption wrong or channels misaligned.": 703,
-  "Spend adjustment did not improve ROI; unit economics may be capped.": 704,
-  "Price move hurt conversion more than modeled; elasticity prior was too optimistic.": 537,
-  "Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.": 1295,
-  "Expected effect did not materialize; revisit assumptions.": 665,
-  "Fundraise did not translate into expected value creation within window.": 2
+  "Segment focus did not lower CAC; fit assumption wrong or channels misaligned.": 730,
+  "Spend adjustment did not improve ROI; unit economics may be capped.": 747,
+  "Price move hurt conversion more than modeled; elasticity prior was too optimistic.": 653,
+  "Hire did not produce the expected capacity/output within horizon; check ramp assumptions and workload.": 1454,
+  "Expected effect did not materialize; revisit assumptions.": 771,
+  "Fundraise did not translate into expected value creation within window.": 3
  }
 }

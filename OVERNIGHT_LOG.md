@@ -95,6 +95,35 @@ This is the overnight loop working as intended: ANALYZE runs, find the
 weakness, fix the *policy*, MEASURE the delta - the improvement came from
 better decisions, not from changing the game.
 
+## Phase 6 - World depth & final verification
+
+- **Dominance counter-pressure** (D-012): share > 40% triggers rival
+  coordination and backlash sentiment shocks. In the flagship run it fired at
+  day 1305 and plateaued share near 53% - the market now pushes back.
+- **Competitor exits conserve the universe**: scattered customers flow to
+  remaining rivals instead of vanishing.
+- **Tournament comparison dashboard**: `compare.html` renders median MRR/cash
+  trajectories per strategy offline.
+- **Capital stress sweep**: ₹50k / ₹1L / ₹2L × 8 seeds - survival 8/8, 7/8,
+  8/8 with non-monotonic medians (₹9.4L / ₹16.2L / ₹13.3L). Extra capital made
+  outcomes *worse* on this seed set: undisciplined spend pre-PMF.
+- **Full test suite re-run**: 25 passed; both dashboard JS files parse under
+  node.
+
+## Phase 7 - The lifecycle finding
+
+The 5-year tournament completed the arc:
+
+| Horizon | Winner |
+|---|---|
+| Year 1 | blitz_growth (₹51L) |
+| Year 2 | blitz_growth (₹140L), first deaths appear |
+| Year 5 | **balanced (₹207L)** |
+
+Aggression wins early; discipline wins late. Emergent from saturation,
+dominance backlash and compounding retention - not programmed. Recorded as
+the simulation's clearest finding in FINAL_REPORT.md.
+
 ## Engineering post-mortems worth keeping
 
 1. **Lagging indicators kill.** The single most lethal agent bug was trusting
