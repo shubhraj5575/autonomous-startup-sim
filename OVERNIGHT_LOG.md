@@ -154,6 +154,31 @@ MRR discipline (an earlier naive version overspent into insolvency - caught by
 the same measure→adjust loop), and a capacity gate at deal creation so doomed
 deals are never promised to prospects.
 
+## Session wrap-up
+
+**Final state:** 4,262 lines of Python across 20 modules + 1,316 lines of
+documentation, 25 passing tests, all flagship runs and tournament artifacts
+committed, everything pushed to GitHub.
+
+**The loop, honestly executed:**
+
+| Cycle | What measurement exposed | What changed |
+|---|---|---|
+| 1 | Day-92 payroll bankruptcies | Forward-runway hiring gates |
+| 2 | Win rate 81.6%, free domination | Adaptive competitors + trust penalty |
+| 3 | All strategies converged by month 8 | Market births + preset anchoring |
+| 4 | O(pool×channels) runtime | Statistical sampling rewrite |
+| 5 | CTO hiring deadlock (1 eng hire in 5y) | Capacity-based eng scaling (+83% MRR) |
+| 6 | Free dominance at 55% share | Backlash shocks + rival coordination |
+| 7 | GM floored at 5%, LTV garbage | Ledger as single revenue source of truth |
+| 8 | Zero mfg customers; 485 voided deals | Deal-state machine fix (mfg 12→664) |
+
+**Clearest emergent finding:** strategy rankings invert across horizons -
+aggression wins early, compounding quality/retention wins late - and shift
+again as the knowledge base learns. Nothing in that sentence was programmed.
+
+---
+
 ## Engineering post-mortems worth keeping
 
 1. **Lagging indicators kill.** The single most lethal agent bug was trusting
