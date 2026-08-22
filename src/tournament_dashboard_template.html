@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Strategy Tournament - Comparison</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--edge:#21262d;--txt:#c9d1d9;--dim:#8b949e;
+        --acc:#58a6ff;--good:#3fb950;--bad:#f85149;--warn:#d29922;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);
+       font:14px/1.45 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+  .wrap{max-width:1200px;margin:0 auto;padding:20px}
+  h1{font-size:22px} h2{font-size:16px;color:var(--acc);margin:24px 0 8px}
+  canvas{width:100%;height:300px;display:block;background:var(--panel);
+         border:1px solid var(--edge);border-radius:8px;margin-bottom:14px}
+  table{border-collapse:collapse;width:100%;font-size:13px;margin-bottom:20px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--edge)}
+  th{color:var(--dim);font-weight:500;font-size:11px;text-transform:uppercase}
+</style>
+</head>
+<body><div class="wrap">
+<h1>Strategy Tournament</h1>
+<p id="meta" style="color:var(--dim)"></p>
+<h2>MRR trajectories by strategy (median across seeds)</h2>
+<canvas id="mrr"></canvas>
+<h2>Cash trajectories by strategy (median across seeds)</h2>
+<canvas id="cash"></canvas>
+<div id="tables"></div>
+<script>
+const T = __DATA__;
+const COLORS = {balanced:'#58a6ff', blitz_growth:'#f85149', lean_profitable:'#3fb950',
+                premium_first:'#d29922', product_led:'#bc8cff'};
+const color = s => COLORS[s] || '#8b949e';
+const inr = x => { if(x==null) return 'n/a'; const sg=x<0?'-':''; x=Math.abs(x);
+  if(x>=1e7) return sg+'\u20B9'+(x/1e7).toFixed(2)+'Cr';
+  if(x>=1e5) return sg+'\u20B9'+(x/1e5).toFixed(1)+'L';
+  return sg+'\u20B9'+Math.round(x).toLocaleString('en-IN'); };
+
+function lineChart(canvas, series, fmt){
+  const dpr=window.devicePixelRatio||1;
+  const W=canvas.clientWidth,H=canvas.clientHeight;
+  canvas.width=W*dpr;canvas.height=H*dpr;
+  const g=canvas.getContext('2d');g.scale(dpr,dpr);
+  const padL=70,padR=90,padT=12,padB=22,iw=W-padL-padR,ih=H-padT-padB;
+  let vmax=-Infinity,xmax=0;
+  for(const s of series)for(const p of s.points){vmax=Math.max(vmax,p[1]);xmax=Math.max(xmax,p[0]);}
+  if(!isFinite(vmax))return;
+  const X=x=>padL+iw*(x/xmax),Y=v=>padT+ih*(1-v/vmax);
+  g.strokeStyle='#21262d';g.fillStyle='#8b949e';g.font='10px sans-serif';
+  for(let i=0;i<=4;i++){const v=vmax*i/4,y=Y(v);
+    g.beginPath();g.moveTo(padL,y);g.lineTo(W-padR,y);g.stroke();
+    g.fillText(fmt(v),4,y+3);}
+  for(const s of series){
+    g.strokeStyle=s.color;g.lineWidth=1.8;g.beginPath();
+    s.points.forEach((p,i)=>i?g.lineTo(X(p[0]),Y(p[1])):g.moveTo(X(p[0]),Y(p[1])));
+    g.stroke();
+    const last=s.points[s.points.length-1];
+    g.fillStyle=s.color;g.fillText(s.label,X(last[0])+5,Y(last[1])+3);
+  }
+}
+
+// median trajectory per strategy on a common day grid
+function medianByStrategy(key){
+  const days=[]; for(let d=1;d<=T.days;d+=28)days.push(d);
+  const byStrat={};
+  for(const r of T.runs){
+    const arr=(r.series||[]).map(s=>[s.day,s[key]]);
+    (byStrat[r.strategy]=byStrat[r.strategy]||[]).push(arr);
+  }
+  return Object.entries(byStrat).map(([strat,runs])=>{
+    const pts=[];
+    for(const d of days){
+      const vals=runs.map(arr=>{for(const [dd,v] of arr)if(dd>=d)return v;return null;})
+                     .filter(v=>v!=null);
+      if(vals.length){vals.sort((a,b)=>a-b);
+        // survivors only once dead runs report 0 - keep them out of medians after death
+        const nz=vals.filter(v=>v>0);
+        pts.push([d,(nz.length?nz:vals)[Math.floor((nz.length?nz.length:vals.length)/2)]]);}
+    }
+    return {label:strat,color:color(strat),points:pts};
+  });
+}
+
+document.getElementById('meta').textContent =
+  `${T.days} days x ${T.seeds} seeds x ${T.presets.length} presets - `+
+  `same seeded market path per seed; ranking: ${T.ranking.join(' > ')}`;
+
+lineChart(document.getElementById('mrr'), medianByStrategy('mrr'), inr);
+lineChart(document.getElementById('cash'), medianByStrategy('cash'), inr);
+
+let h='<h2>Aggregate</h2><table><tr><th>Strategy</th><th>Survival</th>'+
+      '<th>Median MRR</th><th>Median Cash</th><th>Median Valuation</th>'+
+      '<th>Decisions success/fail</th></tr>';
+for(const [p,a] of Object.entries(T.aggregate)){
+  h+=`<tr><td style="color:${color(p)}">${p}</td><td>${(a.survival_rate*100).toFixed(0)}%</td>`+
+     `<td>${inr(a.median_mrr)}</td><td>${inr(a.median_cash)}</td>`+
+     `<td>${inr(a.median_valuation)}</td>`+
+     `<td>${(a.decision_success_rate*100).toFixed(0)}% / ${(a.decision_fail_rate*100).toFixed(0)}%</td></tr>`;
+}
+h+='</table><h2>All runs</h2><table><tr><th>Strategy</th><th>Seed</th><th>Alive</th>'+
+   '<th>MRR</th><th>Cash</th><th>Customers</th></tr>';
+for(const r of T.runs){
+  h+=`<tr><td style="color:${color(r.strategy)}">${r.strategy}</td><td>${r.tournament_seed}</td>`+
+     `<td>${r.alive?'yes':'<b style="color:var(--bad)">DEAD</b>'}</td>`+
+     `<td>${inr(r.final.mrr)}</td><td>${inr(r.final.cash)}</td>`+
+     `<td>${r.final.active_customers}</td></tr>`;
+}
+h+='</table>';
+document.getElementById('tables').innerHTML=h;
+</script></body></html>

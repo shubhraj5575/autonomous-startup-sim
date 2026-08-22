@@ -240,3 +240,18 @@ def generate_dashboard(run_dir: str, out_file: str | None = None) -> str:
     with open(out, "w") as f:
         f.write(html)
     return out
+
+
+def generate_tournament_dashboard(tournament_json: str, out_file: str | None = None) -> str:
+    from pathlib import Path
+    tpl_dir = Path(__file__).parent
+    with open(tournament_json) as f:
+        data = json.load(f)
+    tpl = (tpl_dir / "tournament_dashboard_template.html").read_text()
+    html = tpl.replace("__DATA__", json.dumps(data))
+    if out_file is None:
+        out_file = str(Path(tournament_json).parent / "compare.html")
+    os.makedirs(os.path.dirname(out_file) or ".", exist_ok=True)
+    with open(out_file, "w") as f:
+        f.write(html)
+    return out_file

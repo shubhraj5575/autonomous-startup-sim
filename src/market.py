@@ -182,6 +182,15 @@ class Market:
                 m *= s.magnitude
         return m
 
+    def backlash_penalty(self) -> float:
+        """Extra utility penalty against the market leader while backlash
+        sentiment is active (buyers hedge against dominance)."""
+        p = 0.0
+        for s in self.shocks:
+            if s.kind == "trust_backlash":
+                p += s.magnitude
+        return p
+
     def monthly_shopping_rate(self, seg: str) -> float:
         """Probability a given pool member starts shopping in a given day."""
         base = self.base_intensity[seg]

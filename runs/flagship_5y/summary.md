@@ -7,21 +7,21 @@
 
 | Metric | Value |
 |---|---|
-| Cash | ₹51.51Cr |
-| MRR / ARR | ₹2.27Cr / ₹27.25Cr |
-| Customers | 7,060 |
-| Market share | 55.8% |
-| Valuation proxy | ₹193.05Cr |
-| Logo churn (monthly) | 3.6% |
-| CAC / LTV / ratio | ₹6,716 / ₹90,534 / 13.48 |
+| Cash | ₹50.32Cr |
+| MRR / ARR | ₹2.27Cr / ₹27.24Cr |
+| Customers | 7,182 |
+| Market share | 52.8% |
+| Valuation proxy | ₹228.00Cr |
+| Logo churn (monthly) | 3.2% |
+| CAC / LTV / ratio | ₹5,556 / ₹1.00L / 18.00 |
 | Gross margin | 98% |
 | Product quality / debt | 0.61 / 495 |
-| Team size | 138 |
+| Team size | 139 |
 | Founder equity retained | 100.0% |
 
 ## Decision scorecard
 
-225 major decisions logged: **107 success**, 62 partial, **56 fail**.
+225 major decisions logged: **102 success**, 63 partial, **60 fail**.
 
 ### Failed decisions (lessons)
 
@@ -53,7 +53,7 @@
 ## Major events
 
 - Day 1563: ZorroBiz entered with aggressive pricing
-- Day 1815: ZorroBiz shut down (burned out); its customers scatter
+- Day 1815: ZorroBiz shut down (burned out); its customers scatter to rivals
 - Day 65 (market): Festive season e-commerce boom
 - Day 109 (market): Festive season e-commerce boom ended
 - Day 262 (market): Ad platform CPM spike
@@ -69,9 +69,9 @@
 
 | Channel | Spend | Leads | CPL | Learned score |
 |---|---|---|---|---|
-| Content/SEO | ₹2.91L | 1033 | ₹275 | 2.50 |
-| Google Ads | ₹3.50L | 492 | ₹715 | 2.48 |
-| Meta Ads | ₹3.35L | 544 | ₹601 | 2.50 |
-| WhatsApp Outreach | ₹2.45L | 320 | ₹766 | 2.21 |
-| Referral | ₹3.41L | 1262 | ₹266 | 2.50 |
-| Events | ₹2.37L | 178 | ₹1,349 | 1.68 |
+| Content/SEO | ₹3.53L | 1161 | ₹301 | 2.50 |
+| Google Ads | ₹2.74L | 402 | ₹604 | 2.49 |
+| Meta Ads | ₹3.44L | 553 | ₹634 | 2.50 |
+| WhatsApp Outreach | ₹2.81L | 329 | ₹826 | 2.44 |
+| Referral | ₹3.35L | 1138 | ₹285 | 2.50 |
+| Events | ₹2.13L | 151 | ₹1,536 | 1.34 |

@@ -87,14 +87,22 @@ def run_tournament(days: int, seeds: int, presets: str = "all",
 
     os.makedirs(out_dir, exist_ok=True)
     stamp = time.strftime("%Y%m%d_%H%M%S")
+    # downsampled trajectories for the comparison dashboard
+    runs_compact = []
+    for r in results:
+        series = r.get("kpi_series") or []
+        runs_compact.append(dict(
+            name=r["name"], strategy=r["strategy"],
+            tournament_seed=r["tournament_seed"], alive=r["alive"],
+            final=r["final"], scorecard=r["decision_scorecard"],
+            series=[dict(day=s["day"], mrr=round(s["mrr"]),
+                         cash=round(s["cash"]), cust=s["active_customers"])
+                    for s in series if s["day"] % 14 == 0 or s["day"] == 1],
+        ))
     out = dict(schema=1, created_utc=time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                days=days, seeds=seeds, presets=preset_names,
                aggregate=agg, ranking=[r[0] for r in ranking],
-               runs=[dict(name=r["name"], strategy=r["strategy"],
-                          tournament_seed=r["tournament_seed"],
-                          alive=r["alive"], final=r["final"],
-                          scorecard=r["decision_scorecard"])
-                     for r in results])
+               runs=runs_compact)
     with open(os.path.join(out_dir, f"tournament_{stamp}.json"), "w") as f:
         json.dump(out, f, indent=1)
     with open(os.path.join(out_dir, "latest.json"), "w") as f:
@@ -104,6 +112,14 @@ def run_tournament(days: int, seeds: int, presets: str = "all",
         f.write(md)
     with open(os.path.join(out_dir, "latest.md"), "w") as f:
         f.write(md)
+
+    # comparison dashboard
+    try:
+        from .dashboard_gen import generate_tournament_dashboard
+        generate_tournament_dashboard(os.path.join(out_dir, "latest.json"),
+                                      os.path.join(out_dir, "compare.html"))
+    except Exception:
+        pass
 
     if kb is not None:
         for r in results:

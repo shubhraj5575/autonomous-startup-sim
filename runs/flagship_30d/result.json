@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "name": "flagship_30d",
- "created_utc": "2026-08-22T20:37:00.955183",
+ "created_utc": "2026-08-22T20:50:37.684574",
  "config": {
   "seed": 42,
   "days": 30,

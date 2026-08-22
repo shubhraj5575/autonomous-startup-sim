@@ -54,33 +54,44 @@ recorded as it happened.
 
 | Rank | Strategy | Survival | Median MRR |
 |---|---|---|---|
-| 1 | blitz_growth | 100% | ₹43.4L |
-| 2 | product_led | 100% | ₹26.5L |
-| 3 | lean_profitable | 100% | ₹23.6L |
-| 4 | balanced | 100% | ₹18.2L |
+| 1 | blitz_growth | 100% | ₹51.0L |
+| 2 | balanced | 100% | ₹44.2L |
+| 3 | product_led | 100% | ₹26.5L |
+| 4 | lean_profitable | 100% | ₹23.6L |
 | 5 | premium_first | 100% | ₹4.5L |
 
 ### Year-2 tournament (730 days × 5 seeds × 4 presets = 20 runs)
 
 | Rank | Strategy | Survival | Median MRR |
 |---|---|---|---|
-| 1 | blitz_growth | 100% | ₹143.2L |
+| 1 | blitz_growth | 100% | ₹140.1L |
 | 2 | product_led | **80%** | ₹133.4L |
-| 3 | balanced | 100% | ₹131.6L |
+| 3 | balanced | **80%** | ₹133.1L |
 | 4 | lean_profitable | 100% | ₹91.6L |
 
 Key findings:
-- **Aggression pays while markets are deep**: blitz leads both horizons on
-  median MRR among survivors, with large per-seed variance - its risk is real
-  even when this seed set doesn't kill it.
-- **The first deaths appear at year 2**: product_led's heavy engineering spend
-  killed one of five clones - over-investment ahead of collections remains a
-  lethal failure mode even for smart agents.
+- **Aggression pays while markets are deep**: blitz leads both horizons among
+  survivors, with large per-seed variance.
+- **Mortality emerges by year 2**: even balanced dies once in five clones -
+  dominance backlash, competitive erosion and over-extension create real risk
+  beyond the startup phase.
 - **Premium pricing without quality parity is near-fatal for growth**:
   premium_first's +35% price stance crushed win rates - an emergent result of
   the discrete-choice model, not a scripted penalty.
 - **lean_profitable never dies but never wins**: capital efficiency preserves
   optionality at the cost of scale.
+
+### Capital stress test (balanced policy, 365 days, 8 seeds per level)
+
+| Starting capital | Survival | Median year-1 MRR |
+|---|---|---|
+| ₹50,000 | 8/8 | ₹9.4L |
+| ₹1,00,000 (default) | 7/8 | ₹16.2L |
+| ₹2,00,000 | 8/8 | ₹13.3L |
+
+Non-monotonic and honest: with ₹2L the agents spend more aggressively before
+product-market fit and end slightly *worse* than the disciplined ₹1L runs on
+this seed set - money without discipline buys noise.
 
 ## 4. Cross-run learning verification
 

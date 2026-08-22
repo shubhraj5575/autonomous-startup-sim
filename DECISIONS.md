@@ -130,3 +130,37 @@ lesson text by decision kind; these feed the knowledge base.
 
 **Decision.** LTV reported only when actives >= 20 and churn30 >= 2; gross
 margin double-scaling fixed; dashboards label such metrics "too early".
+
+## D-012: Dominance provokes counter-pressure
+
+**Context.** The upgraded agent layer reached 55.8% market share by year 5 with
+no world response - dominance was free, which is neither realistic nor
+strategically interesting.
+
+**Decision.** When our share exceeds 40%: (a) rivals treat every month as
+"losing share" (faster adaptation) plus a consolidation flow bonus; (b) an
+"Incumbent backlash" sentiment shock can fire, adding up to +0.22 utility
+penalty against us (buyers hedge against the leader) plus scrutiny filing
+costs; (c) competitor exits now redistribute their base to remaining rivals
+(universe conservation).
+
+**Observed consequence.** Backlash fired at day 1305 of the flagship run;
+share plateaued ~50-53% instead of running away.
+
+## D-013: Revenue metrics read from the ledger only
+
+**Context.** A snapshot window mixed billing *events* with *days* (last 30
+events != last 30 days), flooring gross margin at 5% and corrupting LTV/CAC
+across long runs - discovered by auditing "GM 5% at 98% true margin".
+
+**Decision.** `FinanceEngine.cat_day` day-indexed sums are the single source
+of truth for any trailing revenue/COGS figure; event windows deleted.
+
+## D-014: Agent capability upgrades must be measured against the same seed
+
+**Context.** "Smarter agents" claims are cheap; the CTO hiring deadlock fix
+could have regressed other phases unnoticed.
+
+**Decision.** Every intelligence upgrade is validated by re-running the
+flagship seed and the tournament suite; deltas reported in FINAL_REPORT.md
+(e.g., CTO deadlock fix: same-seed 5y MRR ₹1.24Cr → ₹2.27Cr).

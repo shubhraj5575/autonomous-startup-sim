@@ -171,27 +171,58 @@ class World:
     def _competitor_monthly(self, day):
         c = self.company
         total_universe = sum(cp.customers for cp in self.competitors) + len(c.active_ids) + 1
+        our_share = len(c.active_ids) / max(total_universe, 1)
+        # dominance provokes coordination: rivals adapt harder when we lead big
+        leader_pressure = max(0.0, our_share - 0.40) / 0.60
+        if leader_pressure > 0 and self.sim_rng.random() < 0.10 + leader_pressure * 0.3 \
+                and not any(s.kind == "trust_backlash" for s in self.market.shocks):
+            dur = self.sim_rng.randint(90, 200)
+            mag = self.sim_rng.uniform(0.10, 0.22)
+            from .market import ActiveShock
+            self.market.shocks.append(ActiveShock(
+                "Incumbent backlash vs leader", "trust_backlash", None,
+                day + dur, mag,
+                "Incumbents warn the market about the dominant newcomer; buyers hedge."))
+            self.market.event_log.append(self.market.event_log[-1].__class__(
+                day, "Incumbent backlash vs leader",
+                "Market sentiment turns wary of the category leader.", mag))
+            c.finance.record(day, "legal_compliance", 25_000, "dominance scrutiny filings")
+            c.company_event(day, "backlash", "Market leader scrutiny: trust penalty active")
         our_value = (c.product.quality + 0.5 * c.marketing.brand_awareness
                      + 0.3 * max(0.0, 1.15 - c.product.price_mult))
+        exited = []
         for cp in self.competitors:
             prev_share = getattr(cp, "_prev_share", None)
             share_now = cp.customers / max(total_universe, 1)
-            share_lost = prev_share is not None and share_now < prev_share * 0.995
+            share_lost = (prev_share is not None and share_now < prev_share * 0.995) \
+                or leader_pressure > 0
             cp._prev_share = share_now
             note = cp.monthly_update(self.rng.stream("comp_ai"), share_lost, day)
-            # zero-sum-ish flow: market growth minus what we take from them
+            # zero-sum-ish flow: market growth minus what we take from them;
+            # under leader pressure rivals also consolidate dissatisfied defectors
             comp_value = (cp.quality + 0.5 * cp.brand
                           + 0.3 * max(0.0, 1.15 - cp.price_mult))
             advantage = clamp((comp_value - our_value) * 2.2, -1.8, 1.8)
             seg_growth_mo = sum(s["demand_growth_yr"] for s in SEGMENTS.values()) / len(SEGMENTS) / 12.0
-            g = seg_growth_mo + 0.035 * math.tanh(advantage) + self.sim_rng.gauss(0.0, 0.014)
+            g = seg_growth_mo + 0.035 * math.tanh(advantage) \
+                + 0.010 * leader_pressure + self.sim_rng.gauss(0.0, 0.014)
             cp.customers = max(20, int(cp.customers * (1 + g)))
             cp.mrr = cp.customers * 1900.0 * cp.price_mult
             if note == "exit":
-                self.company.company_event(
-                    day, "competitor_exit",
-                    f"{cp.name} shut down (burned out); its customers scatter", name=cp.name)
-                self.competitors.remove(cp)
+                exited.append(cp)
+        for cp in exited:
+            # their base scatters to remaining rivals (universe is conserved)
+            others = [x for x in self.competitors if x is not cp]
+            if others:
+                per = cp.customers // len(others)
+                for o in others:
+                    o.customers += per
+                    o.mrr += per * 1900.0 * o.price_mult
+            self.competitors.remove(cp)
+            self.company.company_event(
+                day, "competitor_exit",
+                f"{cp.name} shut down (burned out); its customers scatter to rivals",
+                name=cp.name)
 
     def build_market_view(self) -> MarketView:
         c = self.company
@@ -466,8 +497,9 @@ class World:
             if day - cust.shopping_since < delay:
                 continue
             lam = self.market.price_sensitivity_multiplier(cust.segment)
-            util_us, tier = evaluate_offer(cust, offer, ftiers, price_mult=1.0, lam=lam,
-                                           challenger_penalty=0.30)
+            util_us, tier = evaluate_offer(
+                cust, offer, ftiers, price_mult=1.0, lam=lam,
+                challenger_penalty=0.30 + self.market.backlash_penalty())
             considered = [("us", util_us, tier)]
             brand_weights = [cp.brand for cp in self.competitors] or [1.0]
             k = min(len(self.competitors), 2)
