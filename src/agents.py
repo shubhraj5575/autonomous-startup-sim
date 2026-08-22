@@ -541,6 +541,7 @@ class AgentSuite:
         elif roi < 0.10 and phase not in ("survive",):
             s.growth_bias = clamp(s.growth_bias - 0.06, lo, hi)
         if abs(s.growth_bias - old_bias) > 1e-6:
+            predicted = clamp(roi * (1.15 if s.growth_bias > old_bias else 0.95), 0.02, 1.5)
             d = c.log_decision(
                 day=c.day, agent="Strategy", kind="risk_appetite_update",
                 decision=f"Growth bias {old_bias:.2f} -> {s.growth_bias:.2f}",
@@ -550,9 +551,9 @@ class AgentSuite:
                 data_considered={"roi_mrr_per_rupee": round(roi, 3),
                                  "mkt_spend30": round(mkt_spend30),
                                  "delta_mrr30": round(delta_mrr)},
-                expected={"roi_next_30d": clamp(roi * (1.15 if s.growth_bias > old_bias else 0.95), 0.02, 1.5)},
+                expected={"roi_next_30d": round(predicted, 3)},
                 eval_horizon_days=30)
-            c.queue_evaluation(d["id"], "roi_mrr_per_rupee", "up", 0.0)
+            c.queue_evaluation(d["id"], "roi_mrr_per_rupee", "up", predicted - roi)
 
 
 # --------------------------------------------------------------------------

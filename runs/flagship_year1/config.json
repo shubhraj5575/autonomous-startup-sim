@@ -1,0 +1,9 @@
+{
+ "seed": 42,
+ "days": 365,
+ "starting_capital": 100000.0,
+ "shock_probability_daily": 0.013,
+ "n_competitors": 4,
+ "bandit_exploration": 0.15,
+ "planning_cadence_days": 7
+}

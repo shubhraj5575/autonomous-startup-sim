@@ -67,7 +67,6 @@ class World:
         # rolling windows for metrics
         self.new_customers_window: deque = deque()      # (day,)
         self.churned_window: deque = deque()
-        self.revenue_window: deque = deque()            # (day, amount)
         self.cash_collected_window: deque = deque()
         self.points_shipped_window: deque = deque()
         self.closed_won_window: deque = deque()
@@ -544,7 +543,6 @@ class World:
             c.finance.record(day, "payment_fees", fee * PAYMENT_GATEWAY_RATE, "")
             cust.total_paid += fee
             cust.months_paid += 1
-            self.revenue_window.append((day, fee))
 
             # satisfaction recomputed from equilibrium minus incident damage
             eq = self.satisfaction_equilibrium(cust, offer)
@@ -620,7 +618,6 @@ class World:
         c.finance.record(day, "subscription", cust.monthly_fee, f"signup c{cust.cid}")
         c.finance.record(day, "payment_fees", cust.monthly_fee * PAYMENT_GATEWAY_RATE, "")
         cust.total_paid += cust.monthly_fee
-        self.revenue_window.append((day, cust.monthly_fee))
         src = cust.source or "organic"
         conv_log = c.channel_conversions.setdefault(src, [])
         conv_log.append((day, 1))
@@ -742,6 +739,8 @@ class World:
 
     # =============================================================== finance ==
     def settle_finance(self, day):
+        if len(self.closed_won_window) > 2000:
+            del self.closed_won_window[:1000]
         c = self.company
         fin = c.finance
         n_active = len(c.active_ids)
@@ -767,7 +766,7 @@ class World:
     def snapshot(self, day):
         c = self.company
         h = c.history
-        rev30 = sum(v for _, v in list(self.revenue_window)[-30:])
+        rev30 = abs(c.finance.sum_category("subscription", day - 30, day))
         mkt30 = abs(c.finance.sum_category("marketing", day - 30, day))
         sal30 = abs(c.finance.sum_category("salaries", day - 30, day)) \
             + abs(c.finance.sum_category("commission", day - 30, day)) \
@@ -787,7 +786,8 @@ class World:
         arpu = mrr / max(len(c.active_ids), 1)
         cogs30 = abs(c.finance.sum_category("payment_fees", day - 30, day)) \
             + abs(c.finance.sum_category("infra", day - 30, day))
-        rev_total30 = sum(v for _, v in list(self.revenue_window)[-30:]) or 0
+        # ledger is the single source of truth for recognized revenue
+        rev_total30 = abs(c.finance.sum_category("subscription", day - 30, day))
         gross_margin = clamp(1.0 - cogs30 / max(rev_total30, 1.0), 0.05, 0.98)
         churn_rate_monthly = clamp(churn30 / max(len(c.active_ids) + churn30, 1), 0.001, 0.9)
         # LTV is only meaningful once there is churn signal and a real base
@@ -799,8 +799,10 @@ class World:
         net_burn30 = opex30 - rev_total30
         runway = FinanceEngine.compute_runway(c.finance.cash, net_burn30)
         growth_ann = self._annualized_growth()
-        valuation = FinanceEngine.valuation_proxy(mrr * 12, growth_ann, gross_margin,
-                                                  logo_churn_pct)
+        # equity value = operating value + cash held (EV + net cash)
+        valuation = (FinanceEngine.valuation_proxy(mrr * 12, growth_ann, gross_margin,
+                                                   logo_churn_pct)
+                     + max(c.finance.cash, 0.0))
         universe_mrr = sum(cp.mrr for cp in self.competitors) + mrr
         share = (mrr / universe_mrr * 100.0) if universe_mrr > 0 else 0.0
         leads30 = sum(st.leads_trailing30 for st in c.marketing.channels.values())

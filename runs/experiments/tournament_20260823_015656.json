@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "created_utc": "2026-08-22T20:30:54Z",
+ "created_utc": "2026-08-22T20:26:56Z",
  "days": 730,
  "seeds": 6,
  "presets": [
@@ -13,26 +13,26 @@
   "balanced": {
    "runs": 6,
    "survival_rate": 1.0,
-   "median_mrr": 10014671.404999904,
-   "mean_mrr": 9506941.774999965,
-   "max_mrr": 10811046.800000194,
-   "median_cash": 65896133.919603616,
-   "median_valuation": 1293683347.9422011,
-   "median_mrr_multiple": 100.14671404999903,
-   "decision_success_rate": 0.5197368421052632,
-   "decision_fail_rate": 0.40131578947368424
+   "median_mrr": 9109948.72999986,
+   "mean_mrr": 9488571.863333303,
+   "max_mrr": 10800113.980000004,
+   "median_cash": 65829648.01813092,
+   "median_valuation": 1223434918.195653,
+   "median_mrr_multiple": 91.0994872999986,
+   "decision_success_rate": 0.5110410094637224,
+   "decision_fail_rate": 0.416403785488959
   },
   "blitz_growth": {
    "runs": 6,
    "survival_rate": 1.0,
-   "median_mrr": 9435206.004999848,
-   "mean_mrr": 9568882.471666537,
-   "max_mrr": 11165996.580000171,
-   "median_cash": 72731798.21781999,
-   "median_valuation": 806568531.0541592,
-   "median_mrr_multiple": 94.35206004999849,
-   "decision_success_rate": 0.5485714285714286,
-   "decision_fail_rate": 0.36
+   "median_mrr": 7163942.655551333,
+   "mean_mrr": 6653207.447803891,
+   "max_mrr": 10726615.610000106,
+   "median_cash": 55216778.57482602,
+   "median_valuation": 592143751.5919912,
+   "median_mrr_multiple": 71.63942655551332,
+   "decision_success_rate": 0.486646884272997,
+   "decision_fail_rate": 0.3560830860534125
   },
   "lean_profitable": {
    "runs": 6,
@@ -60,10 +60,10 @@
   }
  },
  "ranking": [
-  "balanced",
-  "blitz_growth",
   "product_led",
-  "lean_profitable"
+  "balanced",
+  "lean_profitable",
+  "blitz_growth"
  ],
  "runs": [
   {
@@ -72,19 +72,74 @@
    "tournament_seed": 1000,
    "alive": true,
    "final": {
-    "cash": 61706912.792616,
-    "mrr": 8691748.879999744,
-    "arr": 104300986.55999693,
-    "active_customers": 3564,
-    "valuation_proxy": 636326831.5668367,
-    "market_share_pct": 34.291456017082275,
-    "logo_churn_pct_monthly": 7.47998895942589,
-    "cac_blended": 8571.42857142857,
-    "ltv": 33706.63703290999,
-    "ltv_cac": 3.9324409871728325,
-    "gross_margin_pct": 97.66745521561671,
+    "cash": 65944705.25584808,
+    "mrr": 9220551.729999725,
+    "arr": 110646620.7599967,
+    "active_customers": 4042,
+    "valuation_proxy": 512415149.4860301,
+    "market_share_pct": 36.494257814553315,
+    "logo_churn_pct_monthly": 7.317670093000489,
+    "cac_blended": 7258.064516129032,
+    "ltv": 32338.411673241044,
+    "ltv_cac": 4.455514497202099,
+    "gross_margin_pct": 97.642634436466,
     "runway_months": 99.0,
-    "headcount": 19,
+    "headcount": 20,
+    "founder_equity": 1.0,
+    "quality": 0.4226584276540089,
+    "tech_debt": 132.02854671031977,
+    "features": [
+     "ai_insights",
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 0.78,
+    "brand": 0.85,
+    "elasticity_est": -2.6926641014092665
+   },
+   "scorecard": {
+    "total": 53,
+    "success": 24,
+    "partial": 4,
+    "fail": 25
+   }
+  },
+  {
+   "name": "blitz_growth_s1000",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1000,
+   "alive": true,
+   "final": {
+    "cash": 21074974.674253237,
+    "mrr": 2761296.425480248,
+    "arr": 33135557.105762973,
+    "active_customers": 690,
+    "valuation_proxy": 173548716.23181382,
+    "market_share_pct": 12.667771518107221,
+    "logo_churn_pct_monthly": 5.240793201133145,
+    "cac_blended": 20727.272727272728,
+    "ltv": 76931.85454559285,
+    "ltv_cac": 3.7116245614101815,
+    "gross_margin_pct": 97.838452536646,
+    "runway_months": 99.0,
+    "headcount": 13,
     "founder_equity": 1.0,
     "quality": 0.4226571311985508,
     "tech_debt": 132.0294714372003,
@@ -110,70 +165,15 @@
      5999.0,
      49999.0
     ],
-    "price_mult": 0.78,
+    "price_mult": 0.930690389551162,
     "brand": 0.85,
-    "elasticity_est": -3.5
+    "elasticity_est": -2.849808159959995
    },
    "scorecard": {
-    "total": 55,
-    "success": 21,
-    "partial": 5,
-    "fail": 29
-   }
-  },
-  {
-   "name": "blitz_growth_s1000",
-   "strategy": "blitz_growth",
-   "tournament_seed": 1000,
-   "alive": true,
-   "final": {
-    "cash": 70794391.65522884,
-    "mrr": 8677549.31999965,
-    "arr": 104130591.8399958,
-    "active_customers": 3647,
-    "valuation_proxy": 378443883.97172695,
-    "market_share_pct": 36.19337274464402,
-    "logo_churn_pct_monthly": 8.685064935064934,
-    "cac_blended": 6766.917293233083,
-    "ltv": 28726.843606015274,
-    "ltv_cac": 4.2451891106667015,
-    "gross_margin_pct": 97.66972199152319,
-    "runway_months": 99.0,
-    "headcount": 20,
-    "founder_equity": 1.0,
-    "quality": 0.42265653014304627,
-    "tech_debt": 132.02971498039173,
-    "features": [
-     "ai_insights",
-     "analytics_dash",
-     "api_access",
-     "bom_manufacturing",
-     "core_billing",
-     "crm_lite",
-     "inventory_advanced",
-     "inventory_basic",
-     "mobile_app",
-     "orders_sync",
-     "payments_upi",
-     "security_sso",
-     "sla_support",
-     "whatsapp_deep"
-    ],
-    "tier_prices": [
-     499.0,
-     1999.0,
-     5999.0,
-     49999.0
-    ],
-    "price_mult": 0.78,
-    "brand": 0.85,
-    "elasticity_est": -3.5
-   },
-   "scorecard": {
-    "total": 59,
-    "success": 29,
-    "partial": 5,
-    "fail": 25
+    "total": 54,
+    "success": 15,
+    "partial": 16,
+    "fail": 23
    }
   },
   {
@@ -292,77 +292,22 @@
    "tournament_seed": 1137,
    "alive": true,
    "final": {
-    "cash": 59998021.597308755,
-    "mrr": 9494221.539999899,
-    "arr": 113930658.47999878,
-    "active_customers": 3861,
-    "valuation_proxy": 1119719439.8813205,
-    "market_share_pct": 33.89901789206582,
-    "logo_churn_pct_monthly": 5.816670994546871,
-    "cac_blended": 7725.321888412016,
-    "ltv": 43801.1745323663,
-    "ltv_cac": 5.669818703356305,
-    "gross_margin_pct": 97.67471529006887,
+    "cash": 59869919.20082574,
+    "mrr": 8999345.729999997,
+    "arr": 107992148.75999996,
+    "active_customers": 3600,
+    "valuation_proxy": 1312287879.067316,
+    "market_share_pct": 33.30533613407817,
+    "logo_churn_pct_monthly": 5.555555555555555,
+    "cac_blended": 6164.3835616438355,
+    "ltv": 47753.590535452764,
+    "ltv_cac": 7.746693575751227,
+    "gross_margin_pct": 97.67917858777454,
     "runway_months": 99.0,
-    "headcount": 17,
+    "headcount": 19,
     "founder_equity": 1.0,
-    "quality": 0.422660140967694,
-    "tech_debt": 132.02492458773003,
-    "features": [
-     "ai_insights",
-     "analytics_dash",
-     "api_access",
-     "bom_manufacturing",
-     "core_billing",
-     "crm_lite",
-     "inventory_advanced",
-     "inventory_basic",
-     "mobile_app",
-     "orders_sync",
-     "payments_upi",
-     "security_sso",
-     "sla_support",
-     "whatsapp_deep"
-    ],
-    "tier_prices": [
-     499.0,
-     1999.0,
-     5999.0,
-     49999.0
-    ],
-    "price_mult": 0.78,
-    "brand": 0.85,
-    "elasticity_est": -1.6041209056733605
-   },
-   "scorecard": {
-    "total": 48,
-    "success": 26,
-    "partial": 3,
-    "fail": 19
-   }
-  },
-  {
-   "name": "blitz_growth_s1137",
-   "strategy": "blitz_growth",
-   "tournament_seed": 1137,
-   "alive": true,
-   "final": {
-    "cash": 56974565.77863532,
-    "mrr": 8905439.449999977,
-    "arr": 106865273.39999972,
-    "active_customers": 3279,
-    "valuation_proxy": 1419485370.8132913,
-    "market_share_pct": 34.15149322472997,
-    "logo_churn_pct_monthly": 4.707692307692308,
-    "cac_blended": 10344.827586206897,
-    "ltv": 59523.42712311304,
-    "ltv_cac": 5.7539312885675935,
-    "gross_margin_pct": 97.70530423814566,
-    "runway_months": 99.0,
-    "headcount": 17,
-    "founder_equity": 1.0,
-    "quality": 0.42265807755390794,
-    "tech_debt": 132.02888196748302,
+    "quality": 0.42265911774173864,
+    "tech_debt": 132.02767146762315,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -390,10 +335,65 @@
     "elasticity_est": -3.5
    },
    "scorecard": {
-    "total": 52,
-    "success": 31,
-    "partial": 6,
-    "fail": 15
+    "total": 59,
+    "success": 34,
+    "partial": 4,
+    "fail": 21
+   }
+  },
+  {
+   "name": "blitz_growth_s1137",
+   "strategy": "blitz_growth",
+   "tournament_seed": 1137,
+   "alive": true,
+   "final": {
+    "cash": 18018346.57992706,
+    "mrr": 2349123.9002405303,
+    "arr": 28189486.802886363,
+    "active_customers": 487,
+    "valuation_proxy": 74397320.18569979,
+    "market_share_pct": 10.185408245669638,
+    "logo_churn_pct_monthly": 11.559633027522937,
+    "cac_blended": 90000.0,
+    "ltv": 41224.8392638302,
+    "ltv_cac": 0.4580537695981134,
+    "gross_margin_pct": 97.89485528657708,
+    "runway_months": 99.0,
+    "headcount": 10,
+    "founder_equity": 1.0,
+    "quality": 0.42265942915721555,
+    "tech_debt": 132.0270847902968,
+    "features": [
+     "ai_insights",
+     "analytics_dash",
+     "api_access",
+     "bom_manufacturing",
+     "core_billing",
+     "crm_lite",
+     "inventory_advanced",
+     "inventory_basic",
+     "mobile_app",
+     "orders_sync",
+     "payments_upi",
+     "security_sso",
+     "sla_support",
+     "whatsapp_deep"
+    ],
+    "tier_prices": [
+     499.0,
+     1999.0,
+     5999.0,
+     49999.0
+    ],
+    "price_mult": 1.2179405097830023,
+    "brand": 0.85,
+    "elasticity_est": -1.6128357161345956
+   },
+   "scorecard": {
+    "total": 50,
+    "success": 22,
+    "partial": 12,
+    "fail": 16
    }
   },
   {
@@ -512,22 +512,22 @@
    "tournament_seed": 1274,
    "alive": true,
    "final": {
-    "cash": 77423842.57589604,
-    "mrr": 10535121.269999908,
-    "arr": 126421455.2399989,
-    "active_customers": 4137,
-    "valuation_proxy": 1305319284.6913679,
-    "market_share_pct": 35.93684802375358,
-    "logo_churn_pct_monthly": 6.207565470417071,
-    "cac_blended": 7003.8910505836575,
-    "ltv": 42684.69421351759,
-    "ltv_cac": 6.094425784930012,
-    "gross_margin_pct": 97.67803591618001,
+    "cash": 68221865.92594169,
+    "mrr": 8391926.79000002,
+    "arr": 100703121.48000023,
+    "active_customers": 3096,
+    "valuation_proxy": 628897235.386524,
+    "market_share_pct": 31.145946922493312,
+    "logo_churn_pct_monthly": 5.716141604417019,
+    "cac_blended": 9836.065573770491,
+    "ltv": 49238.25484888788,
+    "ltv_cac": 5.005889242970269,
+    "gross_margin_pct": 97.7105122709325,
     "runway_months": 99.0,
     "headcount": 19,
     "founder_equity": 1.0,
-    "quality": 0.42265911774173864,
-    "tech_debt": 132.02767146762315,
+    "quality": 0.4226584276540089,
+    "tech_debt": 132.02854671031977,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -552,13 +552,13 @@
     ],
     "price_mult": 0.78,
     "brand": 0.85,
-    "elasticity_est": -3.5
+    "elasticity_est": -2.3412018478684953
    },
    "scorecard": {
-    "total": 53,
-    "success": 32,
-    "partial": 1,
-    "fail": 20
+    "total": 54,
+    "success": 28,
+    "partial": 2,
+    "fail": 24
    }
   },
   {
@@ -567,22 +567,22 @@
    "tournament_seed": 1274,
    "alive": true,
    "final": {
-    "cash": 74669204.78041115,
-    "mrr": 9964972.55999972,
-    "arr": 119579670.71999663,
-    "active_customers": 3899,
-    "valuation_proxy": 1042292633.4761798,
-    "market_share_pct": 35.432535412916046,
-    "logo_churn_pct_monthly": 6.3963737093930995,
-    "cac_blended": 10112.359550561798,
-    "ltv": 40821.34922091534,
-    "ltv_cac": 4.036777867401629,
-    "gross_margin_pct": 97.68688661669711,
+    "cash": 60047654.83258942,
+    "mrr": 8941717.679999975,
+    "arr": 107300612.1599997,
+    "active_customers": 3428,
+    "valuation_proxy": 1118649276.5007958,
+    "market_share_pct": 31.724770740653778,
+    "logo_churn_pct_monthly": 6.324340005802147,
+    "cac_blended": 9424.083769633507,
+    "ltv": 42618.550102709945,
+    "ltv_cac": 4.522301705343111,
+    "gross_margin_pct": 97.69185579222372,
     "runway_months": 99.0,
-    "headcount": 18,
+    "headcount": 19,
     "founder_equity": 1.0,
-    "quality": 0.4226577307269557,
-    "tech_debt": 132.02913976888587,
+    "quality": 0.42265745611752265,
+    "tech_debt": 132.0293017496009,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -607,13 +607,13 @@
     ],
     "price_mult": 0.78,
     "brand": 0.85,
-    "elasticity_est": -1.5170068685973852
+    "elasticity_est": -2.407364415554036
    },
    "scorecard": {
-    "total": 60,
-    "success": 34,
-    "partial": 3,
-    "fail": 23
+    "total": 58,
+    "success": 32,
+    "partial": 7,
+    "fail": 19
    }
   },
   {
@@ -732,22 +732,22 @@
    "tournament_seed": 1411,
    "alive": true,
    "final": {
-    "cash": 70085355.04659124,
-    "mrr": 10708995.180000054,
-    "arr": 128507942.16000065,
-    "active_customers": 4358,
-    "valuation_proxy": 1282047411.1930344,
-    "market_share_pct": 34.51331214961337,
-    "logo_churn_pct_monthly": 5.917986952469711,
-    "cac_blended": 5660.377358490566,
-    "ltv": 43578.86130042875,
-    "ltv_cac": 7.698932163075746,
-    "gross_margin_pct": 97.6694627752116,
+    "cash": 65714590.78041376,
+    "mrr": 10597451.200000154,
+    "arr": 127169414.40000185,
+    "active_customers": 4502,
+    "valuation_proxy": 1565632148.1925766,
+    "market_share_pct": 36.13529377832753,
+    "logo_churn_pct_monthly": 7.046979865771812,
+    "cac_blended": 5232.558139534884,
+    "ltv": 35151.87535306776,
+    "ltv_cac": 6.71791395636406,
+    "gross_margin_pct": 97.65319844781516,
     "runway_months": 99.0,
-    "headcount": 19,
+    "headcount": 18,
     "founder_equity": 1.0,
-    "quality": 0.42265911774173864,
-    "tech_debt": 132.02767146762315,
+    "quality": 0.422660140967694,
+    "tech_debt": 132.02492458773003,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -775,8 +775,8 @@
     "elasticity_est": -3.5
    },
    "scorecard": {
-    "total": 54,
-    "success": 30,
+    "total": 46,
+    "success": 22,
     "partial": 4,
     "fail": 20
    }
@@ -787,22 +787,22 @@
    "tournament_seed": 1411,
    "alive": true,
    "final": {
-    "cash": 87458249.12326173,
-    "mrr": 10179701.469999801,
-    "arr": 122156417.63999762,
-    "active_customers": 4040,
-    "valuation_proxy": 570844428.6321386,
-    "market_share_pct": 37.25182761154346,
-    "logo_churn_pct_monthly": 7.535089879340064,
-    "cac_blended": 6271.777003484321,
-    "ltv": 34958.887264945464,
-    "ltv_cac": 5.574000358355193,
-    "gross_margin_pct": 97.68674261663838,
+    "cash": 50385902.31706262,
+    "mrr": 5386167.6311026905,
+    "arr": 64634011.573232286,
+    "active_customers": 1451,
+    "valuation_proxy": 179653925.4635272,
+    "market_share_pct": 20.67576814754841,
+    "logo_churn_pct_monthly": 9.657320872274143,
+    "cac_blended": 90000.0,
+    "ltv": 37618.563603653805,
+    "ltv_cac": 0.41798404004059786,
+    "gross_margin_pct": 97.80834556085182,
     "runway_months": 99.0,
-    "headcount": 20,
+    "headcount": 14,
     "founder_equity": 1.0,
-    "quality": 0.4226568238109054,
-    "tech_debt": 132.02962652187907,
+    "quality": 0.4226577307269557,
+    "tech_debt": 132.02913976888587,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -825,15 +825,15 @@
      5999.0,
      49999.0
     ],
-    "price_mult": 0.78,
+    "price_mult": 1.217940509783002,
     "brand": 0.85,
-    "elasticity_est": -3.5
+    "elasticity_est": -0.8745088827829176
    },
    "scorecard": {
-    "total": 59,
-    "success": 32,
-    "partial": 3,
-    "fail": 24
+    "total": 54,
+    "success": 30,
+    "partial": 8,
+    "fail": 16
    }
   },
   {
@@ -952,22 +952,22 @@
    "tournament_seed": 1548,
    "alive": true,
    "final": {
-    "cash": 24198482.765633795,
-    "mrr": 6800516.979999986,
-    "arr": 81606203.75999983,
-    "active_customers": 2527,
-    "valuation_proxy": 1329897742.925631,
-    "market_share_pct": 29.59832435588193,
-    "logo_churn_pct_monthly": 7.580645161290322,
-    "cac_blended": 8144.796380090498,
-    "ltv": 37973.13480973185,
-    "ltv_cac": 4.662257107194854,
-    "gross_margin_pct": 97.70747248456539,
+    "cash": 50226547.33703554,
+    "mrr": 8922041.749999918,
+    "arr": 107064500.99999902,
+    "active_customers": 3495,
+    "valuation_proxy": 1598693585.8804045,
+    "market_share_pct": 36.02619701979973,
+    "logo_churn_pct_monthly": 6.771428571428571,
+    "cac_blended": 8000.0,
+    "ltv": 39267.54292498468,
+    "ltv_cac": 4.908442865623085,
+    "gross_margin_pct": 97.68398471976721,
     "runway_months": 99.0,
-    "headcount": 15,
+    "headcount": 17,
     "founder_equity": 1.0,
-    "quality": 0.4226587256405455,
-    "tech_debt": 132.01642878828764,
+    "quality": 0.42266024575274225,
+    "tech_debt": 132.02266671854883,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -995,10 +995,10 @@
     "elasticity_est": -3.5
    },
    "scorecard": {
-    "total": 44,
-    "success": 19,
-    "partial": 7,
-    "fail": 18
+    "total": 49,
+    "success": 22,
+    "partial": 5,
+    "fail": 22
    }
   },
   {
@@ -1007,22 +1007,22 @@
    "tournament_seed": 1548,
    "alive": true,
    "final": {
-    "cash": 57175103.713915795,
-    "mrr": 8519635.449999899,
-    "arr": 102235625.39999878,
-    "active_customers": 3278,
-    "valuation_proxy": 523035018.4119377,
-    "market_share_pct": 36.86306841223504,
-    "logo_churn_pct_monthly": 7.1128451380552224,
-    "cac_blended": 10169.49152542373,
-    "ltv": 37657.22456677896,
-    "ltv_cac": 3.7029604157332643,
-    "gross_margin_pct": 97.69205879641974,
+    "cash": 65816278.81584954,
+    "mrr": 9754323.4399998,
+    "arr": 117051881.2799976,
+    "active_customers": 3505,
+    "valuation_proxy": 1004633577.7204553,
+    "market_share_pct": 39.59855667307545,
+    "logo_churn_pct_monthly": 5.384832252607838,
+    "cac_blended": 12162.162162162162,
+    "ltv": 52621.91484139008,
+    "ltv_cac": 4.326690775847629,
+    "gross_margin_pct": 97.71447935168321,
     "runway_months": 99.0,
     "headcount": 19,
     "founder_equity": 1.0,
-    "quality": 0.4226584276540089,
-    "tech_debt": 132.02854671031977,
+    "quality": 0.42265807755390794,
+    "tech_debt": 132.02888196748302,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -1050,10 +1050,10 @@
     "elasticity_est": -3.5
    },
    "scorecard": {
-    "total": 63,
-    "success": 32,
-    "partial": 10,
-    "fail": 21
+    "total": 62,
+    "success": 31,
+    "partial": 7,
+    "fail": 24
    }
   },
   {
@@ -1172,22 +1172,22 @@
    "tournament_seed": 1685,
    "alive": true,
    "final": {
-    "cash": 77554512.11331864,
-    "mrr": 10811046.800000194,
-    "arr": 129732561.60000233,
-    "active_customers": 4440,
-    "valuation_proxy": 1693278327.7264457,
-    "market_share_pct": 44.43224138468761,
-    "logo_churn_pct_monthly": 6.05508763942636,
-    "cac_blended": 5787.781350482315,
-    "ltv": 42072.55767352208,
-    "ltv_cac": 7.269203020258537,
-    "gross_margin_pct": 97.66610115575236,
+    "cash": 83589437.97994094,
+    "mrr": 10800113.980000004,
+    "arr": 129601367.76000005,
+    "active_customers": 4298,
+    "valuation_proxy": 1134581957.3239899,
+    "market_share_pct": 42.32283047636124,
+    "logo_churn_pct_monthly": 7.9338446788111225,
+    "cac_blended": 3964.7577092511015,
+    "ltv": 34329.5392693764,
+    "ltv_cac": 8.65867268238716,
+    "gross_margin_pct": 97.68926907142085,
     "runway_months": 99.0,
     "headcount": 20,
     "founder_equity": 1.0,
-    "quality": 0.4226577307269557,
-    "tech_debt": 132.02913976888587,
+    "quality": 0.4226568238109054,
+    "tech_debt": 132.02962652187907,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -1212,13 +1212,13 @@
     ],
     "price_mult": 0.78,
     "brand": 0.85,
-    "elasticity_est": -2.527825365165956
+    "elasticity_est": -1.9390432499182757
    },
    "scorecard": {
-    "total": 50,
-    "success": 30,
+    "total": 56,
+    "success": 32,
     "partial": 4,
-    "fail": 16
+    "fail": 20
    }
   },
   {
@@ -1227,22 +1227,22 @@
    "tournament_seed": 1685,
    "alive": true,
    "final": {
-    "cash": 84947969.40497734,
-    "mrr": 11165996.580000171,
-    "arr": 133991958.96000206,
-    "active_customers": 4458,
-    "valuation_proxy": 1388356627.5175138,
-    "market_share_pct": 44.82076140204678,
-    "logo_churn_pct_monthly": 6.4638783269961975,
-    "cac_blended": 6792.452830188679,
-    "ltv": 40185.754214290326,
-    "ltv_cac": 5.916236037103854,
-    "gross_margin_pct": 97.67722398854748,
+    "cash": 81297422.14126036,
+    "mrr": 10726615.610000106,
+    "arr": 128719387.32000127,
+    "active_customers": 4261,
+    "valuation_proxy": 1157308000.863875,
+    "market_share_pct": 43.86642123166211,
+    "logo_churn_pct_monthly": 7.564402810304449,
+    "cac_blended": 5980.066445182724,
+    "ltv": 34900.148988471956,
+    "ltv_cac": 5.8360804697389215,
+    "gross_margin_pct": 97.68637877530011,
     "runway_months": 99.0,
     "headcount": 20,
     "founder_equity": 1.0,
-    "quality": 0.42265653014304627,
-    "tech_debt": 132.02971498039173,
+    "quality": 0.42265745611752265,
+    "tech_debt": 132.0293017496009,
     "features": [
      "ai_insights",
      "analytics_dash",
@@ -1267,13 +1267,13 @@
     ],
     "price_mult": 0.78,
     "brand": 0.85,
-    "elasticity_est": -3.5
+    "elasticity_est": -2.7286572411865277
    },
    "scorecard": {
-    "total": 57,
+    "total": 59,
     "success": 34,
-    "partial": 5,
-    "fail": 18
+    "partial": 3,
+    "fail": 22
    }
   },
   {
@@ -1377,7 +1377,7 @@
     ],
     "price_mult": 0.78,
     "brand": 0.85,
-    "elasticity_est": -1.3988452031529315
+    "elasticity_est": -1.373268369685563
    },
    "scorecard": {
     "total": 43,
